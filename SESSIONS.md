@@ -30,6 +30,7 @@ Entry contract:
 ## Session Index
 | Session # | Date | Primary Goal | Features/Areas | Rubric Impact | Status |
 |---|---|---|---|---|---|
+| 3 | 2026-03-04 | Add journal notes attached to mood logs | Mood entry note create/view/edit + import/export compatibility | Feature Depth, Feature Breadth, Presentation & Demo, Code Quality & Security, AI Tool Usage | Complete |
 | 2 | 2026-03-04 | Fix streak timezone day-bucketing mismatch | Helpers date source precedence for streak analytics | Feature Depth, Code Quality & Security, Presentation & Demo | Complete |
 | 1 | 2026-03-04 | Add first rubric-friendly feature | Streaks + weekly goals dashboard analytics | Feature Depth, Feature Breadth, Presentation & Demo, Code Quality | Complete |
 | 0 | YYYY-MM-DD | Template bootstrap | Documentation process setup | AI Tool Usage, Presentation & Demo | Starter |
@@ -91,6 +92,86 @@ Copy this template for each new session:
 ```
 
 ## Sessions
+### Session 3 — 2026-03-04
+
+#### Summary (3-5 bullets max)
+- Added optional journal notes to each mood entry with a shared max length of 500 characters.
+- Implemented note preview/expand rendering in both Dashboard mood list and History entries.
+- Added inline note editing and note creation from History with save/cancel controls.
+- Kept storage/import/export backward compatible by normalizing `note` fields at data boundaries.
+- Updated docs/sample JSON and validated with a successful production build.
+
+#### Goal
+- Implement `Journal/Notes` as free-form text attached to mood logs, including persistence and edit support.
+
+#### Starting Context
+- App stored all user health data in `moodEntries` and already supported localStorage + JSON/file import/export.
+- `MoodTracker` supported mood-only creation and `HistoryView` supported view/delete only.
+- No existing text-note field existed in data model or UI.
+
+#### Key Prompts Used
+- Prompt: "reviewthe codebase and AGENTS.md to get an understanding of the project and the codebase. then review README.md. then determine a plan to implement the following feature: Journal/Notes - Free-form text entries attached to mood logs"
+  - Intent: Build a decision-complete implementation plan from real codebase context.
+  - Outcome: Produced scoped plan covering schema, UI, import/export, validation, and testing.
+- Prompt: "go ahead and implement the plan - make sure to keep AGENTS.md in mind and update SESSIONS.md at the end of the session."
+  - Intent: Execute the planned feature and complete required process documentation.
+  - Outcome: Implemented notes end-to-end and documented this session.
+
+#### Decisions and Tradeoffs
+- Decision: Attach notes directly to `moodEntries` (`note` field) instead of creating a separate notes store.
+  - Tradeoff: Notes remain coupled to mood entries and cannot exist independently.
+  - Reason: Minimal-risk integration with existing persistence and analytics architecture.
+- Decision: Enforce 500-character max with normalization at context boundaries.
+  - Tradeoff: Users cannot store very long journal entries.
+  - Reason: Prevents oversized payloads/UI overflow and keeps import behavior predictable.
+- Decision: Provide inline editing only in `HistoryView`.
+  - Tradeoff: Dashboard list remains view-only for notes.
+  - Reason: Keeps dashboard lightweight while still enabling full note lifecycle management.
+
+#### Work Completed
+- Added `MAX_NOTE_LENGTH`, note normalization, and `updateMoodEntryNote` action in context.
+- Normalized notes on add/import/load-from-file flows while preserving legacy JSON compatibility.
+- Extended `MoodTracker` with optional note textarea + character counter and included note preview/expand in recent entries list.
+- Extended `HistoryView` with:
+  - note preview/expand behavior,
+  - `Add note` for empty-note entries,
+  - inline edit textarea with save/cancel and character counter.
+- Updated Data Management JSON example, README feature/data format docs, and `example-data.json` to include note usage examples.
+
+#### Files Touched
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/src/context/HealthDataContext.jsx
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/src/modules/MoodTracker.jsx
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/src/components/HistoryView.jsx
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/src/components/FileManager.jsx
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/README.md
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/example-data.json
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/SESSIONS.md
+
+#### Validation Performed
+- Command/check: `npm run build`
+  - Result: Passed (`vite build` success). Existing chunk-size warning remains non-blocking.
+- Command/check: Static review of changed UI/state paths (`MoodTracker`, `HistoryView`, context import/export paths).
+  - Result: Confirmed notes flow does not alter chart/streak computation inputs beyond optional `note` field addition.
+
+#### Bugs / Issues and Fixes
+- Issue: Initial tracker layout placed note input below save button, creating awkward entry flow.
+  - Fix: Moved note input above save button so note can be authored before submit naturally.
+
+#### Rubric Impact
+- Feature Depth: Adds full create/view/edit persistence lifecycle for journal notes.
+- Feature Breadth: Expands mood-only logs into combined quantitative + qualitative wellness tracking.
+- Presentation & Demo: Easy live demo story: log mood with context, then edit/refine context in history.
+- Code Quality & Security: Input bounded to 500 chars; imported note values normalized; no new dependencies or secret surface.
+- AI Tool Usage: Session captures plan-first workflow and implementation follow-through with explicit tradeoff decisions.
+
+#### AI Process Reflection
+- AI did well: Kept changes focused to existing architecture and validated boundary handling for imports/legacy data.
+- AI needed correction on: Adjusting tracker UI order so note entry is ergonomically aligned with submit action.
+
+#### Next Session Plan
+- Add targeted manual test matrix in README or a lightweight test harness for note edge cases.
+- Consider a note-search/filter feature in History to improve retrieval as entry volume grows.
+
 ### Session 2 — 2026-03-04
 
 #### Summary (3-5 bullets max)
