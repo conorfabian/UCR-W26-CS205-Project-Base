@@ -30,6 +30,7 @@ Entry contract:
 ## Session Index
 | Session # | Date | Primary Goal | Features/Areas | Rubric Impact | Status |
 |---|---|---|---|---|---|
+| 1 | 2026-03-04 | Add first rubric-friendly feature | Streaks + weekly goals dashboard analytics | Feature Depth, Feature Breadth, Presentation & Demo, Code Quality | Complete |
 | 0 | YYYY-MM-DD | Template bootstrap | Documentation process setup | AI Tool Usage, Presentation & Demo | Starter |
 
 ## Session Entry Template
@@ -89,6 +90,89 @@ Copy this template for each new session:
 ```
 
 ## Sessions
+### Session 1 — 2026-03-04
+
+#### Summary (3-5 bullets max)
+- Implemented a new `Streaks & Goals` dashboard card as the first low-risk, high-reward feature.
+- Added reusable date/day-key helpers to compute unique logged days, streak gaps, and Sunday-start week boundaries.
+- Wired the new analytics card into the existing dashboard grid without changing data schema or context contract.
+- Validated the feature with a successful production build.
+
+#### Goal
+- Ship an initial meaningful feature with minimal risk: current streak, longest streak, weekly goal progress, and streak status messaging.
+
+#### Starting Context
+- Base app already supported mood logging, daily/weekly charts, history, and data management.
+- No streak/goal analytics panel existed in the dashboard.
+- Assignment priorities in `AGENTS.md` emphasized depth, breadth, code quality, and demo readiness.
+
+#### Key Prompts Used
+- Prompt: "review AGENTS.md to get an understanding of the project and the codebase. then review README.md. finally determine the easiest feature to implement first (low risk, high reward mindset)."
+  - Intent: Identify safest first feature aligned with rubric.
+  - Outcome: Chose streaks + goals as the first implementation target.
+- Prompt: "plan how to implement this new feature"
+  - Intent: Lock behavior and edge-case handling before coding.
+  - Outcome: Defined streak rules, weekly goal rules, and integration scope.
+- Prompt: "go ahead and implement the plan - make sure to keep AGENTS.md in mind and update SESSIONS.md at the end of the session."
+  - Intent: Execute and document work according to repository process rules.
+  - Outcome: Implemented feature and added this session log.
+
+#### Decisions and Tradeoffs
+- Decision: Keep weekly goal fixed at 5 days/week.
+  - Tradeoff: No user-configurable goal yet.
+  - Reason: Lower complexity and faster end-to-end delivery for first feature.
+- Decision: Use existing `moodEntries` and avoid data schema changes.
+  - Tradeoff: Feature flexibility is limited to current model.
+  - Reason: Eliminates migration risk and keeps import/export compatibility.
+- Decision: Treat streak as alive when latest log is today or yesterday.
+  - Tradeoff: Slightly less strict than "must log every day by now."
+  - Reason: Matches requested behavior ("streak alive until a day is missed").
+
+#### Work Completed
+- Added `StreakStats` component with:
+  - Current streak calculation.
+  - Longest streak calculation.
+  - Weekly goal progress bar (`x/5` days).
+  - Status messaging for logged today / streak alive / streak broken.
+- Added helper utilities for:
+  - Normalized day keys (`YYYY-MM-DD`).
+  - Day-key difference calculations.
+  - Sunday-start week start key.
+  - Unique logged-day extraction from entries (timestamp/date fallback).
+- Integrated the new card into the dashboard layout in `App.jsx`.
+
+#### Files Touched
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/src/components/StreakStats.jsx
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/src/utils/helpers.js
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/src/App.jsx
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/SESSIONS.md
+
+#### Validation Performed
+- Command/check: `npm run build`
+  - Result: Passed (`vite build` success). Bundle-size warning noted only (non-blocking).
+- Command/check: Static diff/read-through of modified files.
+  - Result: New logic isolated to new card + helpers; no context schema changes.
+
+#### Bugs / Issues and Fixes
+- Issue: None encountered during implementation.
+  - Fix: N/A.
+
+#### Rubric Impact
+- Feature Depth: Adds practical analytics with explicit streak and weekly-goal logic.
+- Feature Breadth: Introduces a new analytics capability beyond existing charts/history.
+- Presentation & Demo: Easy to demo live with visible metric/state changes from logs.
+- Code Quality & Security: No new dependencies, no secret handling, bounded input parsing.
+- AI Tool Usage: Documented prompt-driven planning then implementation workflow.
+
+#### AI Process Reflection
+- AI did well: Converted product rules into focused calculations and minimal file changes.
+- AI needed correction on: Ensure streak behavior matches user preference (alive if no full missed day yet).
+
+#### Next Session Plan
+- Add a second complementary feature (for example, mood notes/journaling per entry).
+- Perform targeted manual UI checks with seeded entries (today/yesterday/gap scenarios).
+- Optionally reduce bundle size warning via code-splitting if performance becomes a priority.
+
 ### Session 0 — YYYY-MM-DD
 
 #### Summary (3-5 bullets max)

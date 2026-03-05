@@ -3,6 +3,7 @@ import { HealthDataProvider } from './context/HealthDataContext'
 import MoodTracker from './modules/MoodTracker'
 import DailyGraph from './components/DailyGraph'
 import WeeklyGraph from './components/WeeklyGraph'
+import StreakStats from './components/StreakStats'
 import HistoryView from './components/HistoryView'
 import FileManager from './components/FileManager'
 
@@ -63,6 +64,7 @@ function App() {
                 <MoodTracker />
                 <DailyGraph />
                 <WeeklyGraph />
+                <StreakStats />
               </div>
             </div>
           )}
