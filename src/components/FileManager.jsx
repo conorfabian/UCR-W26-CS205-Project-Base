@@ -133,7 +133,7 @@ function FileManager() {
         <div className="border-t border-gray-200 pt-4">
           <h3 className="text-lg font-medium text-gray-700 mb-2">Manual Export</h3>
           <p className="text-sm text-gray-600 mb-3">
-            Download your data as a JSON file that you can edit directly
+            Download your data (including mood notes) as a JSON file that you can edit directly
           </p>
           <button
             onClick={handleExport}
@@ -173,7 +173,7 @@ function FileManager() {
               id="importText"
               value={importText}
               onChange={(e) => setImportText(e.target.value)}
-              placeholder='{"moodEntries": [...] }'
+              placeholder='{"moodEntries": [{"mood": 4, "note": "..." }] }'
               className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent font-mono text-sm"
               rows="8"
             />
@@ -220,7 +220,8 @@ function FileManager() {
       "mood": 4,
       "timestamp": "2024-01-15T12:00:00.000Z",
       "time": "12:00 PM",
-      "date": "1/15/2024"
+      "date": "1/15/2024",
+      "note": "Optional free-form journal note"
     }
   ]
 }`}

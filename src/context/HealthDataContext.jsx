@@ -3,6 +3,28 @@ import { loadData, saveData, saveFileHandleInfo, getFileHandleInfo } from '../ut
 import { createFile, openFile, writeFile, readFile } from '../utils/fileOperations'
 
 const HealthDataContext = createContext()
+export const MAX_NOTE_LENGTH = 500
+
+function normalizeNote(note) {
+  if (typeof note !== 'string') return ''
+  const trimmedNote = note.trim()
+  if (!trimmedNote) return ''
+  return trimmedNote.slice(0, MAX_NOTE_LENGTH)
+}
+
+function normalizeMoodEntry(entry) {
+  return {
+    ...entry,
+    note: normalizeNote(entry?.note),
+  }
+}
+
+function normalizeMoodEntries(entries) {
+  if (!Array.isArray(entries)) return []
+  return entries
+    .filter((entry) => entry && typeof entry === 'object')
+    .map((entry) => normalizeMoodEntry(entry))
+}
 
 export function HealthDataProvider({ children }) {
   const [moodEntries, setMoodEntries] = useState([])
@@ -16,7 +38,8 @@ export function HealthDataProvider({ children }) {
     async function initialize() {
       // Load from localStorage first
       const loaded = loadData()
-      setMoodEntries(loaded.moodEntries)
+      const normalizedLoadedEntries = normalizeMoodEntries(loaded.moodEntries)
+      setMoodEntries(normalizedLoadedEntries)
       setIsLoaded(true)
       
       // Try to set up file auto-save
@@ -30,14 +53,15 @@ export function HealthDataProvider({ children }) {
           // Load data from file if it's newer
           const fileData = await readFile(handle)
           if (fileData?.moodEntries) {
+            const normalizedFileEntries = normalizeMoodEntries(fileData.moodEntries)
             const fileDate = fileData.lastSaved ? new Date(fileData.lastSaved) : null
-            const storageDate = loaded.moodEntries.length > 0 
-              ? new Date(Math.max(...loaded.moodEntries.map(e => e.id))) 
+            const storageDate = normalizedLoadedEntries.length > 0
+              ? new Date(Math.max(...normalizedLoadedEntries.map((entry) => entry.id)))
               : null
             
             if (!storageDate || (fileDate && fileDate > storageDate)) {
-              setMoodEntries(fileData.moodEntries)
-              saveData(fileData.moodEntries)
+              setMoodEntries(normalizedFileEntries)
+              saveData(normalizedFileEntries)
             }
           }
         }
@@ -49,7 +73,7 @@ export function HealthDataProvider({ children }) {
           setFileHandle(handle)
           saveFileHandleInfo(handle)
           await writeFile(handle, {
-            moodEntries: loaded.moodEntries,
+            moodEntries: normalizedLoadedEntries,
             lastSaved: new Date().toISOString()
           })
         }
@@ -107,8 +131,9 @@ export function HealthDataProvider({ children }) {
       
       const data = await readFile(handle)
       if (data?.moodEntries) {
-        setMoodEntries(data.moodEntries)
-        saveData(data.moodEntries)
+        const normalizedEntries = normalizeMoodEntries(data.moodEntries)
+        setMoodEntries(normalizedEntries)
+        saveData(normalizedEntries)
         return true
       }
     }
@@ -116,15 +141,24 @@ export function HealthDataProvider({ children }) {
   }
 
   const addMoodEntry = (entry) => {
-    setMoodEntries([...moodEntries, entry])
+    setMoodEntries((prevEntries) => [...prevEntries, normalizeMoodEntry(entry)])
   }
 
   const deleteMoodEntry = (id) => {
-    setMoodEntries(moodEntries.filter(entry => entry.id !== id))
+    setMoodEntries((prevEntries) => prevEntries.filter((entry) => entry.id !== id))
+  }
+
+  const updateMoodEntryNote = (id, note) => {
+    const normalizedNote = normalizeNote(note)
+    setMoodEntries((prevEntries) => prevEntries.map((entry) => (
+      entry.id === id
+        ? { ...entry, note: normalizedNote }
+        : entry
+    )))
   }
 
   const setAllData = (moodEntries) => {
-    setMoodEntries(moodEntries)
+    setMoodEntries(normalizeMoodEntries(moodEntries))
   }
 
   const exportData = () => {
@@ -155,6 +189,7 @@ export function HealthDataProvider({ children }) {
         moodEntries,
         addMoodEntry,
         deleteMoodEntry,
+        updateMoodEntryNote,
         exportData,
         importData,
         setAllData,

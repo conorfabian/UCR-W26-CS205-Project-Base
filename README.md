@@ -66,10 +66,10 @@ The built files will be in the `dist` directory.
 
 The starter app is a **Mood Tracking** web app with the following features:
 
-- **Mood Logging** - Record mood on a 1-5 scale with automatic timestamps
+- **Mood Logging** - Record mood on a 1-5 scale with automatic timestamps and optional journal notes
 - **Daily Graph** - Line chart of mood entries throughout the current day
 - **Weekly Graph** - Bar chart of average daily mood over the last 7 days
-- **History View** - All-time mood entries organized by date
+- **History View** - All-time mood entries organized by date with inline note review/editing
 - **Data Management** - Export/import mood data as JSON files
 - **Local Persistence** - Data saved to browser localStorage (no backend)
 
@@ -117,7 +117,8 @@ src/
       "mood": 4,
       "timestamp": "2024-01-15T12:00:00.000Z",
       "time": "12:00 PM",
-      "date": "1/15/2024"
+      "date": "1/15/2024",
+      "note": "Optional free-form journal note (max 500 chars)"
     }
   ]
 }
