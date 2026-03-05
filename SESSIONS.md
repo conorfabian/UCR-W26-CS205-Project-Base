@@ -30,6 +30,7 @@ Entry contract:
 ## Session Index
 | Session # | Date | Primary Goal | Features/Areas | Rubric Impact | Status |
 |---|---|---|---|---|---|
+| 2 | 2026-03-04 | Fix streak timezone day-bucketing mismatch | Helpers date source precedence for streak analytics | Feature Depth, Code Quality & Security, Presentation & Demo | Complete |
 | 1 | 2026-03-04 | Add first rubric-friendly feature | Streaks + weekly goals dashboard analytics | Feature Depth, Feature Breadth, Presentation & Demo, Code Quality | Complete |
 | 0 | YYYY-MM-DD | Template bootstrap | Documentation process setup | AI Tool Usage, Presentation & Demo | Starter |
 
@@ -90,6 +91,66 @@ Copy this template for each new session:
 ```
 
 ## Sessions
+### Session 2 — 2026-03-04
+
+#### Summary (3-5 bullets max)
+- Fixed day-bucketing precedence for streak analytics in `helpers.js`.
+- Changed logic to use `entry.date` first, then fallback to `entry.timestamp`.
+- Eliminated a timezone-related mismatch where streak counts could disagree with Daily/Weekly charts.
+- Validated with a successful production build.
+
+#### Goal
+- Resolve incorrect streak/weekly-goal counting caused by timezone-sensitive timestamp parsing order.
+
+#### Starting Context
+- `StreakStats` consumed day keys from `getUniqueMoodDayKeys`.
+- `getUniqueMoodDayKeys` derived day buckets from `timestamp` before `date`.
+- `DailyGraph` and `WeeklyGraph` group by `entry.date`, causing potential disagreement.
+
+#### Key Prompts Used
+- Prompt: "im noticing a bug in src/utils/helpers.js: Deriving streak day buckets from `entry.timestamp` first can shift entries across calendar days..."
+  - Intent: Report correctness issue in day bucketing and analytics consistency.
+  - Outcome: Confirmed and fixed precedence bug with minimal targeted change.
+
+#### Decisions and Tradeoffs
+- Decision: Treat `entry.date` as canonical for streak day buckets.
+  - Tradeoff: If imported records omit `date`, fallback behavior still depends on timestamp/local timezone.
+  - Reason: Aligns streak/goal analytics with existing chart grouping behavior.
+- Decision: Keep fallback to `timestamp` when `date` is missing.
+  - Tradeoff: Not a full normalization strategy for malformed/import-only timestamp data.
+  - Reason: Preserves compatibility for partial datasets while minimizing scope.
+
+#### Work Completed
+- Updated `getUniqueMoodDayKeys` to parse `entry.date` before parsing `entry.timestamp`.
+- Added inline comment documenting canonical bucketing rationale.
+
+#### Files Touched
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/src/utils/helpers.js
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/SESSIONS.md
+
+#### Validation Performed
+- Command/check: `npm run build`
+  - Result: Passed (`vite build` success). Existing non-blocking chunk-size warning unchanged.
+
+#### Bugs / Issues and Fixes
+- Issue: Timezone shifts could move timestamp-derived day buckets and disagree with chart day grouping.
+  - Fix: Changed day-bucket source precedence to `date` first, timestamp second.
+
+#### Rubric Impact
+- Feature Depth: Improves correctness of streak/goal analytics under real-world data conditions.
+- Feature Breadth: No new feature; reliability improvement to existing analytics feature.
+- Presentation & Demo: Prevents confusing mismatches between cards and charts during demo.
+- Code Quality & Security: Cleaner, consistent data interpretation across UI surfaces.
+- AI Tool Usage: Captured bug triage and targeted fix workflow.
+
+#### AI Process Reflection
+- AI did well: Mapped bug report directly to shared helper and patched minimal surface area.
+- AI needed correction on: Ensure the fix follows existing app’s canonical day grouping (`entry.date`).
+
+#### Next Session Plan
+- Add a small helper test harness or documented manual test matrix for day-boundary scenarios.
+- Consider centralizing day-bucket derivation so all analytics/chart components share one source.
+
 ### Session 1 — 2026-03-04
 
 #### Summary (3-5 bullets max)

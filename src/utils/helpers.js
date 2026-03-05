@@ -80,15 +80,17 @@ export function getUniqueMoodDayKeys(moodEntries = []) {
   moodEntries.forEach((entry) => {
     let parsedDate = null
 
-    if (entry?.timestamp) {
+    // Use the persisted display date as the canonical bucket to stay
+    // consistent with DailyGraph/WeeklyGraph day grouping.
+    if (typeof entry?.date === 'string') {
+      parsedDate = parseUSDateString(entry.date)
+    }
+
+    if (!parsedDate && entry?.timestamp) {
       const dateFromTimestamp = new Date(entry.timestamp)
       if (!Number.isNaN(dateFromTimestamp.getTime())) {
         parsedDate = dateFromTimestamp
       }
-    }
-
-    if (!parsedDate && typeof entry?.date === 'string') {
-      parsedDate = parseUSDateString(entry.date)
     }
 
     if (parsedDate) {
