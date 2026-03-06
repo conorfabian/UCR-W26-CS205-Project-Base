@@ -61,7 +61,15 @@ function FileManager() {
 
   const handleClear = () => {
     if (window.confirm('Are you sure you want to clear all data? This cannot be undone.')) {
-      importData(JSON.stringify({ moodEntries: [] }))
+      importData(JSON.stringify({
+        moodEntries: [],
+        sleepEntries: [],
+        waterEntries: [],
+        exerciseEntries: [],
+        goals: {
+          waterDailyGoalOz: 64,
+        },
+      }))
       setImportText('')
       setImportSuccess(true)
       setTimeout(() => setImportSuccess(false), 3000)
@@ -222,7 +230,46 @@ function FileManager() {
       "time": "12:00 PM",
       "date": "1/15/2024"
     }
-  ]
+  ],
+  "sleepEntries": [
+    {
+      "id": 1234567891,
+      "bedtime": "23:00",
+      "wakeTime": "07:00",
+      "hoursSlept": 8,
+      "quality": 4,
+      "timestamp": "2024-01-16T07:05:00.000Z",
+      "time": "7:05 AM",
+      "date": "1/16/2024",
+      "dayKey": "2024-01-16"
+    }
+  ],
+  "waterEntries": [
+    {
+      "id": 1234567892,
+      "amountOz": 16,
+      "timestamp": "2024-01-16T09:00:00.000Z",
+      "time": "9:00 AM",
+      "date": "1/16/2024",
+      "dayKey": "2024-01-16"
+    }
+  ],
+  "exerciseEntries": [
+    {
+      "id": 1234567893,
+      "workoutType": "Run",
+      "durationMinutes": 30,
+      "caloriesBurned": 280,
+      "timestamp": "2024-01-16T18:00:00.000Z",
+      "time": "6:00 PM",
+      "date": "1/16/2024",
+      "dayKey": "2024-01-16"
+    }
+  ],
+  "goals": {
+    "waterDailyGoalOz": 64
+  },
+  "exportedAt": "2024-01-16T18:30:00.000Z"
 }`}
           </pre>
         </div>

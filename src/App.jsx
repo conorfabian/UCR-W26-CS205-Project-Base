@@ -6,6 +6,9 @@ import WeeklyGraph from './components/WeeklyGraph'
 import StreakStats from './components/StreakStats'
 import HistoryView from './components/HistoryView'
 import FileManager from './components/FileManager'
+import SleepTracker from './modules/SleepTracker'
+import WaterTracker from './modules/WaterTracker'
+import ExerciseTracker from './modules/ExerciseTracker'
 
 function App() {
   const [activeTab, setActiveTab] = useState('dashboard')
@@ -16,10 +19,10 @@ function App() {
         <div className="container mx-auto px-4 py-8 max-w-7xl">
           <header className="mb-8">
             <h1 className="text-4xl font-bold text-gray-800 mb-2">
-              Mood Tracking App
+              Health &amp; Wellness Tracker
             </h1>
             <p className="text-gray-600">
-              Track how you feel over time with a simple 1–5 mood scale
+              Track mood, sleep, hydration, and workouts in one place
             </p>
           </header>
 
@@ -65,6 +68,11 @@ function App() {
                 <DailyGraph />
                 <WeeklyGraph />
                 <StreakStats />
+              </div>
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <SleepTracker />
+                <WaterTracker />
+                <ExerciseTracker />
               </div>
             </div>
           )}

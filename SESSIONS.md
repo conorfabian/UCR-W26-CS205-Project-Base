@@ -30,6 +30,7 @@ Entry contract:
 ## Session Index
 | Session # | Date | Primary Goal | Features/Areas | Rubric Impact | Status |
 |---|---|---|---|---|---|
+| 3 | 2026-03-05 | Implement three new wellness trackers end-to-end | Sleep logging, water intake goals, exercise logging, storage/import/export/schema updates | Feature Depth, Feature Breadth, Presentation & Demo, Code Quality, AI Tool Usage | Complete |
 | 2 | 2026-03-04 | Fix streak timezone day-bucketing mismatch | Helpers date source precedence for streak analytics | Feature Depth, Code Quality & Security, Presentation & Demo | Complete |
 | 1 | 2026-03-04 | Add first rubric-friendly feature | Streaks + weekly goals dashboard analytics | Feature Depth, Feature Breadth, Presentation & Demo, Code Quality | Complete |
 | 0 | YYYY-MM-DD | Template bootstrap | Documentation process setup | AI Tool Usage, Presentation & Demo | Starter |
@@ -91,6 +92,98 @@ Copy this template for each new session:
 ```
 
 ## Sessions
+### Session 3 — 2026-03-05
+
+#### Summary (3-5 bullets max)
+- Implemented `SleepTracker`, `WaterTracker`, and `ExerciseTracker` modules on the existing Dashboard tab.
+- Extended context/storage schema to persist sleep, water, exercise, and hydration goal data with backward-compatible defaults.
+- Updated history and data management to support delete/import/export/clear workflows for all trackers.
+- Added helper utilities for shared day-key handling and sleep hour auto-calculation (including overnight sleeps).
+- Validated with a successful production build.
+
+#### Goal
+- Deliver three rubric-aligned health features (sleep, water, exercise) end-to-end while preserving existing mood features and app patterns.
+
+#### Starting Context
+- App already had mood logging, charts, streak stats, history, and file/local persistence.
+- Data model only included `moodEntries`; import/export examples and clear logic were mood-only.
+- `AGENTS.md` required focused diffs, boundary validation, and session logging.
+
+#### Key Prompts Used
+- Prompt: "review the codebase and AGENTS.md to get an understanding of the project and the codebase..."
+  - Intent: Establish implementation scope and lock decisions before coding.
+  - Outcome: Produced a detailed plan with selected defaults (dashboard integration, ounces, weekly insights, sleep auto-calc + manual edit).
+- Prompt: "go ahead and implement the plan - make sure to keep AGENTS.md in mind and update SESSIONS.md at the end of the session."
+  - Intent: Execute planned feature work and document process evidence.
+  - Outcome: Implemented all planned features and added this session log.
+
+#### Decisions and Tradeoffs
+- Decision: Integrate new trackers into the existing Dashboard tab rather than adding new tabs.
+  - Tradeoff: Denser dashboard layout.
+  - Reason: Faster integration, minimal navigation churn, and consistent with selected scope.
+- Decision: Keep analytics lightweight (weekly summary metrics) instead of adding new chart-heavy visualizations.
+  - Tradeoff: Less visual depth than additional charts.
+  - Reason: Lower implementation risk while still meeting "core + weekly insights."
+- Decision: Expand persisted JSON schema in-place with backward-compatible defaults.
+  - Tradeoff: Context/storage code became broader.
+  - Reason: Required for end-to-end persistence/import/export across all new features.
+
+#### Work Completed
+- Added new modules:
+  - `SleepTracker`: bedtime/wake time, auto-calculated hours (editable), quality score, weekly sleep insights, delete support.
+  - `WaterTracker`: intake logging in ounces, configurable daily goal, daily progress bar, weekly hydration insights, delete support.
+  - `ExerciseTracker`: workout type, duration, calories, weekly totals, delete support.
+- Updated data layer:
+  - Extended localStorage/file data shape to include `sleepEntries`, `waterEntries`, `exerciseEntries`, and `goals.waterDailyGoalOz`.
+  - Added context actions for add/delete of each tracker and water goal updates.
+  - Kept import backward-compatible for prior mood-only JSON.
+- Updated app surfaces:
+  - Wired new trackers into dashboard layout in `App.jsx`.
+  - Expanded `HistoryView` with sleep/water/exercise history sections and delete actions.
+  - Updated `FileManager` clear-all payload and data-format example to include all datasets.
+- Added helper utilities:
+  - Shared entry day-key resolution (`dayKey`/`date`/`timestamp` fallback).
+  - Last-N-day utility for weekly stats support.
+  - Sleep-hour calculator handling overnight time spans.
+
+#### Files Touched
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/src/utils/storage.js
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/src/context/HealthDataContext.jsx
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/src/utils/helpers.js
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/src/modules/SleepTracker.jsx
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/src/modules/WaterTracker.jsx
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/src/modules/ExerciseTracker.jsx
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/src/App.jsx
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/src/components/HistoryView.jsx
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/src/components/FileManager.jsx
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/SESSIONS.md
+
+#### Validation Performed
+- Command/check: `npm run build`
+  - Result: Passed (`vite build` success). Existing non-blocking chunk-size warning remains.
+- Command/check: Static review of touched files for schema/action consistency.
+  - Result: New trackers, storage/context, history, and data-management paths align on shared field names.
+
+#### Bugs / Issues and Fixes
+- Issue: None blocking during implementation.
+  - Fix: N/A.
+
+#### Rubric Impact
+- Feature Depth: Added complete CRUD-style tracking workflows with validation and weekly summaries for three new health domains.
+- Feature Breadth: Expanded from mood-only tracking to multi-domain wellness tracking (sleep, hydration, exercise).
+- Presentation & Demo: Enables a clearer multi-feature live demo with visible dashboard, history, and import/export behavior.
+- Code Quality & Security: Preserved existing architecture, validated user input boundaries, and avoided new secret/dependency risks.
+- AI Tool Usage: Demonstrated plan-first AI collaboration with documented implementation and verification.
+
+#### AI Process Reflection
+- AI did well: Maintained focused incremental edits across existing architecture while preserving compatibility.
+- AI needed correction on: Keep UI additions aligned with existing visual language rather than introducing unnecessary redesign.
+
+#### Next Session Plan
+- Add targeted manual QA scenarios for overnight sleep edge cases and weekly summary correctness.
+- Consider adding compact charts for sleep/water/exercise trends if you want stronger analytics for demo polish.
+- Update `AI_USAGE.md` with this session’s planning + implementation workflow before final submission.
+
 ### Session 2 — 2026-03-04
 
 #### Summary (3-5 bullets max)

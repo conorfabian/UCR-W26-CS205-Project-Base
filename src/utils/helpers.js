@@ -34,6 +34,16 @@ function parseUSDateString(dateStr) {
   return parsed
 }
 
+function parseTimeInput(timeString) {
+  const match = /^(\d{2}):(\d{2})$/.exec(timeString || '')
+  if (!match) return null
+
+  const hours = Number(match[1])
+  const minutes = Number(match[2])
+  if (hours < 0 || hours > 23 || minutes < 0 || minutes > 59) return null
+  return (hours * 60) + minutes
+}
+
 export function getLocalDayKey(date = new Date()) {
   const year = date.getFullYear()
   const month = String(date.getMonth() + 1).padStart(2, '0')
@@ -74,27 +84,68 @@ export function getWeekStartSundayKey(date = new Date()) {
   return getLocalDayKey(weekStart)
 }
 
+export function getEntryDayKey(entry) {
+  if (typeof entry?.dayKey === 'string') {
+    const parsedDayKeyDate = dayKeyToDate(entry.dayKey)
+    if (parsedDayKeyDate) {
+      return entry.dayKey
+    }
+  }
+
+  if (typeof entry?.date === 'string') {
+    const parsedDate = parseUSDateString(entry.date)
+    if (parsedDate) {
+      return getLocalDayKey(parsedDate)
+    }
+  }
+
+  if (entry?.timestamp) {
+    const dateFromTimestamp = new Date(entry.timestamp)
+    if (!Number.isNaN(dateFromTimestamp.getTime())) {
+      return getLocalDayKey(dateFromTimestamp)
+    }
+  }
+
+  return null
+}
+
+export function isEntryOnDay(entry, dayKey) {
+  return getEntryDayKey(entry) === dayKey
+}
+
+export function getLastNDayKeys(days = 7, endDate = new Date()) {
+  const dayKeys = []
+  const safeDays = Math.max(1, Math.floor(days))
+
+  for (let i = safeDays - 1; i >= 0; i -= 1) {
+    const date = new Date(endDate)
+    date.setDate(endDate.getDate() - i)
+    dayKeys.push(getLocalDayKey(date))
+  }
+
+  return dayKeys
+}
+
+export function calculateSleepHours(bedtime, wakeTime) {
+  const bedtimeMinutes = parseTimeInput(bedtime)
+  const wakeTimeMinutes = parseTimeInput(wakeTime)
+  if (bedtimeMinutes === null || wakeTimeMinutes === null) return null
+
+  let totalMinutes = wakeTimeMinutes - bedtimeMinutes
+  if (totalMinutes <= 0) {
+    totalMinutes += 24 * 60
+  }
+
+  return Number((totalMinutes / 60).toFixed(2))
+}
+
 export function getUniqueMoodDayKeys(moodEntries = []) {
   const daySet = new Set()
 
   moodEntries.forEach((entry) => {
-    let parsedDate = null
-
-    // Use the persisted display date as the canonical bucket to stay
-    // consistent with DailyGraph/WeeklyGraph day grouping.
-    if (typeof entry?.date === 'string') {
-      parsedDate = parseUSDateString(entry.date)
-    }
-
-    if (!parsedDate && entry?.timestamp) {
-      const dateFromTimestamp = new Date(entry.timestamp)
-      if (!Number.isNaN(dateFromTimestamp.getTime())) {
-        parsedDate = dateFromTimestamp
-      }
-    }
-
-    if (parsedDate) {
-      daySet.add(getLocalDayKey(parsedDate))
+    const dayKey = getEntryDayKey(entry)
+    if (dayKey) {
+      daySet.add(dayKey)
     }
   })
 
