@@ -30,6 +30,19 @@ Entry contract:
 ## Session Index
 | Session # | Date | Primary Goal | Features/Areas | Rubric Impact | Status |
 |---|---|---|---|---|---|
+<<<<<<< ours
+<<<<<<< ours
+<<<<<<< ours
+| 4 | 2026-03-06 | Harden import/file load validation against malformed payloads | HealthDataContext importData/loadFromFile type validation for known sections | Code Quality & Security, Feature Depth, AI Tool Usage | Complete |
+=======
+| 4 | 2026-03-06 | Harden import/file payload validation to prevent destructive malformed loads | HealthDataContext importData/loadFromFile payload shape checks | Feature Depth, Code Quality & Security, Presentation & Demo, AI Tool Usage | Complete |
+>>>>>>> theirs
+=======
+| 4 | 2026-03-06 | Harden import/file payload validation to prevent destructive malformed loads | HealthDataContext importData/loadFromFile payload shape checks | Feature Depth, Code Quality & Security, Presentation & Demo, AI Tool Usage | Complete |
+>>>>>>> theirs
+=======
+| 4 | 2026-03-06 | Harden import/file payload validation to prevent destructive malformed loads | HealthDataContext importData/loadFromFile payload shape checks | Feature Depth, Code Quality & Security, Presentation & Demo, AI Tool Usage | Complete |
+>>>>>>> theirs
 | 3 | 2026-03-05 | Implement three new wellness trackers end-to-end | Sleep logging, water intake goals, exercise logging, storage/import/export/schema updates | Feature Depth, Feature Breadth, Presentation & Demo, Code Quality, AI Tool Usage | Complete |
 | 2 | 2026-03-04 | Fix streak timezone day-bucketing mismatch | Helpers date source precedence for streak analytics | Feature Depth, Code Quality & Security, Presentation & Demo | Complete |
 | 1 | 2026-03-04 | Add first rubric-friendly feature | Streaks + weekly goals dashboard analytics | Feature Depth, Feature Breadth, Presentation & Demo, Code Quality | Complete |
@@ -92,6 +105,149 @@ Copy this template for each new session:
 ```
 
 ## Sessions
+### Session 4 — 2026-03-06
+
+#### Summary (3-5 bullets max)
+<<<<<<< ours
+<<<<<<< ours
+<<<<<<< ours
+- Added shared import payload validation to guard against malformed JSON replacing in-memory state.
+- Updated both `importData` and `loadFromFile` to require typed known sections before accepting payloads.
+- Prevented bad shapes like `{}` or `{"waterEntries": "oops"}` from silently clearing tracked data.
+- Validated behavior with a successful production build.
+
+#### Goal
+- Address PR feedback that malformed import/file payloads can be accepted and wipe existing data.
+
+#### Starting Context
+- Existing import/file paths checked only for object/known-key presence, then normalized invalid types to empty defaults.
+- This could report success while effectively erasing prior entries from bad payloads.
+
+#### Key Prompts Used
+- Prompt: "@codex address that feedback (path=src/context/HealthDataContext.jsx line=171 side=RIGHT)"
+  - Intent: Fix reviewer-reported P1 validation gap in file/import data acceptance.
+  - Outcome: Added strict payload validator and applied it to both affected code paths.
+
+#### Decisions and Tradeoffs
+- Decision: Accept partial payloads only when present known fields have valid types.
+  - Tradeoff: Stricter rejection of malformed imports may refuse some loosely formatted legacy data.
+  - Reason: Prevent silent destructive overwrite while preserving valid partial imports.
+- Decision: Keep value-shape checks focused on boundaries (`importData`, `loadFromFile`) instead of overhauling normalization logic.
+  - Tradeoff: Validation logic now coexists with normalization logic.
+  - Reason: Minimal, targeted fix aligned with PR feedback scope.
+
+#### Work Completed
+- Added `isValidImportPayload` helper in `HealthDataContext` to validate accepted top-level sections and section types.
+- Enforced arrays for present entry collections (`moodEntries`, `sleepEntries`, `waterEntries`, `exerciseEntries`).
+- Enforced `goals` to be an object when present, and `goals.waterDailyGoalOz` to be a positive finite number if provided.
+- Updated `loadFromFile` and `importData` to reject invalid payloads and avoid calling `setAllData` on malformed data.
+=======
+=======
+>>>>>>> theirs
+=======
+>>>>>>> theirs
+- Added a shared payload validator to reject malformed import/file JSON before replacing in-memory state.
+- Tightened `loadFromFile` to only accept payloads with at least one correctly typed known section.
+- Tightened `importData` with the same validator so malformed payloads can no longer clear existing tracked data.
+- Validated with a production build and recorded this follow-up for PR review traceability.
+
+#### Goal
+- Address PR feedback that malformed imports/files could be accepted and silently overwrite valid state.
+
+#### Starting Context
+- `importData` previously accepted payloads based on key presence only.
+- `loadFromFile` accepted any object and normalized invalid structures into empty arrays/defaults.
+- Reviewer flagged this as a P1 data-loss risk in `src/context/HealthDataContext.jsx`.
+
+#### Key Prompts Used
+- Prompt: "@codex address that feedback (path=src/context/HealthDataContext.jsx line=237 side=RIGHT)"
+  - Intent: Apply the requested fix at the cited review location.
+  - Outcome: Implemented strict payload shape validation for both import paths.
+
+#### Decisions and Tradeoffs
+- Decision: Share one `isValidImportPayload` helper across file-load and string-import paths.
+  - Tradeoff: Slightly stricter acceptance may reject loosely-shaped legacy payloads.
+  - Reason: Prevent silent destructive resets from malformed JSON while keeping valid legacy sections supported.
+- Decision: Require at least one correctly typed known section (`*Entries` array or valid `goals`).
+  - Tradeoff: `{}` and unrelated JSON files now fail fast instead of being normalized.
+  - Reason: Explicitly matches reviewer feedback and protects user data.
+
+#### Work Completed
+- Added `ENTRY_COLLECTION_KEYS` and `isValidImportPayload` near context helpers.
+- Updated `loadFromFile` to gate `setAllData` behind `isValidImportPayload`.
+- Updated `importData` to use `isValidImportPayload` instead of key-presence checks.
+<<<<<<< ours
+<<<<<<< ours
+>>>>>>> theirs
+=======
+>>>>>>> theirs
+=======
+>>>>>>> theirs
+
+#### Files Touched
+- /workspace/UCR-W26-CS205-Project-Base/src/context/HealthDataContext.jsx
+- /workspace/UCR-W26-CS205-Project-Base/SESSIONS.md
+
+#### Validation Performed
+- Command/check: `npm run build`
+<<<<<<< ours
+<<<<<<< ours
+<<<<<<< ours
+  - Result: Passed (`vite build` success). Existing chunk-size warning remains non-blocking.
+
+#### Bugs / Issues and Fixes
+- Issue: Network-restricted environment blocked external web lookup during validation research.
+  - Fix: Proceeded with local reasoning + repository-scoped fix and documented limitation.
+
+#### Rubric Impact
+- Feature Depth: Import/file workflows now explicitly handle malformed boundary inputs instead of destructive fallback behavior.
+- Feature Breadth: No new end-user feature area; quality hardening across two existing data-ingest paths.
+- Presentation & Demo: Demo reliability improves by preventing accidental data wipes from bad files.
+- Code Quality & Security: Adds typed payload checks and reduces risk of unsafe state replacement from untrusted JSON.
+- AI Tool Usage: Captures AI-assisted PR feedback resolution and verification in this session log.
+
+#### AI Process Reflection
+- AI did well: Produced a minimal shared validator and applied it consistently to both ingest flows.
+- AI needed correction on: N/A for this session.
+
+#### Next Session Plan
+- Add focused unit tests for import validation edge cases if test harness coverage is expanded.
+- Re-run reviewer feedback pass after any additional schema changes to keep validation in sync.
+=======
+=======
+>>>>>>> theirs
+=======
+>>>>>>> theirs
+  - Result: Passed (`vite build` success). Existing non-blocking chunk-size warning remains.
+- Command/check: quick web lookup to verify `Array.isArray` reference behavior.
+  - Result: Attempted but blocked by proxy/network policy in this environment.
+
+#### Bugs / Issues and Fixes
+- Issue: Malformed payloads like `{ "waterEntries": "oops" }` could previously pass import checks and clear data.
+  - Fix: Payload now must include at least one expected section with valid type before state replacement.
+
+#### Rubric Impact
+- Feature Depth: Prevents destructive edge-case behavior in data import workflows.
+- Feature Breadth: No new feature surface; reliability hardening of existing file/import features.
+- Presentation & Demo: Reduces demo risk from accidental wrong-file imports.
+- Code Quality & Security: Adds explicit boundary validation for untrusted JSON input.
+- AI Tool Usage: Captures reviewer-driven follow-up and implementation trace.
+
+#### AI Process Reflection
+- AI did well: Applied a minimal focused fix that addressed both flagged code paths.
+- AI needed correction on: Ensured validator checks value types (not just key existence).
+
+#### Next Session Plan
+- Add targeted unit/manual tests for malformed import payload permutations.
+- Consider surfacing user-facing error messaging in UI for rejected import payloads.
+<<<<<<< ours
+<<<<<<< ours
+>>>>>>> theirs
+=======
+>>>>>>> theirs
+=======
+>>>>>>> theirs
+
 ### Session 3 — 2026-03-05
 
 #### Summary (3-5 bullets max)

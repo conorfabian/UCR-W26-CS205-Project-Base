@@ -4,6 +4,25 @@ import { createFile, openFile, writeFile, readFile } from '../utils/fileOperatio
 
 const HealthDataContext = createContext()
 const DEFAULT_WATER_GOAL_OZ = 64
+const ENTRY_COLLECTION_KEYS = ['moodEntries', 'sleepEntries', 'waterEntries', 'exerciseEntries']
+
+function isValidImportPayload(data) {
+  if (!data || typeof data !== 'object' || Array.isArray(data)) return false
+
+  const hasValidEntryCollection = ENTRY_COLLECTION_KEYS.some((key) => (
+    Object.prototype.hasOwnProperty.call(data, key) && Array.isArray(data[key])
+  ))
+
+  const hasValidGoals = Object.prototype.hasOwnProperty.call(data, 'goals')
+    && data.goals
+    && typeof data.goals === 'object'
+    && !Array.isArray(data.goals)
+    && (!Object.prototype.hasOwnProperty.call(data.goals, 'waterDailyGoalOz')
+      || (Number.isFinite(Number(data.goals.waterDailyGoalOz))
+        && Number(data.goals.waterDailyGoalOz) > 0))
+
+  return hasValidEntryCollection || hasValidGoals
+}
 
 function normalizeGoalValue(value, fallback) {
   const parsed = Number(value)
@@ -21,6 +40,32 @@ function normalizeDataShape(data = {}) {
       waterDailyGoalOz: normalizeGoalValue(data?.goals?.waterDailyGoalOz, DEFAULT_WATER_GOAL_OZ),
     },
   }
+}
+
+function isValidImportPayload(data) {
+  if (!data || typeof data !== 'object' || Array.isArray(data)) return false
+
+  const hasEntriesField = ['moodEntries', 'sleepEntries', 'waterEntries', 'exerciseEntries']
+    .some((key) => Object.prototype.hasOwnProperty.call(data, key))
+  const hasGoalsField = Object.prototype.hasOwnProperty.call(data, 'goals')
+
+  if (!hasEntriesField && !hasGoalsField) return false
+
+  const entriesAreValid = ['moodEntries', 'sleepEntries', 'waterEntries', 'exerciseEntries']
+    .every((key) => !Object.prototype.hasOwnProperty.call(data, key) || Array.isArray(data[key]))
+
+  if (!entriesAreValid) return false
+
+  if (!hasGoalsField) return true
+
+  if (!data.goals || typeof data.goals !== 'object' || Array.isArray(data.goals)) {
+    return false
+  }
+
+  if (!Object.prototype.hasOwnProperty.call(data.goals, 'waterDailyGoalOz')) return true
+
+  const parsedGoal = Number(data.goals.waterDailyGoalOz)
+  return Number.isFinite(parsedGoal) && parsedGoal > 0
 }
 
 function getLatestEntryId(data) {
@@ -166,7 +211,7 @@ export function HealthDataProvider({ children }) {
       saveFileHandleInfo(handle)
 
       const data = await readFile(handle)
-      if (data && typeof data === 'object') {
+      if (isValidImportPayload(data)) {
         const normalized = normalizeDataShape(data)
         setAllData(normalized)
         saveData(normalized)
@@ -230,15 +275,19 @@ export function HealthDataProvider({ children }) {
   const importData = (jsonString) => {
     try {
       const data = JSON.parse(jsonString)
-      const hasKnownField = data && typeof data === 'object' && (
-        Object.prototype.hasOwnProperty.call(data, 'moodEntries')
-        || Object.prototype.hasOwnProperty.call(data, 'sleepEntries')
-        || Object.prototype.hasOwnProperty.call(data, 'waterEntries')
-        || Object.prototype.hasOwnProperty.call(data, 'exerciseEntries')
-        || Object.prototype.hasOwnProperty.call(data, 'goals')
-      )
+<<<<<<< ours
+<<<<<<< ours
+<<<<<<< ours
+=======
 
-      if (hasKnownField) {
+>>>>>>> theirs
+=======
+
+>>>>>>> theirs
+=======
+
+>>>>>>> theirs
+      if (isValidImportPayload(data)) {
         setAllData(data)
         return true
       }
