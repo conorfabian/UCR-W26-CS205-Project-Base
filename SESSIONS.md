@@ -30,6 +30,7 @@ Entry contract:
 ## Session Index
 | Session # | Date | Primary Goal | Features/Areas | Rubric Impact | Status |
 |---|---|---|---|---|---|
+| 9 | 2026-03-07 | Implement sleep tracker feature end-to-end | New sleep logging module + 7-day sleep insights + schema/import/export updates | Feature Depth, Feature Breadth, Presentation & Demo, Code Quality & Security, AI Tool Usage | Complete |
 | 8 | 2026-03-07 | Fix weekly chart theme lag on toggle | Weekly chart now reacts immediately to root class/theme changes | Feature Depth, Presentation & Demo, Code Quality & Security, AI Tool Usage | Complete |
 | 7 | 2026-03-07 | Center heatmap content layout | Centered grid container + centered legend alignment polish | Presentation & Demo, Code Quality & Security, AI Tool Usage | Complete |
 | 6 | 2026-03-07 | Fix heatmap latest-days visibility bug | Heatmap default scroll-to-latest + UX hint text | Feature Depth, Presentation & Demo, Code Quality & Security, AI Tool Usage | Complete |
@@ -97,6 +98,91 @@ Copy this template for each new session:
 ```
 
 ## Sessions
+### Session 9 — 2026-03-07
+
+#### Summary (3-5 bullets max)
+- Implemented a new `Sleep Tracker` dashboard module with bedtime/wake-time input, computed duration, quality scoring, and recent-entry management.
+- Added a new `Sleep Insights` analytics card showing latest-night summary plus 7-day averages and a 7-day hours chart.
+- Expanded the persisted data contract from mood-only to `{ moodEntries, sleepEntries }` across local storage, file save/load, export, and import.
+- Updated data-management examples/docs and sample JSON to reflect the new sleep schema.
+- Validated the feature set with a successful production build.
+
+#### Goal
+- Implement the README-listed sleep tracker feature end-to-end while keeping changes minimal and preserving existing mood features.
+
+#### Starting Context
+- The app already had mood tracking, notes, streaks/goals, heatmap analytics, dark mode, and JSON/file persistence.
+- No sleep-tracking state, UI, or schema existed in `HealthDataContext`, `App`, or data-management flows.
+
+#### Key Prompts Used
+- Prompt: "review the codebase as well as AGENTS.md and SESSIONS.md to get the current status of the project/codebase. then plan how to implement the sleep tracker feature mentioned in the README.md file"
+  - Intent: Produce a decision-complete plan grounded in current repository state.
+  - Outcome: Defined v1 as separate `sleepEntries` + tracker + mini analytics.
+- Prompt: "go ahead and implement the plan - make sure to keep AGENTS.md in mind and update SESSIONS.md at the end of the session."
+  - Intent: Execute planned implementation and complete process documentation.
+  - Outcome: Implemented sleep feature set and logged this session.
+
+#### Decisions and Tradeoffs
+- Decision: Store sleep data in a separate `sleepEntries` array instead of extending mood entries.
+  - Tradeoff: No built-in mood/sleep correlation in this iteration.
+  - Reason: Lowest-risk integration that preserves existing mood workflows and compatibility.
+- Decision: Use automatic duration calculation from bedtime/wake-time.
+  - Tradeoff: No manual duration override in v1.
+  - Reason: Reduces input inconsistency and simplifies validation.
+- Decision: Ship focused analytics (latest night + 7-day averages/chart) instead of full sleep history tab/edit flows.
+  - Tradeoff: Less comprehensive sleep analysis in first release.
+  - Reason: Balances feature depth and delivery speed with minimal regression risk.
+
+#### Work Completed
+- Added `src/modules/SleepTracker.jsx` with:
+  - date + bedtime + wake-time + quality inputs,
+  - computed duration preview,
+  - required-field validation and invalid-duration guard,
+  - recent sleep list and delete action.
+- Added `src/components/SleepStats.jsx` with:
+  - latest-night summary,
+  - 7-day average sleep hours/quality,
+  - theme-aware 7-day line chart for sleep hours.
+- Updated `HealthDataContext` and `storage` to persist/load/save/import/export both mood and sleep arrays.
+- Integrated new sleep cards into Dashboard in `App.jsx`.
+- Updated `FileManager`, `README.md`, and `example-data.json` for the expanded JSON contract.
+
+#### Files Touched
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/src/context/HealthDataContext.jsx
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/src/utils/storage.js
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/src/App.jsx
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/src/modules/SleepTracker.jsx
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/src/components/SleepStats.jsx
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/src/components/FileManager.jsx
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/README.md
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/example-data.json
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/SESSIONS.md
+
+#### Validation Performed
+- Command/check: `npm run build`
+  - Result: Passed (`vite build` success). Existing bundle-size warning remains non-blocking.
+- Command/check: Static review of import/export and clear-data flows after schema expansion.
+  - Result: Confirmed all data-management paths include `sleepEntries` and preserve mood compatibility.
+
+#### Bugs / Issues and Fixes
+- Issue: Existing persistence/storage utilities only supported `moodEntries`.
+  - Fix: Expanded storage/context contracts and normalized both collections at load/import boundaries.
+
+#### Rubric Impact
+- Feature Depth: Adds complete sleep logging flow with validation, computed metrics, persistence, and dashboard analytics.
+- Feature Breadth: Introduces a meaningful second wellness tracker beyond mood.
+- Presentation & Demo: Enables clear live demo narrative (log sleep -> see immediate 7-day insights).
+- Code Quality & Security: Input validation added at user/file boundaries without introducing secrets or risky dependencies.
+- AI Tool Usage: Demonstrates plan-first execution and documented follow-through with concrete implementation details.
+
+#### AI Process Reflection
+- AI did well: Kept the scope focused while covering all required contract updates (state, storage, import/export, docs).
+- AI needed correction on: Keep architecture simple (separate sleep array) and avoid unnecessary refactors of existing mood components.
+
+#### Next Session Plan
+- Add a light sleep-history filter/sort surface or dedicated sleep-history tab if deeper sleep analysis is desired.
+- Add mood-vs-sleep correlation analytics as the next cross-tracker feature.
+
 ### Session 8 — 2026-03-07
 
 #### Summary (3-5 bullets max)

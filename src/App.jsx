@@ -1,9 +1,11 @@
 import { useEffect, useState } from 'react'
 import { HealthDataProvider } from './context/HealthDataContext'
 import MoodTracker from './modules/MoodTracker'
+import SleepTracker from './modules/SleepTracker'
 import DailyGraph from './components/DailyGraph'
 import WeeklyGraph from './components/WeeklyGraph'
 import StreakStats from './components/StreakStats'
+import SleepStats from './components/SleepStats'
 import MoodCalendarHeatmap from './components/MoodCalendarHeatmap'
 import HistoryView from './components/HistoryView'
 import FileManager from './components/FileManager'
@@ -72,10 +74,10 @@ function App() {
           <header className="mb-8 flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
             <div>
               <h1 className="mb-2 text-4xl font-bold text-gray-800 dark:text-slate-100">
-                Mood Tracking App
+                Mood &amp; Sleep Tracking App
               </h1>
               <p className="text-gray-600 dark:text-slate-300">
-                Track how you feel over time with a simple 1-5 mood scale
+                Track mood and sleep patterns over time in one wellness dashboard
               </p>
             </div>
             <button
@@ -128,9 +130,11 @@ function App() {
             <div className="space-y-6">
               <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
                 <MoodTracker />
+                <SleepTracker />
                 <DailyGraph />
                 <WeeklyGraph />
                 <StreakStats />
+                <SleepStats />
               </div>
               <MoodCalendarHeatmap />
             </div>

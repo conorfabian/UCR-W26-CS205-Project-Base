@@ -67,13 +67,15 @@ The built files will be in the `dist` directory.
 The starter app is a **Mood Tracking** web app with the following features:
 
 - **Mood Logging** - Record mood on a 1-5 scale with automatic timestamps and optional journal notes
+- **Sleep Tracker** - Log bedtime/wake time, automatic hours slept, and 1-5 sleep quality
 - **Daily Graph** - Line chart of mood entries throughout the current day
 - **Weekly Graph** - Bar chart of average daily mood over the last 7 days
+- **Sleep Insights** - Latest sleep summary plus 7-day average duration and quality analytics
 - **Streaks & Goals** - Current streak, longest streak, and weekly consistency progress
 - **Mood Calendar Heatmap** - GitHub-style grid showing daily average mood over a rolling 12 months
 - **History View** - All-time mood entries organized by date with inline note review/editing
 - **Theme Toggle** - Switch between light and dark mode
-- **Data Management** - Export/import mood data as JSON files
+- **Data Management** - Export/import mood and sleep data as JSON files
 - **Local Persistence** - Data saved to browser localStorage (no backend)
 
 ### Tech Stack
@@ -93,10 +95,12 @@ The starter app is a **Mood Tracking** web app with the following features:
 ```
 src/
 ├── modules/                      # Feature modules
-│   └── MoodTracker.jsx           # Mood tracking input and display
+│   ├── MoodTracker.jsx           # Mood tracking input and display
+│   └── SleepTracker.jsx          # Sleep logging input and entry list
 ├── components/                   # Reusable UI components
 │   ├── DailyGraph.jsx            # Daily analytics chart
 │   ├── WeeklyGraph.jsx           # Weekly analytics chart
+│   ├── SleepStats.jsx            # Last-7-day sleep insights chart/card
 │   ├── StreakStats.jsx           # Streak and weekly goal analytics card
 │   ├── MoodCalendarHeatmap.jsx   # Rolling 12-month mood calendar heatmap
 │   ├── HistoryView.jsx           # All-time history view
@@ -124,6 +128,17 @@ src/
       "time": "12:00 PM",
       "date": "1/15/2024",
       "note": "Optional free-form journal note (max 500 chars)"
+    }
+  ],
+  "sleepEntries": [
+    {
+      "id": 1705388400000,
+      "timestamp": "2024-01-16T07:00:00.000Z",
+      "date": "1/16/2024",
+      "bedtime": "23:15",
+      "wakeTime": "07:00",
+      "hoursSlept": 7.75,
+      "quality": 4
     }
   ]
 }
