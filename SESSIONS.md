@@ -30,6 +30,7 @@ Entry contract:
 ## Session Index
 | Session # | Date | Primary Goal | Features/Areas | Rubric Impact | Status |
 |---|---|---|---|---|---|
+| 10 | 2026-03-07 | Generate one-year demo import dataset for mood + sleep | Ready-to-import JSON seed data spanning rolling year with chart/streak-friendly density | Feature Depth, Presentation & Demo, Code Quality & Security, AI Tool Usage | Complete |
 | 9 | 2026-03-07 | Implement sleep tracker feature end-to-end | New sleep logging module + 7-day sleep insights + schema/import/export updates | Feature Depth, Feature Breadth, Presentation & Demo, Code Quality & Security, AI Tool Usage | Complete |
 | 8 | 2026-03-07 | Fix weekly chart theme lag on toggle | Weekly chart now reacts immediately to root class/theme changes | Feature Depth, Presentation & Demo, Code Quality & Security, AI Tool Usage | Complete |
 | 7 | 2026-03-07 | Center heatmap content layout | Centered grid container + centered legend alignment polish | Presentation & Demo, Code Quality & Security, AI Tool Usage | Complete |
@@ -98,6 +99,78 @@ Copy this template for each new session:
 ```
 
 ## Sessions
+### Session 10 — 2026-03-07
+
+#### Summary (3-5 bullets max)
+- Generated `demo-data-last-365-days.json` as a ready-to-import dataset for mood and sleep demoing.
+- Seeded realistic mixed patterns with broad year coverage, dense recent-week activity, and multiple mood logs today for chart readiness.
+- Ensured schema compatibility with current import contract (`{ moodEntries, sleepEntries }`) and sleep-entry normalization constraints.
+- Ran targeted data-shape and behavior checks (required fields, value ranges, last-7-day coverage, active streak presence).
+- Logged this work block per AGENTS/SESSIONS process requirements.
+
+#### Goal
+- Produce one JSON-only import file that preloads the app with substantial mood and sleep history for a strong live demo.
+
+#### Starting Context
+- Current app already supports mood + sleep tracking, dashboard analytics, heatmap, history, and import/export.
+- Import compatibility depends on top-level `moodEntries` plus valid `sleepEntries` fields (time/date/quality/hour constraints).
+
+#### Key Prompts Used
+- Prompt: "PLEASE IMPLEMENT THIS PLAN: ## Plan: 365-Day Demo Import JSON (Mood + Sleep) ..."
+  - Intent: Execute the approved dataset-seeding plan without codebase feature changes.
+  - Outcome: Generated final import dataset file with realistic mixed year-long data.
+- Prompt: "go ahead and implement the plan - make sure to keep AGENTS.md in mind and update SESSIONS.md at the end of the session."
+  - Intent: Enforce process compliance and session logging.
+  - Outcome: Added complete session documentation and validation notes.
+
+#### Decisions and Tradeoffs
+- Decision: Keep delivery as a single JSON artifact (`demo-data-last-365-days.json`) with no generator script committed.
+  - Tradeoff: Harder to regenerate alternate profiles from source instructions alone.
+  - Reason: Matches the requested "JSON only" delivery mode and fastest demo workflow.
+- Decision: Use inclusive date endpoints `3/7/2025` through `3/7/2026`.
+  - Tradeoff: Inclusive bounds yield 366 sleep rows while still representing the requested rolling-year window.
+  - Reason: Preserves explicit boundary dates and guarantees up-to-date "today" demo coverage.
+- Decision: Force high recent-week density and multiple mood entries on current day.
+  - Tradeoff: Data is slightly denser than a minimally realistic tracker pattern.
+  - Reason: Maximizes confidence that daily/weekly charts, streak messaging, and sleep insights render strongly during live demo.
+
+#### Work Completed
+- Generated `/Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/demo-data-last-365-days.json` containing:
+  - `moodEntries`: 458 entries with mixed variability, optional notes, and valid display time/date fields.
+  - `sleepEntries`: 366 entries with valid bedtime/wake-time formats, computed hours, and quality scores.
+- Preserved import compatibility by keeping the top-level shape exactly `{ moodEntries, sleepEntries }`.
+
+#### Files Touched
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/demo-data-last-365-days.json
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/SESSIONS.md
+
+#### Validation Performed
+- Command/check: JSON parse + entry counts (`node -e ...`)
+  - Result: Parsed successfully; `moodEntries=458`, `sleepEntries=366`.
+- Command/check: Schema/value integrity checks for required keys, mood/quality bounds, and sleep time formats (`node -e ...`)
+  - Result: No invalid mood or sleep entries detected.
+- Command/check: Demo-readiness checks for `3/7/2026` mood density, complete last-7-day mood/sleep coverage, and active streak (`node -e ...`)
+  - Result: `moodToday=3`, `sleepLast7All=true`, `moodLast7All=true`, `currentMoodStreak=34`.
+
+#### Bugs / Issues and Fixes
+- Issue: Plan language mixed "365-day" wording with explicit inclusive endpoints.
+  - Fix: Chose inclusive endpoint interpretation and documented resulting row count explicitly in this log.
+
+#### Rubric Impact
+- Feature Depth: Strengthens end-to-end demo quality by exercising all analytics/history surfaces with realistic data.
+- Feature Breadth: No net-new feature code; expands practical usability of existing mood + sleep feature set.
+- Presentation & Demo: Significantly improves live demo flow by avoiding empty-state charts and sparse history.
+- Code Quality & Security: No runtime code changes; generated data respects input constraints and avoids secrets.
+- AI Tool Usage: Demonstrates plan-first execution, deterministic generation, and explicit post-generation verification.
+
+#### AI Process Reflection
+- AI did well: Kept scope narrowly aligned to requested artifact and validated against the app’s actual import/normalization boundaries.
+- AI needed correction on: Explicitly document date-boundary interpretation to avoid ambiguity around "365-day" wording.
+
+#### Next Session Plan
+- Optionally generate one alternate profile dataset (e.g., recovery arc) for presentation A/B demo storytelling.
+- Add an `AI_USAGE.md` summary file if not already present to complete submission-process documentation.
+
 ### Session 9 — 2026-03-07
 
 #### Summary (3-5 bullets max)

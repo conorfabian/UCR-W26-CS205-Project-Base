@@ -1,0 +1,6964 @@
+{
+  "moodEntries": [
+    {
+      "id": 1741365000000,
+      "mood": 3,
+      "timestamp": "2025-03-07T16:30:00.000Z",
+      "time": "8:30 AM",
+      "date": "3/7/2025",
+      "note": ""
+    },
+    {
+      "id": 1741452840000,
+      "mood": 3,
+      "timestamp": "2025-03-08T16:54:00.000Z",
+      "time": "8:54 AM",
+      "date": "3/8/2025",
+      "note": ""
+    },
+    {
+      "id": 1741535400000,
+      "mood": 3,
+      "timestamp": "2025-03-09T15:50:00.000Z",
+      "time": "8:50 AM",
+      "date": "3/9/2025",
+      "note": ""
+    },
+    {
+      "id": 1741557420001,
+      "mood": 4,
+      "timestamp": "2025-03-09T21:57:00.000Z",
+      "time": "2:57 PM",
+      "date": "3/9/2025",
+      "note": ""
+    },
+    {
+      "id": 1741625160000,
+      "mood": 5,
+      "timestamp": "2025-03-10T16:46:00.000Z",
+      "time": "9:46 AM",
+      "date": "3/10/2025",
+      "note": ""
+    },
+    {
+      "id": 1741709100000,
+      "mood": 3,
+      "timestamp": "2025-03-11T16:05:00.000Z",
+      "time": "9:05 AM",
+      "date": "3/11/2025",
+      "note": ""
+    },
+    {
+      "id": 1741797240000,
+      "mood": 4,
+      "timestamp": "2025-03-12T16:34:00.000Z",
+      "time": "9:34 AM",
+      "date": "3/12/2025",
+      "note": ""
+    },
+    {
+      "id": 1741814280001,
+      "mood": 3,
+      "timestamp": "2025-03-12T21:18:00.000Z",
+      "time": "2:18 PM",
+      "date": "3/12/2025",
+      "note": ""
+    },
+    {
+      "id": 1741881060000,
+      "mood": 4,
+      "timestamp": "2025-03-13T15:51:00.000Z",
+      "time": "8:51 AM",
+      "date": "3/13/2025",
+      "note": ""
+    },
+    {
+      "id": 1741966320000,
+      "mood": 4,
+      "timestamp": "2025-03-14T15:32:00.000Z",
+      "time": "8:32 AM",
+      "date": "3/14/2025",
+      "note": ""
+    },
+    {
+      "id": 1742055180000,
+      "mood": 4,
+      "timestamp": "2025-03-15T16:13:00.000Z",
+      "time": "9:13 AM",
+      "date": "3/15/2025",
+      "note": ""
+    },
+    {
+      "id": 1742071680001,
+      "mood": 4,
+      "timestamp": "2025-03-15T20:48:00.000Z",
+      "time": "1:48 PM",
+      "date": "3/15/2025",
+      "note": ""
+    },
+    {
+      "id": 1742138760000,
+      "mood": 5,
+      "timestamp": "2025-03-16T15:26:00.000Z",
+      "time": "8:26 AM",
+      "date": "3/16/2025",
+      "note": ""
+    },
+    {
+      "id": 1742228460000,
+      "mood": 3,
+      "timestamp": "2025-03-17T16:21:00.000Z",
+      "time": "9:21 AM",
+      "date": "3/17/2025",
+      "note": ""
+    },
+    {
+      "id": 1742244840001,
+      "mood": 4,
+      "timestamp": "2025-03-17T20:54:00.000Z",
+      "time": "1:54 PM",
+      "date": "3/17/2025",
+      "note": ""
+    },
+    {
+      "id": 1742399100000,
+      "mood": 3,
+      "timestamp": "2025-03-19T15:45:00.000Z",
+      "time": "8:45 AM",
+      "date": "3/19/2025",
+      "note": ""
+    },
+    {
+      "id": 1742418420001,
+      "mood": 3,
+      "timestamp": "2025-03-19T21:07:00.000Z",
+      "time": "2:07 PM",
+      "date": "3/19/2025",
+      "note": ""
+    },
+    {
+      "id": 1742485500000,
+      "mood": 4,
+      "timestamp": "2025-03-20T15:45:00.000Z",
+      "time": "8:45 AM",
+      "date": "3/20/2025",
+      "note": ""
+    },
+    {
+      "id": 1742506620001,
+      "mood": 3,
+      "timestamp": "2025-03-20T21:37:00.000Z",
+      "time": "2:37 PM",
+      "date": "3/20/2025",
+      "note": "Neutral overall. No major stress, just a normal routine day. Slept 6.36h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1742528340002,
+      "mood": 3,
+      "timestamp": "2025-03-21T03:39:00.000Z",
+      "time": "8:39 PM",
+      "date": "3/20/2025",
+      "note": "Energy was mixed but manageable. Took breaks and finished essentials. Slept 6.36h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1742573040000,
+      "mood": 3,
+      "timestamp": "2025-03-21T16:04:00.000Z",
+      "time": "9:04 AM",
+      "date": "3/21/2025",
+      "note": ""
+    },
+    {
+      "id": 1742593920001,
+      "mood": 4,
+      "timestamp": "2025-03-21T21:52:00.000Z",
+      "time": "2:52 PM",
+      "date": "3/21/2025",
+      "note": ""
+    },
+    {
+      "id": 1742615220002,
+      "mood": 4,
+      "timestamp": "2025-03-22T03:47:00.000Z",
+      "time": "8:47 PM",
+      "date": "3/21/2025",
+      "note": "Great mood after classes. Social time and progress on work felt rewarding. Slept 6.80h with quality 4/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1742658300000,
+      "mood": 4,
+      "timestamp": "2025-03-22T15:45:00.000Z",
+      "time": "8:45 AM",
+      "date": "3/22/2025",
+      "note": ""
+    },
+    {
+      "id": 1742743560000,
+      "mood": 4,
+      "timestamp": "2025-03-23T15:26:00.000Z",
+      "time": "8:26 AM",
+      "date": "3/23/2025",
+      "note": ""
+    },
+    {
+      "id": 1742831040000,
+      "mood": 4,
+      "timestamp": "2025-03-24T15:44:00.000Z",
+      "time": "8:44 AM",
+      "date": "3/24/2025",
+      "note": ""
+    },
+    {
+      "id": 1742918160000,
+      "mood": 4,
+      "timestamp": "2025-03-25T15:56:00.000Z",
+      "time": "8:56 AM",
+      "date": "3/25/2025",
+      "note": "Solid day overall. Productive block in the afternoon helped a lot. Slept 6.87h with quality 4/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1742938440001,
+      "mood": 5,
+      "timestamp": "2025-03-25T21:34:00.000Z",
+      "time": "2:34 PM",
+      "date": "3/25/2025",
+      "note": ""
+    },
+    {
+      "id": 1743090840000,
+      "mood": 4,
+      "timestamp": "2025-03-27T15:54:00.000Z",
+      "time": "8:54 AM",
+      "date": "3/27/2025",
+      "note": ""
+    },
+    {
+      "id": 1743176520000,
+      "mood": 4,
+      "timestamp": "2025-03-28T15:42:00.000Z",
+      "time": "8:42 AM",
+      "date": "3/28/2025",
+      "note": ""
+    },
+    {
+      "id": 1743262320000,
+      "mood": 4,
+      "timestamp": "2025-03-29T15:32:00.000Z",
+      "time": "8:32 AM",
+      "date": "3/29/2025",
+      "note": "Great mood after classes. Social time and progress on work felt rewarding. Slept 7.83h with quality 4/5. Weekend schedule helped recovery."
+    },
+    {
+      "id": 1743351000000,
+      "mood": 5,
+      "timestamp": "2025-03-30T16:10:00.000Z",
+      "time": "9:10 AM",
+      "date": "3/30/2025",
+      "note": "Great mood after classes. Social time and progress on work felt rewarding. Slept 7.66h with quality 4/5. Weekend schedule helped recovery."
+    },
+    {
+      "id": 1743434820000,
+      "mood": 4,
+      "timestamp": "2025-03-31T15:27:00.000Z",
+      "time": "8:27 AM",
+      "date": "3/31/2025",
+      "note": ""
+    },
+    {
+      "id": 1743455700001,
+      "mood": 3,
+      "timestamp": "2025-03-31T21:15:00.000Z",
+      "time": "2:15 PM",
+      "date": "3/31/2025",
+      "note": ""
+    },
+    {
+      "id": 1743609300000,
+      "mood": 4,
+      "timestamp": "2025-04-02T15:55:00.000Z",
+      "time": "8:55 AM",
+      "date": "4/2/2025",
+      "note": "Felt focused and balanced. Exercise and routine made a difference. Slept 6.95h with quality 4/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1743698520000,
+      "mood": 4,
+      "timestamp": "2025-04-03T16:42:00.000Z",
+      "time": "9:42 AM",
+      "date": "4/3/2025",
+      "note": ""
+    },
+    {
+      "id": 1743715860001,
+      "mood": 4,
+      "timestamp": "2025-04-03T21:31:00.000Z",
+      "time": "2:31 PM",
+      "date": "4/3/2025",
+      "note": "Felt focused and balanced. Exercise and routine made a difference. Slept 7.01h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1743782160000,
+      "mood": 4,
+      "timestamp": "2025-04-04T15:56:00.000Z",
+      "time": "8:56 AM",
+      "date": "4/4/2025",
+      "note": "Great mood after classes. Social time and progress on work felt rewarding. Slept 7.85h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1743955620000,
+      "mood": 5,
+      "timestamp": "2025-04-06T16:07:00.000Z",
+      "time": "9:07 AM",
+      "date": "4/6/2025",
+      "note": ""
+    },
+    {
+      "id": 1743976440001,
+      "mood": 5,
+      "timestamp": "2025-04-06T21:54:00.000Z",
+      "time": "2:54 PM",
+      "date": "4/6/2025",
+      "note": ""
+    },
+    {
+      "id": 1744044780000,
+      "mood": 4,
+      "timestamp": "2025-04-07T16:53:00.000Z",
+      "time": "9:53 AM",
+      "date": "4/7/2025",
+      "note": ""
+    },
+    {
+      "id": 1744128180000,
+      "mood": 4,
+      "timestamp": "2025-04-08T16:03:00.000Z",
+      "time": "9:03 AM",
+      "date": "4/8/2025",
+      "note": ""
+    },
+    {
+      "id": 1744217400000,
+      "mood": 4,
+      "timestamp": "2025-04-09T16:50:00.000Z",
+      "time": "9:50 AM",
+      "date": "4/9/2025",
+      "note": ""
+    },
+    {
+      "id": 1744299000000,
+      "mood": 4,
+      "timestamp": "2025-04-10T15:30:00.000Z",
+      "time": "8:30 AM",
+      "date": "4/10/2025",
+      "note": ""
+    },
+    {
+      "id": 1744322100001,
+      "mood": 4,
+      "timestamp": "2025-04-10T21:55:00.000Z",
+      "time": "2:55 PM",
+      "date": "4/10/2025",
+      "note": ""
+    },
+    {
+      "id": 1744385460000,
+      "mood": 3,
+      "timestamp": "2025-04-11T15:31:00.000Z",
+      "time": "8:31 AM",
+      "date": "4/11/2025",
+      "note": ""
+    },
+    {
+      "id": 1744404660001,
+      "mood": 4,
+      "timestamp": "2025-04-11T20:51:00.000Z",
+      "time": "1:51 PM",
+      "date": "4/11/2025",
+      "note": ""
+    },
+    {
+      "id": 1744475580000,
+      "mood": 4,
+      "timestamp": "2025-04-12T16:33:00.000Z",
+      "time": "9:33 AM",
+      "date": "4/12/2025",
+      "note": "Solid day overall. Productive block in the afternoon helped a lot. Slept 8.16h with quality 4/5. Weekend schedule helped recovery."
+    },
+    {
+      "id": 1744563000000,
+      "mood": 4,
+      "timestamp": "2025-04-13T16:50:00.000Z",
+      "time": "9:50 AM",
+      "date": "4/13/2025",
+      "note": ""
+    },
+    {
+      "id": 1744645620000,
+      "mood": 4,
+      "timestamp": "2025-04-14T15:47:00.000Z",
+      "time": "8:47 AM",
+      "date": "4/14/2025",
+      "note": "Great mood after classes. Social time and progress on work felt rewarding. Slept 6.67h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1744662780001,
+      "mood": 4,
+      "timestamp": "2025-04-14T20:33:00.000Z",
+      "time": "1:33 PM",
+      "date": "4/14/2025",
+      "note": ""
+    },
+    {
+      "id": 1744820520000,
+      "mood": 4,
+      "timestamp": "2025-04-16T16:22:00.000Z",
+      "time": "9:22 AM",
+      "date": "4/16/2025",
+      "note": ""
+    },
+    {
+      "id": 1744906260000,
+      "mood": 3,
+      "timestamp": "2025-04-17T16:11:00.000Z",
+      "time": "9:11 AM",
+      "date": "4/17/2025",
+      "note": ""
+    },
+    {
+      "id": 1744921980001,
+      "mood": 3,
+      "timestamp": "2025-04-17T20:33:00.000Z",
+      "time": "1:33 PM",
+      "date": "4/17/2025",
+      "note": "Energy was mixed but manageable. Took breaks and finished essentials. Slept 7.29h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1744994100000,
+      "mood": 3,
+      "timestamp": "2025-04-18T16:35:00.000Z",
+      "time": "9:35 AM",
+      "date": "4/18/2025",
+      "note": ""
+    },
+    {
+      "id": 1745078220000,
+      "mood": 4,
+      "timestamp": "2025-04-19T15:57:00.000Z",
+      "time": "8:57 AM",
+      "date": "4/19/2025",
+      "note": ""
+    },
+    {
+      "id": 1745165280000,
+      "mood": 4,
+      "timestamp": "2025-04-20T16:08:00.000Z",
+      "time": "9:08 AM",
+      "date": "4/20/2025",
+      "note": "Great mood after classes. Social time and progress on work felt rewarding. Slept 7.41h with quality 4/5. Weekend schedule helped recovery."
+    },
+    {
+      "id": 1745254140000,
+      "mood": 4,
+      "timestamp": "2025-04-21T16:49:00.000Z",
+      "time": "9:49 AM",
+      "date": "4/21/2025",
+      "note": ""
+    },
+    {
+      "id": 1745271900001,
+      "mood": 3,
+      "timestamp": "2025-04-21T21:45:00.000Z",
+      "time": "2:45 PM",
+      "date": "4/21/2025",
+      "note": "Average day with a few ups and downs. Managed workload okay. Slept 6.96h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1745338560000,
+      "mood": 4,
+      "timestamp": "2025-04-22T16:16:00.000Z",
+      "time": "9:16 AM",
+      "date": "4/22/2025",
+      "note": "Solid day overall. Productive block in the afternoon helped a lot. Slept 7.98h with quality 4/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1745425320000,
+      "mood": 3,
+      "timestamp": "2025-04-23T16:22:00.000Z",
+      "time": "9:22 AM",
+      "date": "4/23/2025",
+      "note": "Average day with a few ups and downs. Managed workload okay. Slept 7.07h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1745443380001,
+      "mood": 4,
+      "timestamp": "2025-04-23T21:23:00.000Z",
+      "time": "2:23 PM",
+      "date": "4/23/2025",
+      "note": "Solid day overall. Productive block in the afternoon helped a lot. Slept 7.07h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1745511300000,
+      "mood": 3,
+      "timestamp": "2025-04-24T16:15:00.000Z",
+      "time": "9:15 AM",
+      "date": "4/24/2025",
+      "note": ""
+    },
+    {
+      "id": 1745599860000,
+      "mood": 4,
+      "timestamp": "2025-04-25T16:51:00.000Z",
+      "time": "9:51 AM",
+      "date": "4/25/2025",
+      "note": ""
+    },
+    {
+      "id": 1745682300000,
+      "mood": 4,
+      "timestamp": "2025-04-26T15:45:00.000Z",
+      "time": "8:45 AM",
+      "date": "4/26/2025",
+      "note": ""
+    },
+    {
+      "id": 1745772720000,
+      "mood": 4,
+      "timestamp": "2025-04-27T16:52:00.000Z",
+      "time": "9:52 AM",
+      "date": "4/27/2025",
+      "note": ""
+    },
+    {
+      "id": 1745945700000,
+      "mood": 4,
+      "timestamp": "2025-04-29T16:55:00.000Z",
+      "time": "9:55 AM",
+      "date": "4/29/2025",
+      "note": "Great mood after classes. Social time and progress on work felt rewarding. Slept 7.02h with quality 4/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1746030540000,
+      "mood": 5,
+      "timestamp": "2025-04-30T16:29:00.000Z",
+      "time": "9:29 AM",
+      "date": "4/30/2025",
+      "note": ""
+    },
+    {
+      "id": 1746047580001,
+      "mood": 4,
+      "timestamp": "2025-04-30T21:13:00.000Z",
+      "time": "2:13 PM",
+      "date": "4/30/2025",
+      "note": ""
+    },
+    {
+      "id": 1746114660000,
+      "mood": 4,
+      "timestamp": "2025-05-01T15:51:00.000Z",
+      "time": "8:51 AM",
+      "date": "5/1/2025",
+      "note": ""
+    },
+    {
+      "id": 1746135240001,
+      "mood": 3,
+      "timestamp": "2025-05-01T21:34:00.000Z",
+      "time": "2:34 PM",
+      "date": "5/1/2025",
+      "note": "Neutral overall. No major stress, just a normal routine day. Slept 7.04h with quality 4/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1746200940000,
+      "mood": 4,
+      "timestamp": "2025-05-02T15:49:00.000Z",
+      "time": "8:49 AM",
+      "date": "5/2/2025",
+      "note": ""
+    },
+    {
+      "id": 1746374700000,
+      "mood": 4,
+      "timestamp": "2025-05-04T16:05:00.000Z",
+      "time": "9:05 AM",
+      "date": "5/4/2025",
+      "note": ""
+    },
+    {
+      "id": 1746395640001,
+      "mood": 5,
+      "timestamp": "2025-05-04T21:54:00.000Z",
+      "time": "2:54 PM",
+      "date": "5/4/2025",
+      "note": ""
+    },
+    {
+      "id": 1746463260000,
+      "mood": 4,
+      "timestamp": "2025-05-05T16:41:00.000Z",
+      "time": "9:41 AM",
+      "date": "5/5/2025",
+      "note": "Felt focused and balanced. Exercise and routine made a difference. Slept 8.25h with quality 4/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1746548820000,
+      "mood": 4,
+      "timestamp": "2025-05-06T16:27:00.000Z",
+      "time": "9:27 AM",
+      "date": "5/6/2025",
+      "note": ""
+    },
+    {
+      "id": 1746635400000,
+      "mood": 4,
+      "timestamp": "2025-05-07T16:30:00.000Z",
+      "time": "9:30 AM",
+      "date": "5/7/2025",
+      "note": ""
+    },
+    {
+      "id": 1746720720000,
+      "mood": 4,
+      "timestamp": "2025-05-08T16:12:00.000Z",
+      "time": "9:12 AM",
+      "date": "5/8/2025",
+      "note": ""
+    },
+    {
+      "id": 1746809580000,
+      "mood": 5,
+      "timestamp": "2025-05-09T16:53:00.000Z",
+      "time": "9:53 AM",
+      "date": "5/9/2025",
+      "note": ""
+    },
+    {
+      "id": 1746823560001,
+      "mood": 4,
+      "timestamp": "2025-05-09T20:46:00.000Z",
+      "time": "1:46 PM",
+      "date": "5/9/2025",
+      "note": "Great mood after classes. Social time and progress on work felt rewarding. Slept 8.02h with quality 4/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1746891120000,
+      "mood": 5,
+      "timestamp": "2025-05-10T15:32:00.000Z",
+      "time": "8:32 AM",
+      "date": "5/10/2025",
+      "note": ""
+    },
+    {
+      "id": 1746909240001,
+      "mood": 4,
+      "timestamp": "2025-05-10T20:34:00.000Z",
+      "time": "1:34 PM",
+      "date": "5/10/2025",
+      "note": ""
+    },
+    {
+      "id": 1747068480000,
+      "mood": 4,
+      "timestamp": "2025-05-12T16:48:00.000Z",
+      "time": "9:48 AM",
+      "date": "5/12/2025",
+      "note": ""
+    },
+    {
+      "id": 1747240800000,
+      "mood": 4,
+      "timestamp": "2025-05-14T16:40:00.000Z",
+      "time": "9:40 AM",
+      "date": "5/14/2025",
+      "note": "Solid day overall. Productive block in the afternoon helped a lot. Slept 7.10h with quality 4/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1747258800001,
+      "mood": 3,
+      "timestamp": "2025-05-14T21:40:00.000Z",
+      "time": "2:40 PM",
+      "date": "5/14/2025",
+      "note": "Steady day. Mood improved a bit after lunch and a short walk. Slept 7.10h with quality 4/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1747277460002,
+      "mood": 3,
+      "timestamp": "2025-05-15T02:51:00.000Z",
+      "time": "7:51 PM",
+      "date": "5/14/2025",
+      "note": ""
+    },
+    {
+      "id": 1747324560000,
+      "mood": 3,
+      "timestamp": "2025-05-15T15:56:00.000Z",
+      "time": "8:56 AM",
+      "date": "5/15/2025",
+      "note": ""
+    },
+    {
+      "id": 1747345080001,
+      "mood": 3,
+      "timestamp": "2025-05-15T21:38:00.000Z",
+      "time": "2:38 PM",
+      "date": "5/15/2025",
+      "note": ""
+    },
+    {
+      "id": 1747409220000,
+      "mood": 3,
+      "timestamp": "2025-05-16T15:27:00.000Z",
+      "time": "8:27 AM",
+      "date": "5/16/2025",
+      "note": ""
+    },
+    {
+      "id": 1747429380001,
+      "mood": 3,
+      "timestamp": "2025-05-16T21:03:00.000Z",
+      "time": "2:03 PM",
+      "date": "5/16/2025",
+      "note": ""
+    },
+    {
+      "id": 1747498920000,
+      "mood": 5,
+      "timestamp": "2025-05-17T16:22:00.000Z",
+      "time": "9:22 AM",
+      "date": "5/17/2025",
+      "note": ""
+    },
+    {
+      "id": 1747581960000,
+      "mood": 5,
+      "timestamp": "2025-05-18T15:26:00.000Z",
+      "time": "8:26 AM",
+      "date": "5/18/2025",
+      "note": "Good momentum today. Stayed on top of tasks and had steady energy. Slept 8.31h with quality 5/5. Weekend schedule helped recovery."
+    },
+    {
+      "id": 1747672200000,
+      "mood": 3,
+      "timestamp": "2025-05-19T16:30:00.000Z",
+      "time": "9:30 AM",
+      "date": "5/19/2025",
+      "note": "Steady day. Mood improved a bit after lunch and a short walk. Slept 6.90h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1747755840000,
+      "mood": 4,
+      "timestamp": "2025-05-20T15:44:00.000Z",
+      "time": "8:44 AM",
+      "date": "5/20/2025",
+      "note": "Felt focused and balanced. Exercise and routine made a difference. Slept 7.90h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1747776000001,
+      "mood": 4,
+      "timestamp": "2025-05-20T21:20:00.000Z",
+      "time": "2:20 PM",
+      "date": "5/20/2025",
+      "note": "Great mood after classes. Social time and progress on work felt rewarding. Slept 7.90h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1747842240000,
+      "mood": 5,
+      "timestamp": "2025-05-21T15:44:00.000Z",
+      "time": "8:44 AM",
+      "date": "5/21/2025",
+      "note": ""
+    },
+    {
+      "id": 1747929540000,
+      "mood": 4,
+      "timestamp": "2025-05-22T15:59:00.000Z",
+      "time": "8:59 AM",
+      "date": "5/22/2025",
+      "note": ""
+    },
+    {
+      "id": 1748018760000,
+      "mood": 3,
+      "timestamp": "2025-05-23T16:46:00.000Z",
+      "time": "9:46 AM",
+      "date": "5/23/2025",
+      "note": "Steady day. Mood improved a bit after lunch and a short walk. Slept 6.93h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1748033280001,
+      "mood": 2,
+      "timestamp": "2025-05-23T20:48:00.000Z",
+      "time": "1:48 PM",
+      "date": "5/23/2025",
+      "note": "Stress ran higher than usual. Tried to reset with a short break. Slept 6.93h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1748102820000,
+      "mood": 4,
+      "timestamp": "2025-05-24T16:07:00.000Z",
+      "time": "9:07 AM",
+      "date": "5/24/2025",
+      "note": ""
+    },
+    {
+      "id": 1748362080000,
+      "mood": 3,
+      "timestamp": "2025-05-27T16:08:00.000Z",
+      "time": "9:08 AM",
+      "date": "5/27/2025",
+      "note": ""
+    },
+    {
+      "id": 1748450460000,
+      "mood": 4,
+      "timestamp": "2025-05-28T16:41:00.000Z",
+      "time": "9:41 AM",
+      "date": "5/28/2025",
+      "note": ""
+    },
+    {
+      "id": 1748536440000,
+      "mood": 4,
+      "timestamp": "2025-05-29T16:34:00.000Z",
+      "time": "9:34 AM",
+      "date": "5/29/2025",
+      "note": "Solid day overall. Productive block in the afternoon helped a lot. Slept 6.65h with quality 4/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1748553120001,
+      "mood": 4,
+      "timestamp": "2025-05-29T21:12:00.000Z",
+      "time": "2:12 PM",
+      "date": "5/29/2025",
+      "note": ""
+    },
+    {
+      "id": 1748707260000,
+      "mood": 5,
+      "timestamp": "2025-05-31T16:01:00.000Z",
+      "time": "9:01 AM",
+      "date": "5/31/2025",
+      "note": "Felt focused and balanced. Exercise and routine made a difference. Slept 8.01h with quality 4/5. Weekend schedule helped recovery."
+    },
+    {
+      "id": 1748725920001,
+      "mood": 4,
+      "timestamp": "2025-05-31T21:12:00.000Z",
+      "time": "2:12 PM",
+      "date": "5/31/2025",
+      "note": ""
+    },
+    {
+      "id": 1748793060000,
+      "mood": 4,
+      "timestamp": "2025-06-01T15:51:00.000Z",
+      "time": "8:51 AM",
+      "date": "6/1/2025",
+      "note": "Solid day overall. Productive block in the afternoon helped a lot. Slept 8.63h with quality 4/5. Weekend schedule helped recovery."
+    },
+    {
+      "id": 1748809920001,
+      "mood": 4,
+      "timestamp": "2025-06-01T20:32:00.000Z",
+      "time": "1:32 PM",
+      "date": "6/1/2025",
+      "note": ""
+    },
+    {
+      "id": 1748968980000,
+      "mood": 4,
+      "timestamp": "2025-06-03T16:43:00.000Z",
+      "time": "9:43 AM",
+      "date": "6/3/2025",
+      "note": "Great mood after classes. Social time and progress on work felt rewarding. Slept 7.43h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1749054000000,
+      "mood": 4,
+      "timestamp": "2025-06-04T16:20:00.000Z",
+      "time": "9:20 AM",
+      "date": "6/4/2025",
+      "note": "Solid day overall. Productive block in the afternoon helped a lot. Slept 8.14h with quality 4/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1749073860001,
+      "mood": 5,
+      "timestamp": "2025-06-04T21:51:00.000Z",
+      "time": "2:51 PM",
+      "date": "6/4/2025",
+      "note": ""
+    },
+    {
+      "id": 1749140760000,
+      "mood": 5,
+      "timestamp": "2025-06-05T16:26:00.000Z",
+      "time": "9:26 AM",
+      "date": "6/5/2025",
+      "note": ""
+    },
+    {
+      "id": 1749225420000,
+      "mood": 4,
+      "timestamp": "2025-06-06T15:57:00.000Z",
+      "time": "8:57 AM",
+      "date": "6/6/2025",
+      "note": ""
+    },
+    {
+      "id": 1749311460000,
+      "mood": 5,
+      "timestamp": "2025-06-07T15:51:00.000Z",
+      "time": "8:51 AM",
+      "date": "6/7/2025",
+      "note": ""
+    },
+    {
+      "id": 1749401400000,
+      "mood": 5,
+      "timestamp": "2025-06-08T16:50:00.000Z",
+      "time": "9:50 AM",
+      "date": "6/8/2025",
+      "note": ""
+    },
+    {
+      "id": 1749418500001,
+      "mood": 4,
+      "timestamp": "2025-06-08T21:35:00.000Z",
+      "time": "2:35 PM",
+      "date": "6/8/2025",
+      "note": ""
+    },
+    {
+      "id": 1749484440000,
+      "mood": 4,
+      "timestamp": "2025-06-09T15:54:00.000Z",
+      "time": "8:54 AM",
+      "date": "6/9/2025",
+      "note": ""
+    },
+    {
+      "id": 1749504540001,
+      "mood": 4,
+      "timestamp": "2025-06-09T21:29:00.000Z",
+      "time": "2:29 PM",
+      "date": "6/9/2025",
+      "note": ""
+    },
+    {
+      "id": 1749569160000,
+      "mood": 3,
+      "timestamp": "2025-06-10T15:26:00.000Z",
+      "time": "8:26 AM",
+      "date": "6/10/2025",
+      "note": "Steady day. Mood improved a bit after lunch and a short walk. Slept 7.49h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1749655920000,
+      "mood": 3,
+      "timestamp": "2025-06-11T15:32:00.000Z",
+      "time": "8:32 AM",
+      "date": "6/11/2025",
+      "note": ""
+    },
+    {
+      "id": 1749745200000,
+      "mood": 5,
+      "timestamp": "2025-06-12T16:20:00.000Z",
+      "time": "9:20 AM",
+      "date": "6/12/2025",
+      "note": ""
+    },
+    {
+      "id": 1749832440000,
+      "mood": 4,
+      "timestamp": "2025-06-13T16:34:00.000Z",
+      "time": "9:34 AM",
+      "date": "6/13/2025",
+      "note": ""
+    },
+    {
+      "id": 1749849960001,
+      "mood": 3,
+      "timestamp": "2025-06-13T21:26:00.000Z",
+      "time": "2:26 PM",
+      "date": "6/13/2025",
+      "note": ""
+    },
+    {
+      "id": 1749915000000,
+      "mood": 4,
+      "timestamp": "2025-06-14T15:30:00.000Z",
+      "time": "8:30 AM",
+      "date": "6/14/2025",
+      "note": ""
+    },
+    {
+      "id": 1750091160000,
+      "mood": 4,
+      "timestamp": "2025-06-16T16:26:00.000Z",
+      "time": "9:26 AM",
+      "date": "6/16/2025",
+      "note": "Solid day overall. Productive block in the afternoon helped a lot. Slept 7.83h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1750174980000,
+      "mood": 4,
+      "timestamp": "2025-06-17T15:43:00.000Z",
+      "time": "8:43 AM",
+      "date": "6/17/2025",
+      "note": "Felt focused and balanced. Exercise and routine made a difference. Slept 7.69h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1750195440001,
+      "mood": 3,
+      "timestamp": "2025-06-17T21:24:00.000Z",
+      "time": "2:24 PM",
+      "date": "6/17/2025",
+      "note": "Energy was mixed but manageable. Took breaks and finished essentials. Slept 7.69h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1750261980000,
+      "mood": 4,
+      "timestamp": "2025-06-18T15:53:00.000Z",
+      "time": "8:53 AM",
+      "date": "6/18/2025",
+      "note": ""
+    },
+    {
+      "id": 1750436880000,
+      "mood": 2,
+      "timestamp": "2025-06-20T16:28:00.000Z",
+      "time": "9:28 AM",
+      "date": "6/20/2025",
+      "note": ""
+    },
+    {
+      "id": 1750455600001,
+      "mood": 3,
+      "timestamp": "2025-06-20T21:40:00.000Z",
+      "time": "2:40 PM",
+      "date": "6/20/2025",
+      "note": ""
+    },
+    {
+      "id": 1750608060000,
+      "mood": 4,
+      "timestamp": "2025-06-22T16:01:00.000Z",
+      "time": "9:01 AM",
+      "date": "6/22/2025",
+      "note": "Felt focused and balanced. Exercise and routine made a difference. Slept 7.53h with quality 4/5. Weekend schedule helped recovery."
+    },
+    {
+      "id": 1750783260000,
+      "mood": 4,
+      "timestamp": "2025-06-24T16:41:00.000Z",
+      "time": "9:41 AM",
+      "date": "6/24/2025",
+      "note": ""
+    },
+    {
+      "id": 1750870140000,
+      "mood": 4,
+      "timestamp": "2025-06-25T16:49:00.000Z",
+      "time": "9:49 AM",
+      "date": "6/25/2025",
+      "note": ""
+    },
+    {
+      "id": 1750883820001,
+      "mood": 4,
+      "timestamp": "2025-06-25T20:37:00.000Z",
+      "time": "1:37 PM",
+      "date": "6/25/2025",
+      "note": ""
+    },
+    {
+      "id": 1750953360000,
+      "mood": 4,
+      "timestamp": "2025-06-26T15:56:00.000Z",
+      "time": "8:56 AM",
+      "date": "6/26/2025",
+      "note": "Good momentum today. Stayed on top of tasks and had steady energy. Slept 6.68h with quality 4/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1751040120000,
+      "mood": 3,
+      "timestamp": "2025-06-27T16:02:00.000Z",
+      "time": "9:02 AM",
+      "date": "6/27/2025",
+      "note": ""
+    },
+    {
+      "id": 1751128260000,
+      "mood": 5,
+      "timestamp": "2025-06-28T16:31:00.000Z",
+      "time": "9:31 AM",
+      "date": "6/28/2025",
+      "note": ""
+    },
+    {
+      "id": 1751213160000,
+      "mood": 5,
+      "timestamp": "2025-06-29T16:06:00.000Z",
+      "time": "9:06 AM",
+      "date": "6/29/2025",
+      "note": ""
+    },
+    {
+      "id": 1751233200001,
+      "mood": 4,
+      "timestamp": "2025-06-29T21:40:00.000Z",
+      "time": "2:40 PM",
+      "date": "6/29/2025",
+      "note": "Felt focused and balanced. Exercise and routine made a difference. Slept 7.90h with quality 4/5. Weekend schedule helped recovery."
+    },
+    {
+      "id": 1751388360000,
+      "mood": 4,
+      "timestamp": "2025-07-01T16:46:00.000Z",
+      "time": "9:46 AM",
+      "date": "7/1/2025",
+      "note": "Solid day overall. Productive block in the afternoon helped a lot. Slept 7.92h with quality 4/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1751473020000,
+      "mood": 4,
+      "timestamp": "2025-07-02T16:17:00.000Z",
+      "time": "9:17 AM",
+      "date": "7/2/2025",
+      "note": ""
+    },
+    {
+      "id": 1751556900000,
+      "mood": 4,
+      "timestamp": "2025-07-03T15:35:00.000Z",
+      "time": "8:35 AM",
+      "date": "7/3/2025",
+      "note": "Felt focused and balanced. Exercise and routine made a difference. Slept 7.59h with quality 4/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1751576400001,
+      "mood": 4,
+      "timestamp": "2025-07-03T21:00:00.000Z",
+      "time": "2:00 PM",
+      "date": "7/3/2025",
+      "note": ""
+    },
+    {
+      "id": 1751645820000,
+      "mood": 4,
+      "timestamp": "2025-07-04T16:17:00.000Z",
+      "time": "9:17 AM",
+      "date": "7/4/2025",
+      "note": "Felt focused and balanced. Exercise and routine made a difference. Slept 6.99h with quality 4/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1751733960000,
+      "mood": 4,
+      "timestamp": "2025-07-05T16:46:00.000Z",
+      "time": "9:46 AM",
+      "date": "7/5/2025",
+      "note": ""
+    },
+    {
+      "id": 1751820780000,
+      "mood": 5,
+      "timestamp": "2025-07-06T16:53:00.000Z",
+      "time": "9:53 AM",
+      "date": "7/6/2025",
+      "note": "Good momentum today. Stayed on top of tasks and had steady energy. Slept 8.15h with quality 4/5. Weekend schedule helped recovery."
+    },
+    {
+      "id": 1751989080000,
+      "mood": 3,
+      "timestamp": "2025-07-08T15:38:00.000Z",
+      "time": "8:38 AM",
+      "date": "7/8/2025",
+      "note": "Steady day. Mood improved a bit after lunch and a short walk. Slept 7.11h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1752162600000,
+      "mood": 3,
+      "timestamp": "2025-07-10T15:50:00.000Z",
+      "time": "8:50 AM",
+      "date": "7/10/2025",
+      "note": ""
+    },
+    {
+      "id": 1752249840000,
+      "mood": 4,
+      "timestamp": "2025-07-11T16:04:00.000Z",
+      "time": "9:04 AM",
+      "date": "7/11/2025",
+      "note": ""
+    },
+    {
+      "id": 1752336480000,
+      "mood": 5,
+      "timestamp": "2025-07-12T16:08:00.000Z",
+      "time": "9:08 AM",
+      "date": "7/12/2025",
+      "note": ""
+    },
+    {
+      "id": 1752353220001,
+      "mood": 4,
+      "timestamp": "2025-07-12T20:47:00.000Z",
+      "time": "1:47 PM",
+      "date": "7/12/2025",
+      "note": ""
+    },
+    {
+      "id": 1752423540000,
+      "mood": 4,
+      "timestamp": "2025-07-13T16:19:00.000Z",
+      "time": "9:19 AM",
+      "date": "7/13/2025",
+      "note": "Felt focused and balanced. Exercise and routine made a difference. Slept 7.44h with quality 4/5. Weekend schedule helped recovery."
+    },
+    {
+      "id": 1752443760001,
+      "mood": 4,
+      "timestamp": "2025-07-13T21:56:00.000Z",
+      "time": "2:56 PM",
+      "date": "7/13/2025",
+      "note": ""
+    },
+    {
+      "id": 1752511980000,
+      "mood": 3,
+      "timestamp": "2025-07-14T16:53:00.000Z",
+      "time": "9:53 AM",
+      "date": "7/14/2025",
+      "note": ""
+    },
+    {
+      "id": 1752595560000,
+      "mood": 3,
+      "timestamp": "2025-07-15T16:06:00.000Z",
+      "time": "9:06 AM",
+      "date": "7/15/2025",
+      "note": ""
+    },
+    {
+      "id": 1752612060001,
+      "mood": 4,
+      "timestamp": "2025-07-15T20:41:00.000Z",
+      "time": "1:41 PM",
+      "date": "7/15/2025",
+      "note": ""
+    },
+    {
+      "id": 1752683160000,
+      "mood": 4,
+      "timestamp": "2025-07-16T16:26:00.000Z",
+      "time": "9:26 AM",
+      "date": "7/16/2025",
+      "note": ""
+    },
+    {
+      "id": 1752698040001,
+      "mood": 4,
+      "timestamp": "2025-07-16T20:34:00.000Z",
+      "time": "1:34 PM",
+      "date": "7/16/2025",
+      "note": ""
+    },
+    {
+      "id": 1752725580002,
+      "mood": 3,
+      "timestamp": "2025-07-17T04:13:00.000Z",
+      "time": "9:13 PM",
+      "date": "7/16/2025",
+      "note": "Average day with a few ups and downs. Managed workload okay. Slept 7.60h with quality 4/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1752766740000,
+      "mood": 4,
+      "timestamp": "2025-07-17T15:39:00.000Z",
+      "time": "8:39 AM",
+      "date": "7/17/2025",
+      "note": ""
+    },
+    {
+      "id": 1752854820000,
+      "mood": 3,
+      "timestamp": "2025-07-18T16:07:00.000Z",
+      "time": "9:07 AM",
+      "date": "7/18/2025",
+      "note": ""
+    },
+    {
+      "id": 1752943440000,
+      "mood": 4,
+      "timestamp": "2025-07-19T16:44:00.000Z",
+      "time": "9:44 AM",
+      "date": "7/19/2025",
+      "note": "Good momentum today. Stayed on top of tasks and had steady energy. Slept 8.31h with quality 5/5. Weekend schedule helped recovery."
+    },
+    {
+      "id": 1753027980000,
+      "mood": 5,
+      "timestamp": "2025-07-20T16:13:00.000Z",
+      "time": "9:13 AM",
+      "date": "7/20/2025",
+      "note": ""
+    },
+    {
+      "id": 1753112460000,
+      "mood": 3,
+      "timestamp": "2025-07-21T15:41:00.000Z",
+      "time": "8:41 AM",
+      "date": "7/21/2025",
+      "note": ""
+    },
+    {
+      "id": 1753203060000,
+      "mood": 4,
+      "timestamp": "2025-07-22T16:51:00.000Z",
+      "time": "9:51 AM",
+      "date": "7/22/2025",
+      "note": ""
+    },
+    {
+      "id": 1753375560000,
+      "mood": 4,
+      "timestamp": "2025-07-24T16:46:00.000Z",
+      "time": "9:46 AM",
+      "date": "7/24/2025",
+      "note": ""
+    },
+    {
+      "id": 1753393980001,
+      "mood": 3,
+      "timestamp": "2025-07-24T21:53:00.000Z",
+      "time": "2:53 PM",
+      "date": "7/24/2025",
+      "note": ""
+    },
+    {
+      "id": 1753414500002,
+      "mood": 4,
+      "timestamp": "2025-07-25T03:35:00.000Z",
+      "time": "8:35 PM",
+      "date": "7/24/2025",
+      "note": "Great mood after classes. Social time and progress on work felt rewarding. Slept 7.77h with quality 4/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1753457340000,
+      "mood": 4,
+      "timestamp": "2025-07-25T15:29:00.000Z",
+      "time": "8:29 AM",
+      "date": "7/25/2025",
+      "note": ""
+    },
+    {
+      "id": 1753479840001,
+      "mood": 4,
+      "timestamp": "2025-07-25T21:44:00.000Z",
+      "time": "2:44 PM",
+      "date": "7/25/2025",
+      "note": ""
+    },
+    {
+      "id": 1753543680000,
+      "mood": 5,
+      "timestamp": "2025-07-26T15:28:00.000Z",
+      "time": "8:28 AM",
+      "date": "7/26/2025",
+      "note": "Solid day overall. Productive block in the afternoon helped a lot. Slept 7.92h with quality 4/5. Weekend schedule helped recovery."
+    },
+    {
+      "id": 1753717440000,
+      "mood": 4,
+      "timestamp": "2025-07-28T15:44:00.000Z",
+      "time": "8:44 AM",
+      "date": "7/28/2025",
+      "note": ""
+    },
+    {
+      "id": 1753735500001,
+      "mood": 4,
+      "timestamp": "2025-07-28T20:45:00.000Z",
+      "time": "1:45 PM",
+      "date": "7/28/2025",
+      "note": ""
+    },
+    {
+      "id": 1753890420000,
+      "mood": 5,
+      "timestamp": "2025-07-30T15:47:00.000Z",
+      "time": "8:47 AM",
+      "date": "7/30/2025",
+      "note": ""
+    },
+    {
+      "id": 1754064900000,
+      "mood": 3,
+      "timestamp": "2025-08-01T16:15:00.000Z",
+      "time": "9:15 AM",
+      "date": "8/1/2025",
+      "note": "Energy was mixed but manageable. Took breaks and finished essentials. Slept 7.94h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1754150520000,
+      "mood": 4,
+      "timestamp": "2025-08-02T16:02:00.000Z",
+      "time": "9:02 AM",
+      "date": "8/2/2025",
+      "note": ""
+    },
+    {
+      "id": 1754239200000,
+      "mood": 3,
+      "timestamp": "2025-08-03T16:40:00.000Z",
+      "time": "9:40 AM",
+      "date": "8/3/2025",
+      "note": ""
+    },
+    {
+      "id": 1754255040001,
+      "mood": 4,
+      "timestamp": "2025-08-03T21:04:00.000Z",
+      "time": "2:04 PM",
+      "date": "8/3/2025",
+      "note": ""
+    },
+    {
+      "id": 1754325000000,
+      "mood": 3,
+      "timestamp": "2025-08-04T16:30:00.000Z",
+      "time": "9:30 AM",
+      "date": "8/4/2025",
+      "note": ""
+    },
+    {
+      "id": 1754412360000,
+      "mood": 3,
+      "timestamp": "2025-08-05T16:46:00.000Z",
+      "time": "9:46 AM",
+      "date": "8/5/2025",
+      "note": "Average day with a few ups and downs. Managed workload okay. Slept 6.71h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1754669700000,
+      "mood": 4,
+      "timestamp": "2025-08-08T16:15:00.000Z",
+      "time": "9:15 AM",
+      "date": "8/8/2025",
+      "note": ""
+    },
+    {
+      "id": 1754755860000,
+      "mood": 5,
+      "timestamp": "2025-08-09T16:11:00.000Z",
+      "time": "9:11 AM",
+      "date": "8/9/2025",
+      "note": ""
+    },
+    {
+      "id": 1754844240000,
+      "mood": 5,
+      "timestamp": "2025-08-10T16:44:00.000Z",
+      "time": "9:44 AM",
+      "date": "8/10/2025",
+      "note": ""
+    },
+    {
+      "id": 1754861640001,
+      "mood": 5,
+      "timestamp": "2025-08-10T21:34:00.000Z",
+      "time": "2:34 PM",
+      "date": "8/10/2025",
+      "note": ""
+    },
+    {
+      "id": 1754931120000,
+      "mood": 4,
+      "timestamp": "2025-08-11T16:52:00.000Z",
+      "time": "9:52 AM",
+      "date": "8/11/2025",
+      "note": ""
+    },
+    {
+      "id": 1754944920001,
+      "mood": 4,
+      "timestamp": "2025-08-11T20:42:00.000Z",
+      "time": "1:42 PM",
+      "date": "8/11/2025",
+      "note": ""
+    },
+    {
+      "id": 1755017700000,
+      "mood": 4,
+      "timestamp": "2025-08-12T16:55:00.000Z",
+      "time": "9:55 AM",
+      "date": "8/12/2025",
+      "note": ""
+    },
+    {
+      "id": 1755102900000,
+      "mood": 4,
+      "timestamp": "2025-08-13T16:35:00.000Z",
+      "time": "9:35 AM",
+      "date": "8/13/2025",
+      "note": ""
+    },
+    {
+      "id": 1755187260000,
+      "mood": 3,
+      "timestamp": "2025-08-14T16:01:00.000Z",
+      "time": "9:01 AM",
+      "date": "8/14/2025",
+      "note": "Steady day. Mood improved a bit after lunch and a short walk. Slept 6.90h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1755205200001,
+      "mood": 3,
+      "timestamp": "2025-08-14T21:00:00.000Z",
+      "time": "2:00 PM",
+      "date": "8/14/2025",
+      "note": ""
+    },
+    {
+      "id": 1755276240000,
+      "mood": 3,
+      "timestamp": "2025-08-15T16:44:00.000Z",
+      "time": "9:44 AM",
+      "date": "8/15/2025",
+      "note": "Energy was mixed but manageable. Took breaks and finished essentials. Slept 6.60h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1755362160000,
+      "mood": 4,
+      "timestamp": "2025-08-16T16:36:00.000Z",
+      "time": "9:36 AM",
+      "date": "8/16/2025",
+      "note": ""
+    },
+    {
+      "id": 1755379740001,
+      "mood": 4,
+      "timestamp": "2025-08-16T21:29:00.000Z",
+      "time": "2:29 PM",
+      "date": "8/16/2025",
+      "note": "Solid day overall. Productive block in the afternoon helped a lot. Slept 7.92h with quality 4/5. Weekend schedule helped recovery."
+    },
+    {
+      "id": 1755444540000,
+      "mood": 4,
+      "timestamp": "2025-08-17T15:29:00.000Z",
+      "time": "8:29 AM",
+      "date": "8/17/2025",
+      "note": ""
+    },
+    {
+      "id": 1755531180000,
+      "mood": 3,
+      "timestamp": "2025-08-18T15:33:00.000Z",
+      "time": "8:33 AM",
+      "date": "8/18/2025",
+      "note": ""
+    },
+    {
+      "id": 1755619740000,
+      "mood": 3,
+      "timestamp": "2025-08-19T16:09:00.000Z",
+      "time": "9:09 AM",
+      "date": "8/19/2025",
+      "note": ""
+    },
+    {
+      "id": 1755707760000,
+      "mood": 4,
+      "timestamp": "2025-08-20T16:36:00.000Z",
+      "time": "9:36 AM",
+      "date": "8/20/2025",
+      "note": "Great mood after classes. Social time and progress on work felt rewarding. Slept 6.76h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1755795240000,
+      "mood": 3,
+      "timestamp": "2025-08-21T16:54:00.000Z",
+      "time": "9:54 AM",
+      "date": "8/21/2025",
+      "note": ""
+    },
+    {
+      "id": 1755809100001,
+      "mood": 4,
+      "timestamp": "2025-08-21T20:45:00.000Z",
+      "time": "1:45 PM",
+      "date": "8/21/2025",
+      "note": ""
+    },
+    {
+      "id": 1755877320000,
+      "mood": 4,
+      "timestamp": "2025-08-22T15:42:00.000Z",
+      "time": "8:42 AM",
+      "date": "8/22/2025",
+      "note": ""
+    },
+    {
+      "id": 1755964680000,
+      "mood": 4,
+      "timestamp": "2025-08-23T15:58:00.000Z",
+      "time": "8:58 AM",
+      "date": "8/23/2025",
+      "note": "Felt focused and balanced. Exercise and routine made a difference. Slept 7.67h with quality 4/5. Weekend schedule helped recovery."
+    },
+    {
+      "id": 1756051980000,
+      "mood": 4,
+      "timestamp": "2025-08-24T16:13:00.000Z",
+      "time": "9:13 AM",
+      "date": "8/24/2025",
+      "note": ""
+    },
+    {
+      "id": 1756309740000,
+      "mood": 3,
+      "timestamp": "2025-08-27T15:49:00.000Z",
+      "time": "8:49 AM",
+      "date": "8/27/2025",
+      "note": "Energy was mixed but manageable. Took breaks and finished essentials. Slept 6.90h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1756327680001,
+      "mood": 3,
+      "timestamp": "2025-08-27T20:48:00.000Z",
+      "time": "1:48 PM",
+      "date": "8/27/2025",
+      "note": "Energy was mixed but manageable. Took breaks and finished essentials. Slept 6.90h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1756481280000,
+      "mood": 3,
+      "timestamp": "2025-08-29T15:28:00.000Z",
+      "time": "8:28 AM",
+      "date": "8/29/2025",
+      "note": ""
+    },
+    {
+      "id": 1756500480001,
+      "mood": 4,
+      "timestamp": "2025-08-29T20:48:00.000Z",
+      "time": "1:48 PM",
+      "date": "8/29/2025",
+      "note": "Solid day overall. Productive block in the afternoon helped a lot. Slept 7.66h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1756567740000,
+      "mood": 5,
+      "timestamp": "2025-08-30T15:29:00.000Z",
+      "time": "8:29 AM",
+      "date": "8/30/2025",
+      "note": ""
+    },
+    {
+      "id": 1756656180000,
+      "mood": 5,
+      "timestamp": "2025-08-31T16:03:00.000Z",
+      "time": "9:03 AM",
+      "date": "8/31/2025",
+      "note": ""
+    },
+    {
+      "id": 1756676520001,
+      "mood": 4,
+      "timestamp": "2025-08-31T21:42:00.000Z",
+      "time": "2:42 PM",
+      "date": "8/31/2025",
+      "note": ""
+    },
+    {
+      "id": 1756742640000,
+      "mood": 4,
+      "timestamp": "2025-09-01T16:04:00.000Z",
+      "time": "9:04 AM",
+      "date": "9/1/2025",
+      "note": "Felt focused and balanced. Exercise and routine made a difference. Slept 7.66h with quality 4/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1756917060000,
+      "mood": 3,
+      "timestamp": "2025-09-03T16:31:00.000Z",
+      "time": "9:31 AM",
+      "date": "9/3/2025",
+      "note": ""
+    },
+    {
+      "id": 1757003880000,
+      "mood": 4,
+      "timestamp": "2025-09-04T16:38:00.000Z",
+      "time": "9:38 AM",
+      "date": "9/4/2025",
+      "note": ""
+    },
+    {
+      "id": 1757086440000,
+      "mood": 3,
+      "timestamp": "2025-09-05T15:34:00.000Z",
+      "time": "8:34 AM",
+      "date": "9/5/2025",
+      "note": ""
+    },
+    {
+      "id": 1757104800001,
+      "mood": 3,
+      "timestamp": "2025-09-05T20:40:00.000Z",
+      "time": "1:40 PM",
+      "date": "9/5/2025",
+      "note": "Average day with a few ups and downs. Managed workload okay. Slept 7.53h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1757176560000,
+      "mood": 4,
+      "timestamp": "2025-09-06T16:36:00.000Z",
+      "time": "9:36 AM",
+      "date": "9/6/2025",
+      "note": ""
+    },
+    {
+      "id": 1757263620000,
+      "mood": 5,
+      "timestamp": "2025-09-07T16:47:00.000Z",
+      "time": "9:47 AM",
+      "date": "9/7/2025",
+      "note": ""
+    },
+    {
+      "id": 1757278980001,
+      "mood": 4,
+      "timestamp": "2025-09-07T21:03:00.000Z",
+      "time": "2:03 PM",
+      "date": "9/7/2025",
+      "note": ""
+    },
+    {
+      "id": 1757350440000,
+      "mood": 3,
+      "timestamp": "2025-09-08T16:54:00.000Z",
+      "time": "9:54 AM",
+      "date": "9/8/2025",
+      "note": ""
+    },
+    {
+      "id": 1757434200000,
+      "mood": 4,
+      "timestamp": "2025-09-09T16:10:00.000Z",
+      "time": "9:10 AM",
+      "date": "9/9/2025",
+      "note": ""
+    },
+    {
+      "id": 1757454840001,
+      "mood": 3,
+      "timestamp": "2025-09-09T21:54:00.000Z",
+      "time": "2:54 PM",
+      "date": "9/9/2025",
+      "note": ""
+    },
+    {
+      "id": 1757695800000,
+      "mood": 4,
+      "timestamp": "2025-09-12T16:50:00.000Z",
+      "time": "9:50 AM",
+      "date": "9/12/2025",
+      "note": ""
+    },
+    {
+      "id": 1757779080000,
+      "mood": 4,
+      "timestamp": "2025-09-13T15:58:00.000Z",
+      "time": "8:58 AM",
+      "date": "9/13/2025",
+      "note": "Felt focused and balanced. Exercise and routine made a difference. Slept 7.35h with quality 4/5. Weekend schedule helped recovery."
+    },
+    {
+      "id": 1757798820001,
+      "mood": 4,
+      "timestamp": "2025-09-13T21:27:00.000Z",
+      "time": "2:27 PM",
+      "date": "9/13/2025",
+      "note": ""
+    },
+    {
+      "id": 1757866260000,
+      "mood": 4,
+      "timestamp": "2025-09-14T16:11:00.000Z",
+      "time": "9:11 AM",
+      "date": "9/14/2025",
+      "note": "Great mood after classes. Social time and progress on work felt rewarding. Slept 6.95h with quality 4/5. Weekend schedule helped recovery."
+    },
+    {
+      "id": 1757954640000,
+      "mood": 4,
+      "timestamp": "2025-09-15T16:44:00.000Z",
+      "time": "9:44 AM",
+      "date": "9/15/2025",
+      "note": ""
+    },
+    {
+      "id": 1757968800001,
+      "mood": 4,
+      "timestamp": "2025-09-15T20:40:00.000Z",
+      "time": "1:40 PM",
+      "date": "9/15/2025",
+      "note": ""
+    },
+    {
+      "id": 1758041100000,
+      "mood": 4,
+      "timestamp": "2025-09-16T16:45:00.000Z",
+      "time": "9:45 AM",
+      "date": "9/16/2025",
+      "note": ""
+    },
+    {
+      "id": 1758210780000,
+      "mood": 4,
+      "timestamp": "2025-09-18T15:53:00.000Z",
+      "time": "8:53 AM",
+      "date": "9/18/2025",
+      "note": "Good momentum today. Stayed on top of tasks and had steady energy. Slept 7.62h with quality 4/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1758230520001,
+      "mood": 4,
+      "timestamp": "2025-09-18T21:22:00.000Z",
+      "time": "2:22 PM",
+      "date": "9/18/2025",
+      "note": "Solid day overall. Productive block in the afternoon helped a lot. Slept 7.62h with quality 4/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1758298200000,
+      "mood": 4,
+      "timestamp": "2025-09-19T16:10:00.000Z",
+      "time": "9:10 AM",
+      "date": "9/19/2025",
+      "note": ""
+    },
+    {
+      "id": 1758315000001,
+      "mood": 4,
+      "timestamp": "2025-09-19T20:50:00.000Z",
+      "time": "1:50 PM",
+      "date": "9/19/2025",
+      "note": ""
+    },
+    {
+      "id": 1758386400000,
+      "mood": 4,
+      "timestamp": "2025-09-20T16:40:00.000Z",
+      "time": "9:40 AM",
+      "date": "9/20/2025",
+      "note": ""
+    },
+    {
+      "id": 1758401280001,
+      "mood": 4,
+      "timestamp": "2025-09-20T20:48:00.000Z",
+      "time": "1:48 PM",
+      "date": "9/20/2025",
+      "note": "Felt focused and balanced. Exercise and routine made a difference. Slept 8.16h with quality 4/5. Weekend schedule helped recovery."
+    },
+    {
+      "id": 1758557280000,
+      "mood": 4,
+      "timestamp": "2025-09-22T16:08:00.000Z",
+      "time": "9:08 AM",
+      "date": "9/22/2025",
+      "note": ""
+    },
+    {
+      "id": 1758576060001,
+      "mood": 3,
+      "timestamp": "2025-09-22T21:21:00.000Z",
+      "time": "2:21 PM",
+      "date": "9/22/2025",
+      "note": ""
+    },
+    {
+      "id": 1758642960000,
+      "mood": 4,
+      "timestamp": "2025-09-23T15:56:00.000Z",
+      "time": "8:56 AM",
+      "date": "9/23/2025",
+      "note": ""
+    },
+    {
+      "id": 1758662400001,
+      "mood": 2,
+      "timestamp": "2025-09-23T21:20:00.000Z",
+      "time": "2:20 PM",
+      "date": "9/23/2025",
+      "note": ""
+    },
+    {
+      "id": 1758730920000,
+      "mood": 4,
+      "timestamp": "2025-09-24T16:22:00.000Z",
+      "time": "9:22 AM",
+      "date": "9/24/2025",
+      "note": "Solid day overall. Productive block in the afternoon helped a lot. Slept 6.51h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1758816960000,
+      "mood": 4,
+      "timestamp": "2025-09-25T16:16:00.000Z",
+      "time": "9:16 AM",
+      "date": "9/25/2025",
+      "note": ""
+    },
+    {
+      "id": 1758835500001,
+      "mood": 4,
+      "timestamp": "2025-09-25T21:25:00.000Z",
+      "time": "2:25 PM",
+      "date": "9/25/2025",
+      "note": ""
+    },
+    {
+      "id": 1758905700000,
+      "mood": 2,
+      "timestamp": "2025-09-26T16:55:00.000Z",
+      "time": "9:55 AM",
+      "date": "9/26/2025",
+      "note": ""
+    },
+    {
+      "id": 1758923100001,
+      "mood": 4,
+      "timestamp": "2025-09-26T21:45:00.000Z",
+      "time": "2:45 PM",
+      "date": "9/26/2025",
+      "note": ""
+    },
+    {
+      "id": 1758941280002,
+      "mood": 3,
+      "timestamp": "2025-09-27T02:48:00.000Z",
+      "time": "7:48 PM",
+      "date": "9/26/2025",
+      "note": ""
+    },
+    {
+      "id": 1758991380000,
+      "mood": 5,
+      "timestamp": "2025-09-27T16:43:00.000Z",
+      "time": "9:43 AM",
+      "date": "9/27/2025",
+      "note": ""
+    },
+    {
+      "id": 1759008960001,
+      "mood": 4,
+      "timestamp": "2025-09-27T21:36:00.000Z",
+      "time": "2:36 PM",
+      "date": "9/27/2025",
+      "note": ""
+    },
+    {
+      "id": 1759163760000,
+      "mood": 3,
+      "timestamp": "2025-09-29T16:36:00.000Z",
+      "time": "9:36 AM",
+      "date": "9/29/2025",
+      "note": ""
+    },
+    {
+      "id": 1759182060001,
+      "mood": 2,
+      "timestamp": "2025-09-29T21:41:00.000Z",
+      "time": "2:41 PM",
+      "date": "9/29/2025",
+      "note": "Felt off for part of the day, but routine helped stabilize things. Slept 6.76h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1759247700000,
+      "mood": 3,
+      "timestamp": "2025-09-30T15:55:00.000Z",
+      "time": "8:55 AM",
+      "date": "9/30/2025",
+      "note": ""
+    },
+    {
+      "id": 1759419600000,
+      "mood": 4,
+      "timestamp": "2025-10-02T15:40:00.000Z",
+      "time": "8:40 AM",
+      "date": "10/2/2025",
+      "note": "Solid day overall. Productive block in the afternoon helped a lot. Slept 7.41h with quality 4/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1759439940001,
+      "mood": 4,
+      "timestamp": "2025-10-02T21:19:00.000Z",
+      "time": "2:19 PM",
+      "date": "10/2/2025",
+      "note": ""
+    },
+    {
+      "id": 1759509780000,
+      "mood": 4,
+      "timestamp": "2025-10-03T16:43:00.000Z",
+      "time": "9:43 AM",
+      "date": "10/3/2025",
+      "note": "Solid day overall. Productive block in the afternoon helped a lot. Slept 7.21h with quality 4/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1759591500000,
+      "mood": 4,
+      "timestamp": "2025-10-04T15:25:00.000Z",
+      "time": "8:25 AM",
+      "date": "10/4/2025",
+      "note": ""
+    },
+    {
+      "id": 1759612380001,
+      "mood": 4,
+      "timestamp": "2025-10-04T21:13:00.000Z",
+      "time": "2:13 PM",
+      "date": "10/4/2025",
+      "note": "Solid day overall. Productive block in the afternoon helped a lot. Slept 7.52h with quality 4/5. Weekend schedule helped recovery."
+    },
+    {
+      "id": 1759678320000,
+      "mood": 4,
+      "timestamp": "2025-10-05T15:32:00.000Z",
+      "time": "8:32 AM",
+      "date": "10/5/2025",
+      "note": ""
+    },
+    {
+      "id": 1759698180001,
+      "mood": 4,
+      "timestamp": "2025-10-05T21:03:00.000Z",
+      "time": "2:03 PM",
+      "date": "10/5/2025",
+      "note": ""
+    },
+    {
+      "id": 1759853880000,
+      "mood": 4,
+      "timestamp": "2025-10-07T16:18:00.000Z",
+      "time": "9:18 AM",
+      "date": "10/7/2025",
+      "note": ""
+    },
+    {
+      "id": 1759940340000,
+      "mood": 3,
+      "timestamp": "2025-10-08T16:19:00.000Z",
+      "time": "9:19 AM",
+      "date": "10/8/2025",
+      "note": ""
+    },
+    {
+      "id": 1759956420001,
+      "mood": 3,
+      "timestamp": "2025-10-08T20:47:00.000Z",
+      "time": "1:47 PM",
+      "date": "10/8/2025",
+      "note": ""
+    },
+    {
+      "id": 1760026020000,
+      "mood": 4,
+      "timestamp": "2025-10-09T16:07:00.000Z",
+      "time": "9:07 AM",
+      "date": "10/9/2025",
+      "note": "Felt focused and balanced. Exercise and routine made a difference. Slept 7.29h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1760043840001,
+      "mood": 4,
+      "timestamp": "2025-10-09T21:04:00.000Z",
+      "time": "2:04 PM",
+      "date": "10/9/2025",
+      "note": ""
+    },
+    {
+      "id": 1760114400000,
+      "mood": 3,
+      "timestamp": "2025-10-10T16:40:00.000Z",
+      "time": "9:40 AM",
+      "date": "10/10/2025",
+      "note": ""
+    },
+    {
+      "id": 1760128920001,
+      "mood": 3,
+      "timestamp": "2025-10-10T20:42:00.000Z",
+      "time": "1:42 PM",
+      "date": "10/10/2025",
+      "note": ""
+    },
+    {
+      "id": 1760201280000,
+      "mood": 3,
+      "timestamp": "2025-10-11T16:48:00.000Z",
+      "time": "9:48 AM",
+      "date": "10/11/2025",
+      "note": "Neutral overall. No major stress, just a normal routine day. Slept 6.65h with quality 4/5. Weekend schedule helped recovery."
+    },
+    {
+      "id": 1760218740001,
+      "mood": 4,
+      "timestamp": "2025-10-11T21:39:00.000Z",
+      "time": "2:39 PM",
+      "date": "10/11/2025",
+      "note": ""
+    },
+    {
+      "id": 1760287920000,
+      "mood": 4,
+      "timestamp": "2025-10-12T16:52:00.000Z",
+      "time": "9:52 AM",
+      "date": "10/12/2025",
+      "note": ""
+    },
+    {
+      "id": 1760369700000,
+      "mood": 4,
+      "timestamp": "2025-10-13T15:35:00.000Z",
+      "time": "8:35 AM",
+      "date": "10/13/2025",
+      "note": ""
+    },
+    {
+      "id": 1760545140000,
+      "mood": 3,
+      "timestamp": "2025-10-15T16:19:00.000Z",
+      "time": "9:19 AM",
+      "date": "10/15/2025",
+      "note": ""
+    },
+    {
+      "id": 1760562180001,
+      "mood": 4,
+      "timestamp": "2025-10-15T21:03:00.000Z",
+      "time": "2:03 PM",
+      "date": "10/15/2025",
+      "note": ""
+    },
+    {
+      "id": 1760633220000,
+      "mood": 4,
+      "timestamp": "2025-10-16T16:47:00.000Z",
+      "time": "9:47 AM",
+      "date": "10/16/2025",
+      "note": "Good momentum today. Stayed on top of tasks and had steady energy. Slept 6.90h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1760717700000,
+      "mood": 4,
+      "timestamp": "2025-10-17T16:15:00.000Z",
+      "time": "9:15 AM",
+      "date": "10/17/2025",
+      "note": ""
+    },
+    {
+      "id": 1760887860000,
+      "mood": 4,
+      "timestamp": "2025-10-19T15:31:00.000Z",
+      "time": "8:31 AM",
+      "date": "10/19/2025",
+      "note": ""
+    },
+    {
+      "id": 1761148680000,
+      "mood": 4,
+      "timestamp": "2025-10-22T15:58:00.000Z",
+      "time": "8:58 AM",
+      "date": "10/22/2025",
+      "note": ""
+    },
+    {
+      "id": 1761167040001,
+      "mood": 4,
+      "timestamp": "2025-10-22T21:04:00.000Z",
+      "time": "2:04 PM",
+      "date": "10/22/2025",
+      "note": ""
+    },
+    {
+      "id": 1761235080000,
+      "mood": 4,
+      "timestamp": "2025-10-23T15:58:00.000Z",
+      "time": "8:58 AM",
+      "date": "10/23/2025",
+      "note": ""
+    },
+    {
+      "id": 1761324360000,
+      "mood": 3,
+      "timestamp": "2025-10-24T16:46:00.000Z",
+      "time": "9:46 AM",
+      "date": "10/24/2025",
+      "note": ""
+    },
+    {
+      "id": 1761408780000,
+      "mood": 5,
+      "timestamp": "2025-10-25T16:13:00.000Z",
+      "time": "9:13 AM",
+      "date": "10/25/2025",
+      "note": ""
+    },
+    {
+      "id": 1761497280000,
+      "mood": 4,
+      "timestamp": "2025-10-26T16:48:00.000Z",
+      "time": "9:48 AM",
+      "date": "10/26/2025",
+      "note": ""
+    },
+    {
+      "id": 1761511020001,
+      "mood": 3,
+      "timestamp": "2025-10-26T20:37:00.000Z",
+      "time": "1:37 PM",
+      "date": "10/26/2025",
+      "note": ""
+    },
+    {
+      "id": 1761579300000,
+      "mood": 3,
+      "timestamp": "2025-10-27T15:35:00.000Z",
+      "time": "8:35 AM",
+      "date": "10/27/2025",
+      "note": ""
+    },
+    {
+      "id": 1761598020001,
+      "mood": 3,
+      "timestamp": "2025-10-27T20:47:00.000Z",
+      "time": "1:47 PM",
+      "date": "10/27/2025",
+      "note": ""
+    },
+    {
+      "id": 1761670140000,
+      "mood": 3,
+      "timestamp": "2025-10-28T16:49:00.000Z",
+      "time": "9:49 AM",
+      "date": "10/28/2025",
+      "note": ""
+    },
+    {
+      "id": 1761755280000,
+      "mood": 4,
+      "timestamp": "2025-10-29T16:28:00.000Z",
+      "time": "9:28 AM",
+      "date": "10/29/2025",
+      "note": "Great mood after classes. Social time and progress on work felt rewarding. Slept 7.40h with quality 4/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1761770100001,
+      "mood": 4,
+      "timestamp": "2025-10-29T20:35:00.000Z",
+      "time": "1:35 PM",
+      "date": "10/29/2025",
+      "note": ""
+    },
+    {
+      "id": 1761838500000,
+      "mood": 4,
+      "timestamp": "2025-10-30T15:35:00.000Z",
+      "time": "8:35 AM",
+      "date": "10/30/2025",
+      "note": "Felt focused and balanced. Exercise and routine made a difference. Slept 7.33h with quality 4/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1761858720001,
+      "mood": 4,
+      "timestamp": "2025-10-30T21:12:00.000Z",
+      "time": "2:12 PM",
+      "date": "10/30/2025",
+      "note": "Good momentum today. Stayed on top of tasks and had steady energy. Slept 7.33h with quality 4/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1761926880000,
+      "mood": 3,
+      "timestamp": "2025-10-31T16:08:00.000Z",
+      "time": "9:08 AM",
+      "date": "10/31/2025",
+      "note": "Neutral overall. No major stress, just a normal routine day. Slept 6.34h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1762015080000,
+      "mood": 4,
+      "timestamp": "2025-11-01T16:38:00.000Z",
+      "time": "9:38 AM",
+      "date": "11/1/2025",
+      "note": ""
+    },
+    {
+      "id": 1762101360000,
+      "mood": 5,
+      "timestamp": "2025-11-02T16:36:00.000Z",
+      "time": "8:36 AM",
+      "date": "11/2/2025",
+      "note": ""
+    },
+    {
+      "id": 1762274100000,
+      "mood": 4,
+      "timestamp": "2025-11-04T16:35:00.000Z",
+      "time": "8:35 AM",
+      "date": "11/4/2025",
+      "note": ""
+    },
+    {
+      "id": 1762448760000,
+      "mood": 4,
+      "timestamp": "2025-11-06T17:06:00.000Z",
+      "time": "9:06 AM",
+      "date": "11/6/2025",
+      "note": ""
+    },
+    {
+      "id": 1762465800001,
+      "mood": 3,
+      "timestamp": "2025-11-06T21:50:00.000Z",
+      "time": "1:50 PM",
+      "date": "11/6/2025",
+      "note": "Energy was mixed but manageable. Took breaks and finished essentials. Slept 6.35h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1762620000000,
+      "mood": 3,
+      "timestamp": "2025-11-08T16:40:00.000Z",
+      "time": "8:40 AM",
+      "date": "11/8/2025",
+      "note": "Average day with a few ups and downs. Managed workload okay. Slept 6.49h with quality 3/5. Weekend schedule helped recovery."
+    },
+    {
+      "id": 1762706400000,
+      "mood": 4,
+      "timestamp": "2025-11-09T16:40:00.000Z",
+      "time": "8:40 AM",
+      "date": "11/9/2025",
+      "note": ""
+    },
+    {
+      "id": 1762725300001,
+      "mood": 4,
+      "timestamp": "2025-11-09T21:55:00.000Z",
+      "time": "1:55 PM",
+      "date": "11/9/2025",
+      "note": ""
+    },
+    {
+      "id": 1762794720000,
+      "mood": 3,
+      "timestamp": "2025-11-10T17:12:00.000Z",
+      "time": "9:12 AM",
+      "date": "11/10/2025",
+      "note": "Average day with a few ups and downs. Managed workload okay. Slept 6.79h with quality 4/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1762814280001,
+      "mood": 4,
+      "timestamp": "2025-11-10T22:38:00.000Z",
+      "time": "2:38 PM",
+      "date": "11/10/2025",
+      "note": ""
+    },
+    {
+      "id": 1762881780000,
+      "mood": 5,
+      "timestamp": "2025-11-11T17:23:00.000Z",
+      "time": "9:23 AM",
+      "date": "11/11/2025",
+      "note": ""
+    },
+    {
+      "id": 1762896900001,
+      "mood": 4,
+      "timestamp": "2025-11-11T21:35:00.000Z",
+      "time": "1:35 PM",
+      "date": "11/11/2025",
+      "note": "Good momentum today. Stayed on top of tasks and had steady energy. Slept 6.62h with quality 4/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1762969200000,
+      "mood": 4,
+      "timestamp": "2025-11-12T17:40:00.000Z",
+      "time": "9:40 AM",
+      "date": "11/12/2025",
+      "note": ""
+    },
+    {
+      "id": 1763051520000,
+      "mood": 4,
+      "timestamp": "2025-11-13T16:32:00.000Z",
+      "time": "8:32 AM",
+      "date": "11/13/2025",
+      "note": ""
+    },
+    {
+      "id": 1763141880000,
+      "mood": 3,
+      "timestamp": "2025-11-14T17:38:00.000Z",
+      "time": "9:38 AM",
+      "date": "11/14/2025",
+      "note": ""
+    },
+    {
+      "id": 1763157900001,
+      "mood": 3,
+      "timestamp": "2025-11-14T22:05:00.000Z",
+      "time": "2:05 PM",
+      "date": "11/14/2025",
+      "note": ""
+    },
+    {
+      "id": 1763226780000,
+      "mood": 4,
+      "timestamp": "2025-11-15T17:13:00.000Z",
+      "time": "9:13 AM",
+      "date": "11/15/2025",
+      "note": ""
+    },
+    {
+      "id": 1763246160001,
+      "mood": 4,
+      "timestamp": "2025-11-15T22:36:00.000Z",
+      "time": "2:36 PM",
+      "date": "11/15/2025",
+      "note": ""
+    },
+    {
+      "id": 1763312160000,
+      "mood": 4,
+      "timestamp": "2025-11-16T16:56:00.000Z",
+      "time": "8:56 AM",
+      "date": "11/16/2025",
+      "note": ""
+    },
+    {
+      "id": 1763328840001,
+      "mood": 4,
+      "timestamp": "2025-11-16T21:34:00.000Z",
+      "time": "1:34 PM",
+      "date": "11/16/2025",
+      "note": ""
+    },
+    {
+      "id": 1763399580000,
+      "mood": 4,
+      "timestamp": "2025-11-17T17:13:00.000Z",
+      "time": "9:13 AM",
+      "date": "11/17/2025",
+      "note": "Felt focused and balanced. Exercise and routine made a difference. Slept 6.84h with quality 4/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1763416020001,
+      "mood": 4,
+      "timestamp": "2025-11-17T21:47:00.000Z",
+      "time": "1:47 PM",
+      "date": "11/17/2025",
+      "note": ""
+    },
+    {
+      "id": 1763484060000,
+      "mood": 4,
+      "timestamp": "2025-11-18T16:41:00.000Z",
+      "time": "8:41 AM",
+      "date": "11/18/2025",
+      "note": "Good momentum today. Stayed on top of tasks and had steady energy. Slept 7.51h with quality 4/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1763502120001,
+      "mood": 4,
+      "timestamp": "2025-11-18T21:42:00.000Z",
+      "time": "1:42 PM",
+      "date": "11/18/2025",
+      "note": "Good momentum today. Stayed on top of tasks and had steady energy. Slept 7.51h with quality 4/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1763571900000,
+      "mood": 3,
+      "timestamp": "2025-11-19T17:05:00.000Z",
+      "time": "9:05 AM",
+      "date": "11/19/2025",
+      "note": ""
+    },
+    {
+      "id": 1763744940000,
+      "mood": 4,
+      "timestamp": "2025-11-21T17:09:00.000Z",
+      "time": "9:09 AM",
+      "date": "11/21/2025",
+      "note": "Good momentum today. Stayed on top of tasks and had steady energy. Slept 7.38h with quality 4/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1763763600001,
+      "mood": 4,
+      "timestamp": "2025-11-21T22:20:00.000Z",
+      "time": "2:20 PM",
+      "date": "11/21/2025",
+      "note": ""
+    },
+    {
+      "id": 1763918340000,
+      "mood": 4,
+      "timestamp": "2025-11-23T17:19:00.000Z",
+      "time": "9:19 AM",
+      "date": "11/23/2025",
+      "note": ""
+    },
+    {
+      "id": 1764090180000,
+      "mood": 3,
+      "timestamp": "2025-11-25T17:03:00.000Z",
+      "time": "9:03 AM",
+      "date": "11/25/2025",
+      "note": "Energy was mixed but manageable. Took breaks and finished essentials. Slept 6.11h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1764177960000,
+      "mood": 3,
+      "timestamp": "2025-11-26T17:26:00.000Z",
+      "time": "9:26 AM",
+      "date": "11/26/2025",
+      "note": ""
+    },
+    {
+      "id": 1764196740001,
+      "mood": 4,
+      "timestamp": "2025-11-26T22:39:00.000Z",
+      "time": "2:39 PM",
+      "date": "11/26/2025",
+      "note": "Felt focused and balanced. Exercise and routine made a difference. Slept 6.92h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1764263940000,
+      "mood": 4,
+      "timestamp": "2025-11-27T17:19:00.000Z",
+      "time": "9:19 AM",
+      "date": "11/27/2025",
+      "note": "Great mood after classes. Social time and progress on work felt rewarding. Slept 6.77h with quality 4/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1764283440001,
+      "mood": 4,
+      "timestamp": "2025-11-27T22:44:00.000Z",
+      "time": "2:44 PM",
+      "date": "11/27/2025",
+      "note": "Good momentum today. Stayed on top of tasks and had steady energy. Slept 6.77h with quality 4/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1764349980000,
+      "mood": 3,
+      "timestamp": "2025-11-28T17:13:00.000Z",
+      "time": "9:13 AM",
+      "date": "11/28/2025",
+      "note": "Energy was mixed but manageable. Took breaks and finished essentials. Slept 5.98h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1764437760000,
+      "mood": 4,
+      "timestamp": "2025-11-29T17:36:00.000Z",
+      "time": "9:36 AM",
+      "date": "11/29/2025",
+      "note": ""
+    },
+    {
+      "id": 1764455520001,
+      "mood": 4,
+      "timestamp": "2025-11-29T22:32:00.000Z",
+      "time": "2:32 PM",
+      "date": "11/29/2025",
+      "note": ""
+    },
+    {
+      "id": 1764524040000,
+      "mood": 3,
+      "timestamp": "2025-11-30T17:34:00.000Z",
+      "time": "9:34 AM",
+      "date": "11/30/2025",
+      "note": ""
+    },
+    {
+      "id": 1764607740000,
+      "mood": 4,
+      "timestamp": "2025-12-01T16:49:00.000Z",
+      "time": "8:49 AM",
+      "date": "12/1/2025",
+      "note": "Felt focused and balanced. Exercise and routine made a difference. Slept 7.47h with quality 4/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1764692880000,
+      "mood": 4,
+      "timestamp": "2025-12-02T16:28:00.000Z",
+      "time": "8:28 AM",
+      "date": "12/2/2025",
+      "note": ""
+    },
+    {
+      "id": 1764715440001,
+      "mood": 3,
+      "timestamp": "2025-12-02T22:44:00.000Z",
+      "time": "2:44 PM",
+      "date": "12/2/2025",
+      "note": "Average day with a few ups and downs. Managed workload okay. Slept 6.33h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1764779760000,
+      "mood": 5,
+      "timestamp": "2025-12-03T16:36:00.000Z",
+      "time": "8:36 AM",
+      "date": "12/3/2025",
+      "note": "Solid day overall. Productive block in the afternoon helped a lot. Slept 7.16h with quality 4/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1764802620001,
+      "mood": 4,
+      "timestamp": "2025-12-03T22:57:00.000Z",
+      "time": "2:57 PM",
+      "date": "12/3/2025",
+      "note": "Good momentum today. Stayed on top of tasks and had steady energy. Slept 7.16h with quality 4/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1764870600000,
+      "mood": 4,
+      "timestamp": "2025-12-04T17:50:00.000Z",
+      "time": "9:50 AM",
+      "date": "12/4/2025",
+      "note": ""
+    },
+    {
+      "id": 1764953040000,
+      "mood": 4,
+      "timestamp": "2025-12-05T16:44:00.000Z",
+      "time": "8:44 AM",
+      "date": "12/5/2025",
+      "note": ""
+    },
+    {
+      "id": 1764974700001,
+      "mood": 3,
+      "timestamp": "2025-12-05T22:45:00.000Z",
+      "time": "2:45 PM",
+      "date": "12/5/2025",
+      "note": ""
+    },
+    {
+      "id": 1765042560000,
+      "mood": 3,
+      "timestamp": "2025-12-06T17:36:00.000Z",
+      "time": "9:36 AM",
+      "date": "12/6/2025",
+      "note": ""
+    },
+    {
+      "id": 1765127100000,
+      "mood": 4,
+      "timestamp": "2025-12-07T17:05:00.000Z",
+      "time": "9:05 AM",
+      "date": "12/7/2025",
+      "note": "Good momentum today. Stayed on top of tasks and had steady energy. Slept 7.55h with quality 4/5. Weekend schedule helped recovery."
+    },
+    {
+      "id": 1765148100001,
+      "mood": 4,
+      "timestamp": "2025-12-07T22:55:00.000Z",
+      "time": "2:55 PM",
+      "date": "12/7/2025",
+      "note": ""
+    },
+    {
+      "id": 1765215900000,
+      "mood": 4,
+      "timestamp": "2025-12-08T17:45:00.000Z",
+      "time": "9:45 AM",
+      "date": "12/8/2025",
+      "note": ""
+    },
+    {
+      "id": 1765299060000,
+      "mood": 3,
+      "timestamp": "2025-12-09T16:51:00.000Z",
+      "time": "8:51 AM",
+      "date": "12/9/2025",
+      "note": ""
+    },
+    {
+      "id": 1765471860000,
+      "mood": 4,
+      "timestamp": "2025-12-11T16:51:00.000Z",
+      "time": "8:51 AM",
+      "date": "12/11/2025",
+      "note": ""
+    },
+    {
+      "id": 1765490340001,
+      "mood": 3,
+      "timestamp": "2025-12-11T21:59:00.000Z",
+      "time": "1:59 PM",
+      "date": "12/11/2025",
+      "note": ""
+    },
+    {
+      "id": 1765643940000,
+      "mood": 5,
+      "timestamp": "2025-12-13T16:39:00.000Z",
+      "time": "8:39 AM",
+      "date": "12/13/2025",
+      "note": "Great mood after classes. Social time and progress on work felt rewarding. Slept 6.79h with quality 4/5. Weekend schedule helped recovery."
+    },
+    {
+      "id": 1765732980000,
+      "mood": 5,
+      "timestamp": "2025-12-14T17:23:00.000Z",
+      "time": "9:23 AM",
+      "date": "12/14/2025",
+      "note": ""
+    },
+    {
+      "id": 1765820040000,
+      "mood": 4,
+      "timestamp": "2025-12-15T17:34:00.000Z",
+      "time": "9:34 AM",
+      "date": "12/15/2025",
+      "note": "Good momentum today. Stayed on top of tasks and had steady energy. Slept 6.73h with quality 4/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1765907460000,
+      "mood": 3,
+      "timestamp": "2025-12-16T17:51:00.000Z",
+      "time": "9:51 AM",
+      "date": "12/16/2025",
+      "note": ""
+    },
+    {
+      "id": 1765993920000,
+      "mood": 3,
+      "timestamp": "2025-12-17T17:52:00.000Z",
+      "time": "9:52 AM",
+      "date": "12/17/2025",
+      "note": ""
+    },
+    {
+      "id": 1766163660000,
+      "mood": 3,
+      "timestamp": "2025-12-19T17:01:00.000Z",
+      "time": "9:01 AM",
+      "date": "12/19/2025",
+      "note": "Neutral overall. No major stress, just a normal routine day. Slept 6.65h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1766180760001,
+      "mood": 3,
+      "timestamp": "2025-12-19T21:46:00.000Z",
+      "time": "1:46 PM",
+      "date": "12/19/2025",
+      "note": ""
+    },
+    {
+      "id": 1766335200000,
+      "mood": 4,
+      "timestamp": "2025-12-21T16:40:00.000Z",
+      "time": "8:40 AM",
+      "date": "12/21/2025",
+      "note": ""
+    },
+    {
+      "id": 1766356020001,
+      "mood": 4,
+      "timestamp": "2025-12-21T22:27:00.000Z",
+      "time": "2:27 PM",
+      "date": "12/21/2025",
+      "note": ""
+    },
+    {
+      "id": 1766420940000,
+      "mood": 4,
+      "timestamp": "2025-12-22T16:29:00.000Z",
+      "time": "8:29 AM",
+      "date": "12/22/2025",
+      "note": "Good momentum today. Stayed on top of tasks and had steady energy. Slept 6.41h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1766439840001,
+      "mood": 4,
+      "timestamp": "2025-12-22T21:44:00.000Z",
+      "time": "1:44 PM",
+      "date": "12/22/2025",
+      "note": "Solid day overall. Productive block in the afternoon helped a lot. Slept 6.41h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1766598240000,
+      "mood": 4,
+      "timestamp": "2025-12-24T17:44:00.000Z",
+      "time": "9:44 AM",
+      "date": "12/24/2025",
+      "note": ""
+    },
+    {
+      "id": 1766616360001,
+      "mood": 3,
+      "timestamp": "2025-12-24T22:46:00.000Z",
+      "time": "2:46 PM",
+      "date": "12/24/2025",
+      "note": ""
+    },
+    {
+      "id": 1766682960000,
+      "mood": 4,
+      "timestamp": "2025-12-25T17:16:00.000Z",
+      "time": "9:16 AM",
+      "date": "12/25/2025",
+      "note": ""
+    },
+    {
+      "id": 1766768340000,
+      "mood": 3,
+      "timestamp": "2025-12-26T16:59:00.000Z",
+      "time": "8:59 AM",
+      "date": "12/26/2025",
+      "note": ""
+    },
+    {
+      "id": 1766789100001,
+      "mood": 4,
+      "timestamp": "2025-12-26T22:45:00.000Z",
+      "time": "2:45 PM",
+      "date": "12/26/2025",
+      "note": ""
+    },
+    {
+      "id": 1766856660000,
+      "mood": 4,
+      "timestamp": "2025-12-27T17:31:00.000Z",
+      "time": "9:31 AM",
+      "date": "12/27/2025",
+      "note": ""
+    },
+    {
+      "id": 1766943120000,
+      "mood": 4,
+      "timestamp": "2025-12-28T17:32:00.000Z",
+      "time": "9:32 AM",
+      "date": "12/28/2025",
+      "note": ""
+    },
+    {
+      "id": 1767029400000,
+      "mood": 3,
+      "timestamp": "2025-12-29T17:30:00.000Z",
+      "time": "9:30 AM",
+      "date": "12/29/2025",
+      "note": ""
+    },
+    {
+      "id": 1767048300001,
+      "mood": 3,
+      "timestamp": "2025-12-29T22:45:00.000Z",
+      "time": "2:45 PM",
+      "date": "12/29/2025",
+      "note": "Steady day. Mood improved a bit after lunch and a short walk. Slept 6.14h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1767112260000,
+      "mood": 4,
+      "timestamp": "2025-12-30T16:31:00.000Z",
+      "time": "8:31 AM",
+      "date": "12/30/2025",
+      "note": ""
+    },
+    {
+      "id": 1767130320001,
+      "mood": 4,
+      "timestamp": "2025-12-30T21:32:00.000Z",
+      "time": "1:32 PM",
+      "date": "12/30/2025",
+      "note": "Felt focused and balanced. Exercise and routine made a difference. Slept 6.91h with quality 4/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1767202200000,
+      "mood": 4,
+      "timestamp": "2025-12-31T17:30:00.000Z",
+      "time": "9:30 AM",
+      "date": "12/31/2025",
+      "note": ""
+    },
+    {
+      "id": 1767289440000,
+      "mood": 4,
+      "timestamp": "2026-01-01T17:44:00.000Z",
+      "time": "9:44 AM",
+      "date": "1/1/2026",
+      "note": "Felt focused and balanced. Exercise and routine made a difference. Slept 7.61h with quality 4/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1767304920001,
+      "mood": 4,
+      "timestamp": "2026-01-01T22:02:00.000Z",
+      "time": "2:02 PM",
+      "date": "1/1/2026",
+      "note": "Good momentum today. Stayed on top of tasks and had steady energy. Slept 7.61h with quality 4/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1767371340000,
+      "mood": 3,
+      "timestamp": "2026-01-02T16:29:00.000Z",
+      "time": "8:29 AM",
+      "date": "1/2/2026",
+      "note": ""
+    },
+    {
+      "id": 1767392580001,
+      "mood": 3,
+      "timestamp": "2026-01-02T22:23:00.000Z",
+      "time": "2:23 PM",
+      "date": "1/2/2026",
+      "note": ""
+    },
+    {
+      "id": 1767459060000,
+      "mood": 5,
+      "timestamp": "2026-01-03T16:51:00.000Z",
+      "time": "8:51 AM",
+      "date": "1/3/2026",
+      "note": ""
+    },
+    {
+      "id": 1767476100001,
+      "mood": 4,
+      "timestamp": "2026-01-03T21:35:00.000Z",
+      "time": "1:35 PM",
+      "date": "1/3/2026",
+      "note": ""
+    },
+    {
+      "id": 1767498780002,
+      "mood": 4,
+      "timestamp": "2026-01-04T03:53:00.000Z",
+      "time": "7:53 PM",
+      "date": "1/3/2026",
+      "note": "Solid day overall. Productive block in the afternoon helped a lot. Slept 7.11h with quality 4/5. Weekend schedule helped recovery."
+    },
+    {
+      "id": 1767547080000,
+      "mood": 5,
+      "timestamp": "2026-01-04T17:18:00.000Z",
+      "time": "9:18 AM",
+      "date": "1/4/2026",
+      "note": ""
+    },
+    {
+      "id": 1767635040000,
+      "mood": 4,
+      "timestamp": "2026-01-05T17:44:00.000Z",
+      "time": "9:44 AM",
+      "date": "1/5/2026",
+      "note": ""
+    },
+    {
+      "id": 1767721500000,
+      "mood": 3,
+      "timestamp": "2026-01-06T17:45:00.000Z",
+      "time": "9:45 AM",
+      "date": "1/6/2026",
+      "note": "Steady day. Mood improved a bit after lunch and a short walk. Slept 6.12h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1767736500001,
+      "mood": 3,
+      "timestamp": "2026-01-06T21:55:00.000Z",
+      "time": "1:55 PM",
+      "date": "1/6/2026",
+      "note": ""
+    },
+    {
+      "id": 1767757920002,
+      "mood": 3,
+      "timestamp": "2026-01-07T03:52:00.000Z",
+      "time": "7:52 PM",
+      "date": "1/6/2026",
+      "note": ""
+    },
+    {
+      "id": 1767892500000,
+      "mood": 4,
+      "timestamp": "2026-01-08T17:15:00.000Z",
+      "time": "9:15 AM",
+      "date": "1/8/2026",
+      "note": ""
+    },
+    {
+      "id": 1767979860000,
+      "mood": 4,
+      "timestamp": "2026-01-09T17:31:00.000Z",
+      "time": "9:31 AM",
+      "date": "1/9/2026",
+      "note": ""
+    },
+    {
+      "id": 1768066980000,
+      "mood": 4,
+      "timestamp": "2026-01-10T17:43:00.000Z",
+      "time": "9:43 AM",
+      "date": "1/10/2026",
+      "note": ""
+    },
+    {
+      "id": 1768151220000,
+      "mood": 5,
+      "timestamp": "2026-01-11T17:07:00.000Z",
+      "time": "9:07 AM",
+      "date": "1/11/2026",
+      "note": "Felt focused and balanced. Exercise and routine made a difference. Slept 7.59h with quality 4/5. Weekend schedule helped recovery."
+    },
+    {
+      "id": 1768168140001,
+      "mood": 5,
+      "timestamp": "2026-01-11T21:49:00.000Z",
+      "time": "1:49 PM",
+      "date": "1/11/2026",
+      "note": ""
+    },
+    {
+      "id": 1768237920000,
+      "mood": 4,
+      "timestamp": "2026-01-12T17:12:00.000Z",
+      "time": "9:12 AM",
+      "date": "1/12/2026",
+      "note": "Good momentum today. Stayed on top of tasks and had steady energy. Slept 7.69h with quality 4/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1768255980001,
+      "mood": 4,
+      "timestamp": "2026-01-12T22:13:00.000Z",
+      "time": "2:13 PM",
+      "date": "1/12/2026",
+      "note": "Felt focused and balanced. Exercise and routine made a difference. Slept 7.69h with quality 4/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1768325880000,
+      "mood": 4,
+      "timestamp": "2026-01-13T17:38:00.000Z",
+      "time": "9:38 AM",
+      "date": "1/13/2026",
+      "note": ""
+    },
+    {
+      "id": 1768410660000,
+      "mood": 4,
+      "timestamp": "2026-01-14T17:11:00.000Z",
+      "time": "9:11 AM",
+      "date": "1/14/2026",
+      "note": ""
+    },
+    {
+      "id": 1768494360000,
+      "mood": 4,
+      "timestamp": "2026-01-15T16:26:00.000Z",
+      "time": "8:26 AM",
+      "date": "1/15/2026",
+      "note": ""
+    },
+    {
+      "id": 1768584060000,
+      "mood": 4,
+      "timestamp": "2026-01-16T17:21:00.000Z",
+      "time": "9:21 AM",
+      "date": "1/16/2026",
+      "note": ""
+    },
+    {
+      "id": 1768671900000,
+      "mood": 4,
+      "timestamp": "2026-01-17T17:45:00.000Z",
+      "time": "9:45 AM",
+      "date": "1/17/2026",
+      "note": ""
+    },
+    {
+      "id": 1768685820001,
+      "mood": 4,
+      "timestamp": "2026-01-17T21:37:00.000Z",
+      "time": "1:37 PM",
+      "date": "1/17/2026",
+      "note": ""
+    },
+    {
+      "id": 1768757040000,
+      "mood": 4,
+      "timestamp": "2026-01-18T17:24:00.000Z",
+      "time": "9:24 AM",
+      "date": "1/18/2026",
+      "note": ""
+    },
+    {
+      "id": 1768776480001,
+      "mood": 4,
+      "timestamp": "2026-01-18T22:48:00.000Z",
+      "time": "2:48 PM",
+      "date": "1/18/2026",
+      "note": "Solid day overall. Productive block in the afternoon helped a lot. Slept 7.78h with quality 4/5. Weekend schedule helped recovery."
+    },
+    {
+      "id": 1768840320000,
+      "mood": 3,
+      "timestamp": "2026-01-19T16:32:00.000Z",
+      "time": "8:32 AM",
+      "date": "1/19/2026",
+      "note": ""
+    },
+    {
+      "id": 1768926840000,
+      "mood": 4,
+      "timestamp": "2026-01-20T16:34:00.000Z",
+      "time": "8:34 AM",
+      "date": "1/20/2026",
+      "note": ""
+    },
+    {
+      "id": 1769017740000,
+      "mood": 4,
+      "timestamp": "2026-01-21T17:49:00.000Z",
+      "time": "9:49 AM",
+      "date": "1/21/2026",
+      "note": ""
+    },
+    {
+      "id": 1769099220000,
+      "mood": 3,
+      "timestamp": "2026-01-22T16:27:00.000Z",
+      "time": "8:27 AM",
+      "date": "1/22/2026",
+      "note": "Steady day. Mood improved a bit after lunch and a short walk. Slept 6.04h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1769273940000,
+      "mood": 5,
+      "timestamp": "2026-01-24T16:59:00.000Z",
+      "time": "8:59 AM",
+      "date": "1/24/2026",
+      "note": ""
+    },
+    {
+      "id": 1769359980000,
+      "mood": 4,
+      "timestamp": "2026-01-25T16:53:00.000Z",
+      "time": "8:53 AM",
+      "date": "1/25/2026",
+      "note": ""
+    },
+    {
+      "id": 1769379660001,
+      "mood": 4,
+      "timestamp": "2026-01-25T22:21:00.000Z",
+      "time": "2:21 PM",
+      "date": "1/25/2026",
+      "note": ""
+    },
+    {
+      "id": 1769448300000,
+      "mood": 4,
+      "timestamp": "2026-01-26T17:25:00.000Z",
+      "time": "9:25 AM",
+      "date": "1/26/2026",
+      "note": ""
+    },
+    {
+      "id": 1769468280001,
+      "mood": 4,
+      "timestamp": "2026-01-26T22:58:00.000Z",
+      "time": "2:58 PM",
+      "date": "1/26/2026",
+      "note": ""
+    },
+    {
+      "id": 1769535600000,
+      "mood": 3,
+      "timestamp": "2026-01-27T17:40:00.000Z",
+      "time": "9:40 AM",
+      "date": "1/27/2026",
+      "note": ""
+    },
+    {
+      "id": 1769618040000,
+      "mood": 4,
+      "timestamp": "2026-01-28T16:34:00.000Z",
+      "time": "8:34 AM",
+      "date": "1/28/2026",
+      "note": ""
+    },
+    {
+      "id": 1769707560000,
+      "mood": 3,
+      "timestamp": "2026-01-29T17:26:00.000Z",
+      "time": "9:26 AM",
+      "date": "1/29/2026",
+      "note": ""
+    },
+    {
+      "id": 1769795400000,
+      "mood": 3,
+      "timestamp": "2026-01-30T17:50:00.000Z",
+      "time": "9:50 AM",
+      "date": "1/30/2026",
+      "note": ""
+    },
+    {
+      "id": 1769877780000,
+      "mood": 4,
+      "timestamp": "2026-01-31T16:43:00.000Z",
+      "time": "8:43 AM",
+      "date": "1/31/2026",
+      "note": "Felt focused and balanced. Exercise and routine made a difference. Slept 7.49h with quality 4/5. Weekend schedule helped recovery."
+    },
+    {
+      "id": 1769895240001,
+      "mood": 4,
+      "timestamp": "2026-01-31T21:34:00.000Z",
+      "time": "1:34 PM",
+      "date": "1/31/2026",
+      "note": ""
+    },
+    {
+      "id": 1770051840000,
+      "mood": 4,
+      "timestamp": "2026-02-02T17:04:00.000Z",
+      "time": "9:04 AM",
+      "date": "2/2/2026",
+      "note": ""
+    },
+    {
+      "id": 1770136020000,
+      "mood": 2,
+      "timestamp": "2026-02-03T16:27:00.000Z",
+      "time": "8:27 AM",
+      "date": "2/3/2026",
+      "note": ""
+    },
+    {
+      "id": 1770224940000,
+      "mood": 4,
+      "timestamp": "2026-02-04T17:09:00.000Z",
+      "time": "9:09 AM",
+      "date": "2/4/2026",
+      "note": "Great mood after classes. Social time and progress on work felt rewarding. Slept 7.32h with quality 4/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1770242340001,
+      "mood": 4,
+      "timestamp": "2026-02-04T21:59:00.000Z",
+      "time": "1:59 PM",
+      "date": "2/4/2026",
+      "note": ""
+    },
+    {
+      "id": 1770310920000,
+      "mood": 3,
+      "timestamp": "2026-02-05T17:02:00.000Z",
+      "time": "9:02 AM",
+      "date": "2/5/2026",
+      "note": ""
+    },
+    {
+      "id": 1770399900000,
+      "mood": 3,
+      "timestamp": "2026-02-06T17:45:00.000Z",
+      "time": "9:45 AM",
+      "date": "2/6/2026",
+      "note": ""
+    },
+    {
+      "id": 1770416280001,
+      "mood": 3,
+      "timestamp": "2026-02-06T22:18:00.000Z",
+      "time": "2:18 PM",
+      "date": "2/6/2026",
+      "note": ""
+    },
+    {
+      "id": 1770483900000,
+      "mood": 4,
+      "timestamp": "2026-02-07T17:05:00.000Z",
+      "time": "9:05 AM",
+      "date": "2/7/2026",
+      "note": ""
+    },
+    {
+      "id": 1770567900000,
+      "mood": 5,
+      "timestamp": "2026-02-08T16:25:00.000Z",
+      "time": "8:25 AM",
+      "date": "2/8/2026",
+      "note": ""
+    },
+    {
+      "id": 1770591600001,
+      "mood": 5,
+      "timestamp": "2026-02-08T23:00:00.000Z",
+      "time": "3:00 PM",
+      "date": "2/8/2026",
+      "note": ""
+    },
+    {
+      "id": 1770657600000,
+      "mood": 4,
+      "timestamp": "2026-02-09T17:20:00.000Z",
+      "time": "9:20 AM",
+      "date": "2/9/2026",
+      "note": ""
+    },
+    {
+      "id": 1770674640001,
+      "mood": 4,
+      "timestamp": "2026-02-09T22:04:00.000Z",
+      "time": "2:04 PM",
+      "date": "2/9/2026",
+      "note": ""
+    },
+    {
+      "id": 1770742740000,
+      "mood": 3,
+      "timestamp": "2026-02-10T16:59:00.000Z",
+      "time": "8:59 AM",
+      "date": "2/10/2026",
+      "note": ""
+    },
+    {
+      "id": 1770759960001,
+      "mood": 3,
+      "timestamp": "2026-02-10T21:46:00.000Z",
+      "time": "1:46 PM",
+      "date": "2/10/2026",
+      "note": ""
+    },
+    {
+      "id": 1770784020002,
+      "mood": 3,
+      "timestamp": "2026-02-11T04:27:00.000Z",
+      "time": "8:27 PM",
+      "date": "2/10/2026",
+      "note": ""
+    },
+    {
+      "id": 1770830640000,
+      "mood": 3,
+      "timestamp": "2026-02-11T17:24:00.000Z",
+      "time": "9:24 AM",
+      "date": "2/11/2026",
+      "note": ""
+    },
+    {
+      "id": 1770845460001,
+      "mood": 3,
+      "timestamp": "2026-02-11T21:31:00.000Z",
+      "time": "1:31 PM",
+      "date": "2/11/2026",
+      "note": ""
+    },
+    {
+      "id": 1770916320000,
+      "mood": 3,
+      "timestamp": "2026-02-12T17:12:00.000Z",
+      "time": "9:12 AM",
+      "date": "2/12/2026",
+      "note": "Neutral overall. No major stress, just a normal routine day. Slept 7.65h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1771001160000,
+      "mood": 4,
+      "timestamp": "2026-02-13T16:46:00.000Z",
+      "time": "8:46 AM",
+      "date": "2/13/2026",
+      "note": "Good momentum today. Stayed on top of tasks and had steady energy. Slept 7.61h with quality 4/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1771089900000,
+      "mood": 3,
+      "timestamp": "2026-02-14T17:25:00.000Z",
+      "time": "9:25 AM",
+      "date": "2/14/2026",
+      "note": ""
+    },
+    {
+      "id": 1771174860000,
+      "mood": 5,
+      "timestamp": "2026-02-15T17:01:00.000Z",
+      "time": "9:01 AM",
+      "date": "2/15/2026",
+      "note": ""
+    },
+    {
+      "id": 1771263360000,
+      "mood": 4,
+      "timestamp": "2026-02-16T17:36:00.000Z",
+      "time": "9:36 AM",
+      "date": "2/16/2026",
+      "note": "Great mood after classes. Social time and progress on work felt rewarding. Slept 6.48h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1771349880000,
+      "mood": 2,
+      "timestamp": "2026-02-17T17:38:00.000Z",
+      "time": "9:38 AM",
+      "date": "2/17/2026",
+      "note": ""
+    },
+    {
+      "id": 1771364040001,
+      "mood": 4,
+      "timestamp": "2026-02-17T21:34:00.000Z",
+      "time": "1:34 PM",
+      "date": "2/17/2026",
+      "note": ""
+    },
+    {
+      "id": 1771435620000,
+      "mood": 3,
+      "timestamp": "2026-02-18T17:27:00.000Z",
+      "time": "9:27 AM",
+      "date": "2/18/2026",
+      "note": ""
+    },
+    {
+      "id": 1771453140001,
+      "mood": 3,
+      "timestamp": "2026-02-18T22:19:00.000Z",
+      "time": "2:19 PM",
+      "date": "2/18/2026",
+      "note": "Steady day. Mood improved a bit after lunch and a short walk. Slept 6.64h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1771521840000,
+      "mood": 4,
+      "timestamp": "2026-02-19T17:24:00.000Z",
+      "time": "9:24 AM",
+      "date": "2/19/2026",
+      "note": ""
+    },
+    {
+      "id": 1771539900001,
+      "mood": 3,
+      "timestamp": "2026-02-19T22:25:00.000Z",
+      "time": "2:25 PM",
+      "date": "2/19/2026",
+      "note": "Average day with a few ups and downs. Managed workload okay. Slept 6.33h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1771607520000,
+      "mood": 4,
+      "timestamp": "2026-02-20T17:12:00.000Z",
+      "time": "9:12 AM",
+      "date": "2/20/2026",
+      "note": "Great mood after classes. Social time and progress on work felt rewarding. Slept 6.20h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1771625880001,
+      "mood": 3,
+      "timestamp": "2026-02-20T22:18:00.000Z",
+      "time": "2:18 PM",
+      "date": "2/20/2026",
+      "note": "Neutral overall. No major stress, just a normal routine day. Slept 6.20h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1771650360002,
+      "mood": 3,
+      "timestamp": "2026-02-21T05:06:00.000Z",
+      "time": "9:06 PM",
+      "date": "2/20/2026",
+      "note": ""
+    },
+    {
+      "id": 1771692360000,
+      "mood": 4,
+      "timestamp": "2026-02-21T16:46:00.000Z",
+      "time": "8:46 AM",
+      "date": "2/21/2026",
+      "note": ""
+    },
+    {
+      "id": 1771711980001,
+      "mood": 3,
+      "timestamp": "2026-02-21T22:13:00.000Z",
+      "time": "2:13 PM",
+      "date": "2/21/2026",
+      "note": ""
+    },
+    {
+      "id": 1771781880000,
+      "mood": 4,
+      "timestamp": "2026-02-22T17:38:00.000Z",
+      "time": "9:38 AM",
+      "date": "2/22/2026",
+      "note": ""
+    },
+    {
+      "id": 1771864980000,
+      "mood": 4,
+      "timestamp": "2026-02-23T16:43:00.000Z",
+      "time": "8:43 AM",
+      "date": "2/23/2026",
+      "note": ""
+    },
+    {
+      "id": 1771953120000,
+      "mood": 4,
+      "timestamp": "2026-02-24T17:12:00.000Z",
+      "time": "9:12 AM",
+      "date": "2/24/2026",
+      "note": ""
+    },
+    {
+      "id": 1771973760001,
+      "mood": 4,
+      "timestamp": "2026-02-24T22:56:00.000Z",
+      "time": "2:56 PM",
+      "date": "2/24/2026",
+      "note": ""
+    },
+    {
+      "id": 1772039100000,
+      "mood": 4,
+      "timestamp": "2026-02-25T17:05:00.000Z",
+      "time": "9:05 AM",
+      "date": "2/25/2026",
+      "note": "Solid day overall. Productive block in the afternoon helped a lot. Slept 6.73h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1772058840001,
+      "mood": 4,
+      "timestamp": "2026-02-25T22:34:00.000Z",
+      "time": "2:34 PM",
+      "date": "2/25/2026",
+      "note": ""
+    },
+    {
+      "id": 1772123340000,
+      "mood": 3,
+      "timestamp": "2026-02-26T16:29:00.000Z",
+      "time": "8:29 AM",
+      "date": "2/26/2026",
+      "note": ""
+    },
+    {
+      "id": 1772214780000,
+      "mood": 3,
+      "timestamp": "2026-02-27T17:53:00.000Z",
+      "time": "9:53 AM",
+      "date": "2/27/2026",
+      "note": ""
+    },
+    {
+      "id": 1772295960000,
+      "mood": 4,
+      "timestamp": "2026-02-28T16:26:00.000Z",
+      "time": "8:26 AM",
+      "date": "2/28/2026",
+      "note": ""
+    },
+    {
+      "id": 1772318640001,
+      "mood": 5,
+      "timestamp": "2026-02-28T22:44:00.000Z",
+      "time": "2:44 PM",
+      "date": "2/28/2026",
+      "note": "Good momentum today. Stayed on top of tasks and had steady energy. Slept 7.78h with quality 4/5. Weekend schedule helped recovery."
+    },
+    {
+      "id": 1772386260000,
+      "mood": 4,
+      "timestamp": "2026-03-01T17:31:00.000Z",
+      "time": "9:31 AM",
+      "date": "3/1/2026",
+      "note": ""
+    },
+    {
+      "id": 1772404260001,
+      "mood": 4,
+      "timestamp": "2026-03-01T22:31:00.000Z",
+      "time": "2:31 PM",
+      "date": "3/1/2026",
+      "note": ""
+    },
+    {
+      "id": 1772469780000,
+      "mood": 4,
+      "timestamp": "2026-03-02T16:43:00.000Z",
+      "time": "8:43 AM",
+      "date": "3/2/2026",
+      "note": "Felt focused and balanced. Exercise and routine made a difference. Slept 7.44h with quality 4/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1772487300001,
+      "mood": 4,
+      "timestamp": "2026-03-02T21:35:00.000Z",
+      "time": "1:35 PM",
+      "date": "3/2/2026",
+      "note": ""
+    },
+    {
+      "id": 1772510160002,
+      "mood": 4,
+      "timestamp": "2026-03-03T03:56:00.000Z",
+      "time": "7:56 PM",
+      "date": "3/2/2026",
+      "note": "Good momentum today. Stayed on top of tasks and had steady energy. Slept 7.44h with quality 4/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1772556600000,
+      "mood": 4,
+      "timestamp": "2026-03-03T16:50:00.000Z",
+      "time": "8:50 AM",
+      "date": "3/3/2026",
+      "note": ""
+    },
+    {
+      "id": 1772644560000,
+      "mood": 4,
+      "timestamp": "2026-03-04T17:16:00.000Z",
+      "time": "9:16 AM",
+      "date": "3/4/2026",
+      "note": ""
+    },
+    {
+      "id": 1772729100000,
+      "mood": 3,
+      "timestamp": "2026-03-05T16:45:00.000Z",
+      "time": "8:45 AM",
+      "date": "3/5/2026",
+      "note": ""
+    },
+    {
+      "id": 1772814360000,
+      "mood": 4,
+      "timestamp": "2026-03-06T16:26:00.000Z",
+      "time": "8:26 AM",
+      "date": "3/6/2026",
+      "note": "Great mood after classes. Social time and progress on work felt rewarding. Slept 7.27h with quality 3/5. Class/work schedule felt heavier than usual."
+    },
+    {
+      "id": 1772899920000,
+      "mood": 5,
+      "timestamp": "2026-03-07T16:12:00.000Z",
+      "time": "8:12 AM",
+      "date": "3/7/2026",
+      "note": "Solid day overall. Productive block in the afternoon helped a lot. Slept 8.14h with quality 4/5. Weekend schedule helped recovery."
+    },
+    {
+      "id": 1772917980001,
+      "mood": 4,
+      "timestamp": "2026-03-07T21:13:00.000Z",
+      "time": "1:13 PM",
+      "date": "3/7/2026",
+      "note": "Felt focused and balanced. Exercise and routine made a difference. Slept 8.14h with quality 4/5. Weekend schedule helped recovery."
+    },
+    {
+      "id": 1772944560002,
+      "mood": 4,
+      "timestamp": "2026-03-08T04:36:00.000Z",
+      "time": "8:36 PM",
+      "date": "3/7/2026",
+      "note": "Solid day overall. Productive block in the afternoon helped a lot. Slept 8.14h with quality 4/5. Weekend schedule helped recovery."
+    }
+  ],
+  "sleepEntries": [
+    {
+      "id": 1741447080000,
+      "timestamp": "2025-03-08T15:18:00.000Z",
+      "date": "3/7/2025",
+      "bedtime": "23:49",
+      "wakeTime": "07:18",
+      "hoursSlept": 7.48,
+      "quality": 3
+    },
+    {
+      "id": 1741525020000,
+      "timestamp": "2025-03-09T12:57:00.000Z",
+      "date": "3/8/2025",
+      "bedtime": "23:08",
+      "wakeTime": "05:57",
+      "hoursSlept": 6.82,
+      "quality": 3
+    },
+    {
+      "id": 1741617000000,
+      "timestamp": "2025-03-10T14:30:00.000Z",
+      "date": "3/9/2025",
+      "bedtime": "23:31",
+      "wakeTime": "07:30",
+      "hoursSlept": 7.99,
+      "quality": 4
+    },
+    {
+      "id": 1741701060000,
+      "timestamp": "2025-03-11T13:51:00.000Z",
+      "date": "3/10/2025",
+      "bedtime": "23:47",
+      "wakeTime": "06:51",
+      "hoursSlept": 7.06,
+      "quality": 4
+    },
+    {
+      "id": 1741784580000,
+      "timestamp": "2025-03-12T13:03:00.000Z",
+      "date": "3/11/2025",
+      "bedtime": "23:11",
+      "wakeTime": "06:03",
+      "hoursSlept": 6.87,
+      "quality": 3
+    },
+    {
+      "id": 1741875480000,
+      "timestamp": "2025-03-13T14:18:00.000Z",
+      "date": "3/12/2025",
+      "bedtime": "23:38",
+      "wakeTime": "07:18",
+      "hoursSlept": 7.66,
+      "quality": 3
+    },
+    {
+      "id": 1741959600000,
+      "timestamp": "2025-03-14T13:40:00.000Z",
+      "date": "3/13/2025",
+      "bedtime": "23:47",
+      "wakeTime": "06:40",
+      "hoursSlept": 6.88,
+      "quality": 3
+    },
+    {
+      "id": 1742045220000,
+      "timestamp": "2025-03-15T13:27:00.000Z",
+      "date": "3/14/2025",
+      "bedtime": "23:10",
+      "wakeTime": "06:27",
+      "hoursSlept": 7.29,
+      "quality": 4
+    },
+    {
+      "id": 1742132880000,
+      "timestamp": "2025-03-16T13:48:00.000Z",
+      "date": "3/15/2025",
+      "bedtime": "23:04",
+      "wakeTime": "06:48",
+      "hoursSlept": 7.74,
+      "quality": 4
+    },
+    {
+      "id": 1742215620000,
+      "timestamp": "2025-03-17T12:47:00.000Z",
+      "date": "3/16/2025",
+      "bedtime": "22:24",
+      "wakeTime": "05:47",
+      "hoursSlept": 7.39,
+      "quality": 4
+    },
+    {
+      "id": 1742305560000,
+      "timestamp": "2025-03-18T13:46:00.000Z",
+      "date": "3/17/2025",
+      "bedtime": "23:27",
+      "wakeTime": "06:46",
+      "hoursSlept": 7.32,
+      "quality": 3
+    },
+    {
+      "id": 1742388900000,
+      "timestamp": "2025-03-19T12:55:00.000Z",
+      "date": "3/18/2025",
+      "bedtime": "23:12",
+      "wakeTime": "05:55",
+      "hoursSlept": 6.72,
+      "quality": 4
+    },
+    {
+      "id": 1742475840000,
+      "timestamp": "2025-03-20T13:04:00.000Z",
+      "date": "3/19/2025",
+      "bedtime": "23:27",
+      "wakeTime": "06:04",
+      "hoursSlept": 6.61,
+      "quality": 3
+    },
+    {
+      "id": 1742558460000,
+      "timestamp": "2025-03-21T12:01:00.000Z",
+      "date": "3/20/2025",
+      "bedtime": "22:39",
+      "wakeTime": "05:01",
+      "hoursSlept": 6.36,
+      "quality": 3
+    },
+    {
+      "id": 1742648520000,
+      "timestamp": "2025-03-22T13:02:00.000Z",
+      "date": "3/21/2025",
+      "bedtime": "23:14",
+      "wakeTime": "06:02",
+      "hoursSlept": 6.8,
+      "quality": 4
+    },
+    {
+      "id": 1742741100000,
+      "timestamp": "2025-03-23T14:45:00.000Z",
+      "date": "3/22/2025",
+      "bedtime": "00:08",
+      "wakeTime": "07:45",
+      "hoursSlept": 7.61,
+      "quality": 4
+    },
+    {
+      "id": 1742825760000,
+      "timestamp": "2025-03-24T14:16:00.000Z",
+      "date": "3/23/2025",
+      "bedtime": "22:51",
+      "wakeTime": "07:16",
+      "hoursSlept": 8.42,
+      "quality": 5
+    },
+    {
+      "id": 1742907600000,
+      "timestamp": "2025-03-25T13:00:00.000Z",
+      "date": "3/24/2025",
+      "bedtime": "23:01",
+      "wakeTime": "06:00",
+      "hoursSlept": 6.99,
+      "quality": 4
+    },
+    {
+      "id": 1742994120000,
+      "timestamp": "2025-03-26T13:02:00.000Z",
+      "date": "3/25/2025",
+      "bedtime": "23:10",
+      "wakeTime": "06:02",
+      "hoursSlept": 6.87,
+      "quality": 4
+    },
+    {
+      "id": 1743082140000,
+      "timestamp": "2025-03-27T13:29:00.000Z",
+      "date": "3/26/2025",
+      "bedtime": "23:09",
+      "wakeTime": "06:29",
+      "hoursSlept": 7.33,
+      "quality": 3
+    },
+    {
+      "id": 1743168540000,
+      "timestamp": "2025-03-28T13:29:00.000Z",
+      "date": "3/27/2025",
+      "bedtime": "22:47",
+      "wakeTime": "06:29",
+      "hoursSlept": 7.7,
+      "quality": 4
+    },
+    {
+      "id": 1743255900000,
+      "timestamp": "2025-03-29T13:45:00.000Z",
+      "date": "3/28/2025",
+      "bedtime": "23:01",
+      "wakeTime": "06:45",
+      "hoursSlept": 7.73,
+      "quality": 4
+    },
+    {
+      "id": 1743342780000,
+      "timestamp": "2025-03-30T13:53:00.000Z",
+      "date": "3/29/2025",
+      "bedtime": "23:03",
+      "wakeTime": "06:53",
+      "hoursSlept": 7.83,
+      "quality": 4
+    },
+    {
+      "id": 1743429060000,
+      "timestamp": "2025-03-31T13:51:00.000Z",
+      "date": "3/30/2025",
+      "bedtime": "23:11",
+      "wakeTime": "06:51",
+      "hoursSlept": 7.66,
+      "quality": 4
+    },
+    {
+      "id": 1743511200000,
+      "timestamp": "2025-04-01T12:40:00.000Z",
+      "date": "3/31/2025",
+      "bedtime": "22:45",
+      "wakeTime": "05:40",
+      "hoursSlept": 6.91,
+      "quality": 3
+    },
+    {
+      "id": 1743597600000,
+      "timestamp": "2025-04-02T12:40:00.000Z",
+      "date": "4/1/2025",
+      "bedtime": "23:17",
+      "wakeTime": "05:40",
+      "hoursSlept": 6.39,
+      "quality": 3
+    },
+    {
+      "id": 1743686040000,
+      "timestamp": "2025-04-03T13:14:00.000Z",
+      "date": "4/2/2025",
+      "bedtime": "23:17",
+      "wakeTime": "06:14",
+      "hoursSlept": 6.95,
+      "quality": 4
+    },
+    {
+      "id": 1743772320000,
+      "timestamp": "2025-04-04T13:12:00.000Z",
+      "date": "4/3/2025",
+      "bedtime": "23:11",
+      "wakeTime": "06:12",
+      "hoursSlept": 7.01,
+      "quality": 3
+    },
+    {
+      "id": 1743863340000,
+      "timestamp": "2025-04-05T14:29:00.000Z",
+      "date": "4/4/2025",
+      "bedtime": "23:38",
+      "wakeTime": "07:29",
+      "hoursSlept": 7.85,
+      "quality": 3
+    },
+    {
+      "id": 1743953040000,
+      "timestamp": "2025-04-06T15:24:00.000Z",
+      "date": "4/5/2025",
+      "bedtime": "00:04",
+      "wakeTime": "08:24",
+      "hoursSlept": 8.34,
+      "quality": 5
+    },
+    {
+      "id": 1744035900000,
+      "timestamp": "2025-04-07T14:25:00.000Z",
+      "date": "4/6/2025",
+      "bedtime": "22:49",
+      "wakeTime": "07:25",
+      "hoursSlept": 8.6,
+      "quality": 5
+    },
+    {
+      "id": 1744120800000,
+      "timestamp": "2025-04-08T14:00:00.000Z",
+      "date": "4/7/2025",
+      "bedtime": "23:08",
+      "wakeTime": "07:00",
+      "hoursSlept": 7.86,
+      "quality": 4
+    },
+    {
+      "id": 1744205220000,
+      "timestamp": "2025-04-09T13:27:00.000Z",
+      "date": "4/8/2025",
+      "bedtime": "23:17",
+      "wakeTime": "06:27",
+      "hoursSlept": 7.17,
+      "quality": 4
+    },
+    {
+      "id": 1744290180000,
+      "timestamp": "2025-04-10T13:03:00.000Z",
+      "date": "4/9/2025",
+      "bedtime": "22:55",
+      "wakeTime": "06:03",
+      "hoursSlept": 7.14,
+      "quality": 3
+    },
+    {
+      "id": 1744377300000,
+      "timestamp": "2025-04-11T13:15:00.000Z",
+      "date": "4/10/2025",
+      "bedtime": "23:04",
+      "wakeTime": "06:15",
+      "hoursSlept": 7.19,
+      "quality": 4
+    },
+    {
+      "id": 1744465500000,
+      "timestamp": "2025-04-12T13:45:00.000Z",
+      "date": "4/11/2025",
+      "bedtime": "00:00",
+      "wakeTime": "06:45",
+      "hoursSlept": 6.75,
+      "quality": 3
+    },
+    {
+      "id": 1744553460000,
+      "timestamp": "2025-04-13T14:11:00.000Z",
+      "date": "4/12/2025",
+      "bedtime": "23:01",
+      "wakeTime": "07:11",
+      "hoursSlept": 8.16,
+      "quality": 4
+    },
+    {
+      "id": 1744636020000,
+      "timestamp": "2025-04-14T13:07:00.000Z",
+      "date": "4/13/2025",
+      "bedtime": "22:41",
+      "wakeTime": "06:07",
+      "hoursSlept": 7.44,
+      "quality": 4
+    },
+    {
+      "id": 1744720680000,
+      "timestamp": "2025-04-15T12:38:00.000Z",
+      "date": "4/14/2025",
+      "bedtime": "22:58",
+      "wakeTime": "05:38",
+      "hoursSlept": 6.67,
+      "quality": 3
+    },
+    {
+      "id": 1744809360000,
+      "timestamp": "2025-04-16T13:16:00.000Z",
+      "date": "4/15/2025",
+      "bedtime": "23:05",
+      "wakeTime": "06:16",
+      "hoursSlept": 7.18,
+      "quality": 4
+    },
+    {
+      "id": 1744898700000,
+      "timestamp": "2025-04-17T14:05:00.000Z",
+      "date": "4/16/2025",
+      "bedtime": "23:27",
+      "wakeTime": "07:05",
+      "hoursSlept": 7.64,
+      "quality": 4
+    },
+    {
+      "id": 1744984140000,
+      "timestamp": "2025-04-18T13:49:00.000Z",
+      "date": "4/17/2025",
+      "bedtime": "23:32",
+      "wakeTime": "06:49",
+      "hoursSlept": 7.29,
+      "quality": 3
+    },
+    {
+      "id": 1745069160000,
+      "timestamp": "2025-04-19T13:26:00.000Z",
+      "date": "4/18/2025",
+      "bedtime": "23:35",
+      "wakeTime": "06:26",
+      "hoursSlept": 6.85,
+      "quality": 3
+    },
+    {
+      "id": 1745158680000,
+      "timestamp": "2025-04-20T14:18:00.000Z",
+      "date": "4/19/2025",
+      "bedtime": "23:49",
+      "wakeTime": "07:18",
+      "hoursSlept": 7.49,
+      "quality": 4
+    },
+    {
+      "id": 1745241900000,
+      "timestamp": "2025-04-21T13:25:00.000Z",
+      "date": "4/20/2025",
+      "bedtime": "23:00",
+      "wakeTime": "06:25",
+      "hoursSlept": 7.41,
+      "quality": 4
+    },
+    {
+      "id": 1745326860000,
+      "timestamp": "2025-04-22T13:01:00.000Z",
+      "date": "4/21/2025",
+      "bedtime": "23:03",
+      "wakeTime": "06:01",
+      "hoursSlept": 6.96,
+      "quality": 3
+    },
+    {
+      "id": 1745417460000,
+      "timestamp": "2025-04-23T14:11:00.000Z",
+      "date": "4/22/2025",
+      "bedtime": "23:12",
+      "wakeTime": "07:11",
+      "hoursSlept": 7.98,
+      "quality": 4
+    },
+    {
+      "id": 1745503020000,
+      "timestamp": "2025-04-24T13:57:00.000Z",
+      "date": "4/23/2025",
+      "bedtime": "23:53",
+      "wakeTime": "06:57",
+      "hoursSlept": 7.07,
+      "quality": 3
+    },
+    {
+      "id": 1745590500000,
+      "timestamp": "2025-04-25T14:15:00.000Z",
+      "date": "4/24/2025",
+      "bedtime": "23:38",
+      "wakeTime": "07:15",
+      "hoursSlept": 7.61,
+      "quality": 4
+    },
+    {
+      "id": 1745675220000,
+      "timestamp": "2025-04-26T13:47:00.000Z",
+      "date": "4/25/2025",
+      "bedtime": "23:48",
+      "wakeTime": "06:47",
+      "hoursSlept": 6.99,
+      "quality": 4
+    },
+    {
+      "id": 1745766720000,
+      "timestamp": "2025-04-27T15:12:00.000Z",
+      "date": "4/26/2025",
+      "bedtime": "00:01",
+      "wakeTime": "08:12",
+      "hoursSlept": 8.19,
+      "quality": 4
+    },
+    {
+      "id": 1745845980000,
+      "timestamp": "2025-04-28T13:13:00.000Z",
+      "date": "4/27/2025",
+      "bedtime": "23:19",
+      "wakeTime": "06:13",
+      "hoursSlept": 6.9,
+      "quality": 4
+    },
+    {
+      "id": 1745930880000,
+      "timestamp": "2025-04-29T12:48:00.000Z",
+      "date": "4/28/2025",
+      "bedtime": "22:54",
+      "wakeTime": "05:48",
+      "hoursSlept": 6.9,
+      "quality": 3
+    },
+    {
+      "id": 1746017040000,
+      "timestamp": "2025-04-30T12:44:00.000Z",
+      "date": "4/29/2025",
+      "bedtime": "22:43",
+      "wakeTime": "05:44",
+      "hoursSlept": 7.02,
+      "quality": 4
+    },
+    {
+      "id": 1746107400000,
+      "timestamp": "2025-05-01T13:50:00.000Z",
+      "date": "4/30/2025",
+      "bedtime": "22:56",
+      "wakeTime": "06:50",
+      "hoursSlept": 7.9,
+      "quality": 4
+    },
+    {
+      "id": 1746189600000,
+      "timestamp": "2025-05-02T12:40:00.000Z",
+      "date": "5/1/2025",
+      "bedtime": "22:38",
+      "wakeTime": "05:40",
+      "hoursSlept": 7.04,
+      "quality": 4
+    },
+    {
+      "id": 1746282840000,
+      "timestamp": "2025-05-03T14:34:00.000Z",
+      "date": "5/2/2025",
+      "bedtime": "23:48",
+      "wakeTime": "07:34",
+      "hoursSlept": 7.77,
+      "quality": 3
+    },
+    {
+      "id": 1746369180000,
+      "timestamp": "2025-05-04T14:33:00.000Z",
+      "date": "5/3/2025",
+      "bedtime": "00:01",
+      "wakeTime": "07:33",
+      "hoursSlept": 7.53,
+      "quality": 4
+    },
+    {
+      "id": 1746458220000,
+      "timestamp": "2025-05-05T15:17:00.000Z",
+      "date": "5/4/2025",
+      "bedtime": "23:43",
+      "wakeTime": "08:17",
+      "hoursSlept": 8.57,
+      "quality": 5
+    },
+    {
+      "id": 1746544560000,
+      "timestamp": "2025-05-06T15:16:00.000Z",
+      "date": "5/5/2025",
+      "bedtime": "00:01",
+      "wakeTime": "08:16",
+      "hoursSlept": 8.25,
+      "quality": 4
+    },
+    {
+      "id": 1746624060000,
+      "timestamp": "2025-05-07T13:21:00.000Z",
+      "date": "5/6/2025",
+      "bedtime": "23:35",
+      "wakeTime": "06:21",
+      "hoursSlept": 6.77,
+      "quality": 3
+    },
+    {
+      "id": 1746715200000,
+      "timestamp": "2025-05-08T14:40:00.000Z",
+      "date": "5/7/2025",
+      "bedtime": "23:45",
+      "wakeTime": "07:40",
+      "hoursSlept": 7.91,
+      "quality": 4
+    },
+    {
+      "id": 1746800100000,
+      "timestamp": "2025-05-09T14:15:00.000Z",
+      "date": "5/8/2025",
+      "bedtime": "23:50",
+      "wakeTime": "07:15",
+      "hoursSlept": 7.42,
+      "quality": 4
+    },
+    {
+      "id": 1746887160000,
+      "timestamp": "2025-05-10T14:26:00.000Z",
+      "date": "5/9/2025",
+      "bedtime": "23:25",
+      "wakeTime": "07:26",
+      "hoursSlept": 8.02,
+      "quality": 4
+    },
+    {
+      "id": 1746970200000,
+      "timestamp": "2025-05-11T13:30:00.000Z",
+      "date": "5/10/2025",
+      "bedtime": "23:33",
+      "wakeTime": "06:30",
+      "hoursSlept": 6.95,
+      "quality": 4
+    },
+    {
+      "id": 1747058040000,
+      "timestamp": "2025-05-12T13:54:00.000Z",
+      "date": "5/11/2025",
+      "bedtime": "23:25",
+      "wakeTime": "06:54",
+      "hoursSlept": 7.49,
+      "quality": 4
+    },
+    {
+      "id": 1747144560000,
+      "timestamp": "2025-05-13T13:56:00.000Z",
+      "date": "5/12/2025",
+      "bedtime": "23:21",
+      "wakeTime": "06:56",
+      "hoursSlept": 7.59,
+      "quality": 4
+    },
+    {
+      "id": 1747225980000,
+      "timestamp": "2025-05-14T12:33:00.000Z",
+      "date": "5/13/2025",
+      "bedtime": "22:29",
+      "wakeTime": "05:33",
+      "hoursSlept": 7.06,
+      "quality": 3
+    },
+    {
+      "id": 1747312380000,
+      "timestamp": "2025-05-15T12:33:00.000Z",
+      "date": "5/14/2025",
+      "bedtime": "22:27",
+      "wakeTime": "05:33",
+      "hoursSlept": 7.1,
+      "quality": 4
+    },
+    {
+      "id": 1747399680000,
+      "timestamp": "2025-05-16T12:48:00.000Z",
+      "date": "5/15/2025",
+      "bedtime": "23:10",
+      "wakeTime": "05:48",
+      "hoursSlept": 6.63,
+      "quality": 3
+    },
+    {
+      "id": 1747487700000,
+      "timestamp": "2025-05-17T13:15:00.000Z",
+      "date": "5/16/2025",
+      "bedtime": "23:35",
+      "wakeTime": "06:15",
+      "hoursSlept": 6.66,
+      "quality": 3
+    },
+    {
+      "id": 1747576920000,
+      "timestamp": "2025-05-18T14:02:00.000Z",
+      "date": "5/17/2025",
+      "bedtime": "23:10",
+      "wakeTime": "07:02",
+      "hoursSlept": 7.86,
+      "quality": 4
+    },
+    {
+      "id": 1747664280000,
+      "timestamp": "2025-05-19T14:18:00.000Z",
+      "date": "5/18/2025",
+      "bedtime": "22:59",
+      "wakeTime": "07:18",
+      "hoursSlept": 8.31,
+      "quality": 5
+    },
+    {
+      "id": 1747748160000,
+      "timestamp": "2025-05-20T13:36:00.000Z",
+      "date": "5/19/2025",
+      "bedtime": "23:42",
+      "wakeTime": "06:36",
+      "hoursSlept": 6.9,
+      "quality": 3
+    },
+    {
+      "id": 1747838580000,
+      "timestamp": "2025-05-21T14:43:00.000Z",
+      "date": "5/20/2025",
+      "bedtime": "23:49",
+      "wakeTime": "07:43",
+      "hoursSlept": 7.9,
+      "quality": 3
+    },
+    {
+      "id": 1747924500000,
+      "timestamp": "2025-05-22T14:35:00.000Z",
+      "date": "5/21/2025",
+      "bedtime": "23:59",
+      "wakeTime": "07:35",
+      "hoursSlept": 7.6,
+      "quality": 4
+    },
+    {
+      "id": 1748010720000,
+      "timestamp": "2025-05-23T14:32:00.000Z",
+      "date": "5/22/2025",
+      "bedtime": "23:45",
+      "wakeTime": "07:32",
+      "hoursSlept": 7.79,
+      "quality": 4
+    },
+    {
+      "id": 1748091480000,
+      "timestamp": "2025-05-24T12:58:00.000Z",
+      "date": "5/23/2025",
+      "bedtime": "23:02",
+      "wakeTime": "05:58",
+      "hoursSlept": 6.93,
+      "quality": 3
+    },
+    {
+      "id": 1748184960000,
+      "timestamp": "2025-05-25T14:56:00.000Z",
+      "date": "5/24/2025",
+      "bedtime": "23:46",
+      "wakeTime": "07:56",
+      "hoursSlept": 8.17,
+      "quality": 4
+    },
+    {
+      "id": 1748267520000,
+      "timestamp": "2025-05-26T13:52:00.000Z",
+      "date": "5/25/2025",
+      "bedtime": "22:23",
+      "wakeTime": "06:52",
+      "hoursSlept": 8.48,
+      "quality": 5
+    },
+    {
+      "id": 1748347740000,
+      "timestamp": "2025-05-27T12:09:00.000Z",
+      "date": "5/26/2025",
+      "bedtime": "22:32",
+      "wakeTime": "05:09",
+      "hoursSlept": 6.62,
+      "quality": 3
+    },
+    {
+      "id": 1748434620000,
+      "timestamp": "2025-05-28T12:17:00.000Z",
+      "date": "5/27/2025",
+      "bedtime": "22:37",
+      "wakeTime": "05:17",
+      "hoursSlept": 6.67,
+      "quality": 3
+    },
+    {
+      "id": 1748525700000,
+      "timestamp": "2025-05-29T13:35:00.000Z",
+      "date": "5/28/2025",
+      "bedtime": "23:29",
+      "wakeTime": "06:35",
+      "hoursSlept": 7.1,
+      "quality": 3
+    },
+    {
+      "id": 1748608800000,
+      "timestamp": "2025-05-30T12:40:00.000Z",
+      "date": "5/29/2025",
+      "bedtime": "23:01",
+      "wakeTime": "05:40",
+      "hoursSlept": 6.65,
+      "quality": 4
+    },
+    {
+      "id": 1748698860000,
+      "timestamp": "2025-05-31T13:41:00.000Z",
+      "date": "5/30/2025",
+      "bedtime": "23:45",
+      "wakeTime": "06:41",
+      "hoursSlept": 6.94,
+      "quality": 4
+    },
+    {
+      "id": 1748790900000,
+      "timestamp": "2025-06-01T15:15:00.000Z",
+      "date": "5/31/2025",
+      "bedtime": "00:14",
+      "wakeTime": "08:15",
+      "hoursSlept": 8.01,
+      "quality": 4
+    },
+    {
+      "id": 1748878560000,
+      "timestamp": "2025-06-02T15:36:00.000Z",
+      "date": "6/1/2025",
+      "bedtime": "23:58",
+      "wakeTime": "08:36",
+      "hoursSlept": 8.63,
+      "quality": 4
+    },
+    {
+      "id": 1748957880000,
+      "timestamp": "2025-06-03T13:38:00.000Z",
+      "date": "6/2/2025",
+      "bedtime": "22:55",
+      "wakeTime": "06:38",
+      "hoursSlept": 7.72,
+      "quality": 4
+    },
+    {
+      "id": 1749046020000,
+      "timestamp": "2025-06-04T14:07:00.000Z",
+      "date": "6/3/2025",
+      "bedtime": "23:41",
+      "wakeTime": "07:07",
+      "hoursSlept": 7.43,
+      "quality": 3
+    },
+    {
+      "id": 1749134160000,
+      "timestamp": "2025-06-05T14:36:00.000Z",
+      "date": "6/4/2025",
+      "bedtime": "23:28",
+      "wakeTime": "07:36",
+      "hoursSlept": 8.14,
+      "quality": 4
+    },
+    {
+      "id": 1749214440000,
+      "timestamp": "2025-06-06T12:54:00.000Z",
+      "date": "6/5/2025",
+      "bedtime": "22:52",
+      "wakeTime": "05:54",
+      "hoursSlept": 7.03,
+      "quality": 4
+    },
+    {
+      "id": 1749306720000,
+      "timestamp": "2025-06-07T14:32:00.000Z",
+      "date": "6/6/2025",
+      "bedtime": "23:52",
+      "wakeTime": "07:32",
+      "hoursSlept": 7.67,
+      "quality": 4
+    },
+    {
+      "id": 1749391560000,
+      "timestamp": "2025-06-08T14:06:00.000Z",
+      "date": "6/7/2025",
+      "bedtime": "22:52",
+      "wakeTime": "07:06",
+      "hoursSlept": 8.24,
+      "quality": 4
+    },
+    {
+      "id": 1749477240000,
+      "timestamp": "2025-06-09T13:54:00.000Z",
+      "date": "6/8/2025",
+      "bedtime": "22:59",
+      "wakeTime": "06:54",
+      "hoursSlept": 7.92,
+      "quality": 4
+    },
+    {
+      "id": 1749561420000,
+      "timestamp": "2025-06-10T13:17:00.000Z",
+      "date": "6/9/2025",
+      "bedtime": "22:44",
+      "wakeTime": "06:17",
+      "hoursSlept": 7.55,
+      "quality": 4
+    },
+    {
+      "id": 1749647760000,
+      "timestamp": "2025-06-11T13:16:00.000Z",
+      "date": "6/10/2025",
+      "bedtime": "22:47",
+      "wakeTime": "06:16",
+      "hoursSlept": 7.49,
+      "quality": 3
+    },
+    {
+      "id": 1749733200000,
+      "timestamp": "2025-06-12T13:00:00.000Z",
+      "date": "6/11/2025",
+      "bedtime": "23:13",
+      "wakeTime": "06:00",
+      "hoursSlept": 6.79,
+      "quality": 3
+    },
+    {
+      "id": 1749822180000,
+      "timestamp": "2025-06-13T13:43:00.000Z",
+      "date": "6/12/2025",
+      "bedtime": "22:55",
+      "wakeTime": "06:43",
+      "hoursSlept": 7.8,
+      "quality": 4
+    },
+    {
+      "id": 1749911280000,
+      "timestamp": "2025-06-14T14:28:00.000Z",
+      "date": "6/13/2025",
+      "bedtime": "23:21",
+      "wakeTime": "07:28",
+      "hoursSlept": 8.11,
+      "quality": 3
+    },
+    {
+      "id": 1749998940000,
+      "timestamp": "2025-06-15T14:49:00.000Z",
+      "date": "6/14/2025",
+      "bedtime": "00:14",
+      "wakeTime": "07:49",
+      "hoursSlept": 7.58,
+      "quality": 4
+    },
+    {
+      "id": 1750086840000,
+      "timestamp": "2025-06-16T15:14:00.000Z",
+      "date": "6/15/2025",
+      "bedtime": "23:51",
+      "wakeTime": "08:14",
+      "hoursSlept": 8.39,
+      "quality": 5
+    },
+    {
+      "id": 1750170060000,
+      "timestamp": "2025-06-17T14:21:00.000Z",
+      "date": "6/16/2025",
+      "bedtime": "23:31",
+      "wakeTime": "07:21",
+      "hoursSlept": 7.83,
+      "quality": 3
+    },
+    {
+      "id": 1750255080000,
+      "timestamp": "2025-06-18T13:58:00.000Z",
+      "date": "6/17/2025",
+      "bedtime": "23:17",
+      "wakeTime": "06:58",
+      "hoursSlept": 7.69,
+      "quality": 3
+    },
+    {
+      "id": 1750342440000,
+      "timestamp": "2025-06-19T14:14:00.000Z",
+      "date": "6/18/2025",
+      "bedtime": "22:59",
+      "wakeTime": "07:14",
+      "hoursSlept": 8.25,
+      "quality": 4
+    },
+    {
+      "id": 1750424700000,
+      "timestamp": "2025-06-20T13:05:00.000Z",
+      "date": "6/19/2025",
+      "bedtime": "22:56",
+      "wakeTime": "06:05",
+      "hoursSlept": 7.15,
+      "quality": 3
+    },
+    {
+      "id": 1750513260000,
+      "timestamp": "2025-06-21T13:41:00.000Z",
+      "date": "6/20/2025",
+      "bedtime": "23:27",
+      "wakeTime": "06:41",
+      "hoursSlept": 7.24,
+      "quality": 3
+    },
+    {
+      "id": 1750599780000,
+      "timestamp": "2025-06-22T13:43:00.000Z",
+      "date": "6/21/2025",
+      "bedtime": "23:08",
+      "wakeTime": "06:43",
+      "hoursSlept": 7.58,
+      "quality": 4
+    },
+    {
+      "id": 1750684980000,
+      "timestamp": "2025-06-23T13:23:00.000Z",
+      "date": "6/22/2025",
+      "bedtime": "22:51",
+      "wakeTime": "06:23",
+      "hoursSlept": 7.53,
+      "quality": 4
+    },
+    {
+      "id": 1750769280000,
+      "timestamp": "2025-06-24T12:48:00.000Z",
+      "date": "6/23/2025",
+      "bedtime": "23:01",
+      "wakeTime": "05:48",
+      "hoursSlept": 6.79,
+      "quality": 3
+    },
+    {
+      "id": 1750855320000,
+      "timestamp": "2025-06-25T12:42:00.000Z",
+      "date": "6/24/2025",
+      "bedtime": "22:56",
+      "wakeTime": "05:42",
+      "hoursSlept": 6.76,
+      "quality": 3
+    },
+    {
+      "id": 1750944720000,
+      "timestamp": "2025-06-26T13:32:00.000Z",
+      "date": "6/25/2025",
+      "bedtime": "22:58",
+      "wakeTime": "06:32",
+      "hoursSlept": 7.56,
+      "quality": 4
+    },
+    {
+      "id": 1751028360000,
+      "timestamp": "2025-06-27T12:46:00.000Z",
+      "date": "6/26/2025",
+      "bedtime": "23:05",
+      "wakeTime": "05:46",
+      "hoursSlept": 6.68,
+      "quality": 4
+    },
+    {
+      "id": 1751116620000,
+      "timestamp": "2025-06-28T13:17:00.000Z",
+      "date": "6/27/2025",
+      "bedtime": "23:24",
+      "wakeTime": "06:17",
+      "hoursSlept": 6.89,
+      "quality": 4
+    },
+    {
+      "id": 1751210940000,
+      "timestamp": "2025-06-29T15:29:00.000Z",
+      "date": "6/28/2025",
+      "bedtime": "23:49",
+      "wakeTime": "08:29",
+      "hoursSlept": 8.66,
+      "quality": 5
+    },
+    {
+      "id": 1751292060000,
+      "timestamp": "2025-06-30T14:01:00.000Z",
+      "date": "6/29/2025",
+      "bedtime": "23:07",
+      "wakeTime": "07:01",
+      "hoursSlept": 7.9,
+      "quality": 4
+    },
+    {
+      "id": 1751381220000,
+      "timestamp": "2025-07-01T14:47:00.000Z",
+      "date": "6/30/2025",
+      "bedtime": "00:01",
+      "wakeTime": "07:47",
+      "hoursSlept": 7.77,
+      "quality": 3
+    },
+    {
+      "id": 1751465940000,
+      "timestamp": "2025-07-02T14:19:00.000Z",
+      "date": "7/1/2025",
+      "bedtime": "23:24",
+      "wakeTime": "07:19",
+      "hoursSlept": 7.92,
+      "quality": 4
+    },
+    {
+      "id": 1751548140000,
+      "timestamp": "2025-07-03T13:09:00.000Z",
+      "date": "7/2/2025",
+      "bedtime": "23:13",
+      "wakeTime": "06:09",
+      "hoursSlept": 6.93,
+      "quality": 4
+    },
+    {
+      "id": 1751635380000,
+      "timestamp": "2025-07-04T13:23:00.000Z",
+      "date": "7/3/2025",
+      "bedtime": "22:48",
+      "wakeTime": "06:23",
+      "hoursSlept": 7.59,
+      "quality": 4
+    },
+    {
+      "id": 1751723400000,
+      "timestamp": "2025-07-05T13:50:00.000Z",
+      "date": "7/4/2025",
+      "bedtime": "23:51",
+      "wakeTime": "06:50",
+      "hoursSlept": 6.99,
+      "quality": 4
+    },
+    {
+      "id": 1751808420000,
+      "timestamp": "2025-07-06T13:27:00.000Z",
+      "date": "7/5/2025",
+      "bedtime": "23:11",
+      "wakeTime": "06:27",
+      "hoursSlept": 7.26,
+      "quality": 4
+    },
+    {
+      "id": 1751898900000,
+      "timestamp": "2025-07-07T14:35:00.000Z",
+      "date": "7/6/2025",
+      "bedtime": "23:26",
+      "wakeTime": "07:35",
+      "hoursSlept": 8.15,
+      "quality": 4
+    },
+    {
+      "id": 1751981280000,
+      "timestamp": "2025-07-08T13:28:00.000Z",
+      "date": "7/7/2025",
+      "bedtime": "23:06",
+      "wakeTime": "06:28",
+      "hoursSlept": 7.37,
+      "quality": 3
+    },
+    {
+      "id": 1752064980000,
+      "timestamp": "2025-07-09T12:43:00.000Z",
+      "date": "7/8/2025",
+      "bedtime": "22:36",
+      "wakeTime": "05:43",
+      "hoursSlept": 7.11,
+      "quality": 3
+    },
+    {
+      "id": 1752152220000,
+      "timestamp": "2025-07-10T12:57:00.000Z",
+      "date": "7/9/2025",
+      "bedtime": "23:25",
+      "wakeTime": "05:57",
+      "hoursSlept": 6.54,
+      "quality": 3
+    },
+    {
+      "id": 1752236820000,
+      "timestamp": "2025-07-11T12:27:00.000Z",
+      "date": "7/10/2025",
+      "bedtime": "22:39",
+      "wakeTime": "05:27",
+      "hoursSlept": 6.8,
+      "quality": 3
+    },
+    {
+      "id": 1752332280000,
+      "timestamp": "2025-07-12T14:58:00.000Z",
+      "date": "7/11/2025",
+      "bedtime": "00:09",
+      "wakeTime": "07:58",
+      "hoursSlept": 7.81,
+      "quality": 4
+    },
+    {
+      "id": 1752421380000,
+      "timestamp": "2025-07-13T15:43:00.000Z",
+      "date": "7/12/2025",
+      "bedtime": "00:07",
+      "wakeTime": "08:43",
+      "hoursSlept": 8.6,
+      "quality": 4
+    },
+    {
+      "id": 1752502920000,
+      "timestamp": "2025-07-14T14:22:00.000Z",
+      "date": "7/13/2025",
+      "bedtime": "23:56",
+      "wakeTime": "07:22",
+      "hoursSlept": 7.44,
+      "quality": 4
+    },
+    {
+      "id": 1752587760000,
+      "timestamp": "2025-07-15T13:56:00.000Z",
+      "date": "7/14/2025",
+      "bedtime": "23:04",
+      "wakeTime": "06:56",
+      "hoursSlept": 7.86,
+      "quality": 4
+    },
+    {
+      "id": 1752677220000,
+      "timestamp": "2025-07-16T14:47:00.000Z",
+      "date": "7/15/2025",
+      "bedtime": "23:52",
+      "wakeTime": "07:47",
+      "hoursSlept": 7.91,
+      "quality": 4
+    },
+    {
+      "id": 1752762600000,
+      "timestamp": "2025-07-17T14:30:00.000Z",
+      "date": "7/16/2025",
+      "bedtime": "23:54",
+      "wakeTime": "07:30",
+      "hoursSlept": 7.6,
+      "quality": 4
+    },
+    {
+      "id": 1752843900000,
+      "timestamp": "2025-07-18T13:05:00.000Z",
+      "date": "7/17/2025",
+      "bedtime": "23:17",
+      "wakeTime": "06:05",
+      "hoursSlept": 6.8,
+      "quality": 3
+    },
+    {
+      "id": 1752932040000,
+      "timestamp": "2025-07-19T13:34:00.000Z",
+      "date": "7/18/2025",
+      "bedtime": "23:11",
+      "wakeTime": "06:34",
+      "hoursSlept": 7.38,
+      "quality": 3
+    },
+    {
+      "id": 1753023780000,
+      "timestamp": "2025-07-20T15:03:00.000Z",
+      "date": "7/19/2025",
+      "bedtime": "23:44",
+      "wakeTime": "08:03",
+      "hoursSlept": 8.31,
+      "quality": 5
+    },
+    {
+      "id": 1753108620000,
+      "timestamp": "2025-07-21T14:37:00.000Z",
+      "date": "7/20/2025",
+      "bedtime": "23:15",
+      "wakeTime": "07:37",
+      "hoursSlept": 8.37,
+      "quality": 4
+    },
+    {
+      "id": 1753187940000,
+      "timestamp": "2025-07-22T12:39:00.000Z",
+      "date": "7/21/2025",
+      "bedtime": "23:14",
+      "wakeTime": "05:39",
+      "hoursSlept": 6.42,
+      "quality": 3
+    },
+    {
+      "id": 1753277880000,
+      "timestamp": "2025-07-23T13:38:00.000Z",
+      "date": "7/22/2025",
+      "bedtime": "23:01",
+      "wakeTime": "06:38",
+      "hoursSlept": 7.61,
+      "quality": 4
+    },
+    {
+      "id": 1753362420000,
+      "timestamp": "2025-07-24T13:07:00.000Z",
+      "date": "7/23/2025",
+      "bedtime": "22:35",
+      "wakeTime": "06:07",
+      "hoursSlept": 7.54,
+      "quality": 4
+    },
+    {
+      "id": 1753450260000,
+      "timestamp": "2025-07-25T13:31:00.000Z",
+      "date": "7/24/2025",
+      "bedtime": "22:45",
+      "wakeTime": "06:31",
+      "hoursSlept": 7.77,
+      "quality": 4
+    },
+    {
+      "id": 1753538580000,
+      "timestamp": "2025-07-26T14:03:00.000Z",
+      "date": "7/25/2025",
+      "bedtime": "23:14",
+      "wakeTime": "07:03",
+      "hoursSlept": 7.81,
+      "quality": 4
+    },
+    {
+      "id": 1753628220000,
+      "timestamp": "2025-07-27T14:57:00.000Z",
+      "date": "7/26/2025",
+      "bedtime": "00:02",
+      "wakeTime": "07:57",
+      "hoursSlept": 7.92,
+      "quality": 4
+    },
+    {
+      "id": 1753713360000,
+      "timestamp": "2025-07-28T14:36:00.000Z",
+      "date": "7/27/2025",
+      "bedtime": "22:57",
+      "wakeTime": "07:36",
+      "hoursSlept": 8.65,
+      "quality": 5
+    },
+    {
+      "id": 1753793820000,
+      "timestamp": "2025-07-29T12:57:00.000Z",
+      "date": "7/28/2025",
+      "bedtime": "22:58",
+      "wakeTime": "05:57",
+      "hoursSlept": 6.99,
+      "quality": 4
+    },
+    {
+      "id": 1753887540000,
+      "timestamp": "2025-07-30T14:59:00.000Z",
+      "date": "7/29/2025",
+      "bedtime": "23:55",
+      "wakeTime": "07:59",
+      "hoursSlept": 8.06,
+      "quality": 4
+    },
+    {
+      "id": 1753972560000,
+      "timestamp": "2025-07-31T14:36:00.000Z",
+      "date": "7/30/2025",
+      "bedtime": "23:40",
+      "wakeTime": "07:36",
+      "hoursSlept": 7.94,
+      "quality": 4
+    },
+    {
+      "id": 1754052180000,
+      "timestamp": "2025-08-01T12:43:00.000Z",
+      "date": "7/31/2025",
+      "bedtime": "22:48",
+      "wakeTime": "05:43",
+      "hoursSlept": 6.91,
+      "quality": 4
+    },
+    {
+      "id": 1754143980000,
+      "timestamp": "2025-08-02T14:13:00.000Z",
+      "date": "8/1/2025",
+      "bedtime": "23:17",
+      "wakeTime": "07:13",
+      "hoursSlept": 7.94,
+      "quality": 3
+    },
+    {
+      "id": 1754227920000,
+      "timestamp": "2025-08-03T13:32:00.000Z",
+      "date": "8/2/2025",
+      "bedtime": "23:35",
+      "wakeTime": "06:32",
+      "hoursSlept": 6.95,
+      "quality": 4
+    },
+    {
+      "id": 1754315340000,
+      "timestamp": "2025-08-04T13:49:00.000Z",
+      "date": "8/3/2025",
+      "bedtime": "22:44",
+      "wakeTime": "06:49",
+      "hoursSlept": 8.09,
+      "quality": 4
+    },
+    {
+      "id": 1754396700000,
+      "timestamp": "2025-08-05T12:25:00.000Z",
+      "date": "8/4/2025",
+      "bedtime": "23:09",
+      "wakeTime": "05:25",
+      "hoursSlept": 6.27,
+      "quality": 3
+    },
+    {
+      "id": 1754483700000,
+      "timestamp": "2025-08-06T12:35:00.000Z",
+      "date": "8/5/2025",
+      "bedtime": "22:52",
+      "wakeTime": "05:35",
+      "hoursSlept": 6.71,
+      "quality": 3
+    },
+    {
+      "id": 1754571900000,
+      "timestamp": "2025-08-07T13:05:00.000Z",
+      "date": "8/6/2025",
+      "bedtime": "23:04",
+      "wakeTime": "06:05",
+      "hoursSlept": 7.01,
+      "quality": 3
+    },
+    {
+      "id": 1754657580000,
+      "timestamp": "2025-08-08T12:53:00.000Z",
+      "date": "8/7/2025",
+      "bedtime": "23:29",
+      "wakeTime": "05:53",
+      "hoursSlept": 6.4,
+      "quality": 3
+    },
+    {
+      "id": 1754747520000,
+      "timestamp": "2025-08-09T13:52:00.000Z",
+      "date": "8/8/2025",
+      "bedtime": "23:33",
+      "wakeTime": "06:52",
+      "hoursSlept": 7.31,
+      "quality": 3
+    },
+    {
+      "id": 1754838660000,
+      "timestamp": "2025-08-10T15:11:00.000Z",
+      "date": "8/9/2025",
+      "bedtime": "23:55",
+      "wakeTime": "08:11",
+      "hoursSlept": 8.27,
+      "quality": 5
+    },
+    {
+      "id": 1754920080000,
+      "timestamp": "2025-08-11T13:48:00.000Z",
+      "date": "8/10/2025",
+      "bedtime": "23:01",
+      "wakeTime": "06:48",
+      "hoursSlept": 7.78,
+      "quality": 4
+    },
+    {
+      "id": 1755008340000,
+      "timestamp": "2025-08-12T14:19:00.000Z",
+      "date": "8/11/2025",
+      "bedtime": "00:00",
+      "wakeTime": "07:19",
+      "hoursSlept": 7.31,
+      "quality": 4
+    },
+    {
+      "id": 1755092460000,
+      "timestamp": "2025-08-13T13:41:00.000Z",
+      "date": "8/12/2025",
+      "bedtime": "23:19",
+      "wakeTime": "06:41",
+      "hoursSlept": 7.37,
+      "quality": 3
+    },
+    {
+      "id": 1755180000000,
+      "timestamp": "2025-08-14T14:00:00.000Z",
+      "date": "8/13/2025",
+      "bedtime": "23:53",
+      "wakeTime": "07:00",
+      "hoursSlept": 7.12,
+      "quality": 4
+    },
+    {
+      "id": 1755264300000,
+      "timestamp": "2025-08-15T13:25:00.000Z",
+      "date": "8/14/2025",
+      "bedtime": "23:31",
+      "wakeTime": "06:25",
+      "hoursSlept": 6.9,
+      "quality": 3
+    },
+    {
+      "id": 1755351720000,
+      "timestamp": "2025-08-16T13:42:00.000Z",
+      "date": "8/15/2025",
+      "bedtime": "00:06",
+      "wakeTime": "06:42",
+      "hoursSlept": 6.6,
+      "quality": 3
+    },
+    {
+      "id": 1755440700000,
+      "timestamp": "2025-08-17T14:25:00.000Z",
+      "date": "8/16/2025",
+      "bedtime": "23:30",
+      "wakeTime": "07:25",
+      "hoursSlept": 7.92,
+      "quality": 4
+    },
+    {
+      "id": 1755524100000,
+      "timestamp": "2025-08-18T13:35:00.000Z",
+      "date": "8/17/2025",
+      "bedtime": "23:00",
+      "wakeTime": "06:35",
+      "hoursSlept": 7.59,
+      "quality": 4
+    },
+    {
+      "id": 1755608040000,
+      "timestamp": "2025-08-19T12:54:00.000Z",
+      "date": "8/18/2025",
+      "bedtime": "22:59",
+      "wakeTime": "05:54",
+      "hoursSlept": 6.91,
+      "quality": 3
+    },
+    {
+      "id": 1755695700000,
+      "timestamp": "2025-08-20T13:15:00.000Z",
+      "date": "8/19/2025",
+      "bedtime": "22:57",
+      "wakeTime": "06:15",
+      "hoursSlept": 7.3,
+      "quality": 3
+    },
+    {
+      "id": 1755780360000,
+      "timestamp": "2025-08-21T12:46:00.000Z",
+      "date": "8/20/2025",
+      "bedtime": "23:00",
+      "wakeTime": "05:46",
+      "hoursSlept": 6.76,
+      "quality": 3
+    },
+    {
+      "id": 1755865860000,
+      "timestamp": "2025-08-22T12:31:00.000Z",
+      "date": "8/21/2025",
+      "bedtime": "22:56",
+      "wakeTime": "05:31",
+      "hoursSlept": 6.59,
+      "quality": 3
+    },
+    {
+      "id": 1755953880000,
+      "timestamp": "2025-08-23T12:58:00.000Z",
+      "date": "8/22/2025",
+      "bedtime": "23:23",
+      "wakeTime": "05:58",
+      "hoursSlept": 6.58,
+      "quality": 3
+    },
+    {
+      "id": 1756047420000,
+      "timestamp": "2025-08-24T14:57:00.000Z",
+      "date": "8/23/2025",
+      "bedtime": "00:17",
+      "wakeTime": "07:57",
+      "hoursSlept": 7.67,
+      "quality": 4
+    },
+    {
+      "id": 1756133520000,
+      "timestamp": "2025-08-25T14:52:00.000Z",
+      "date": "8/24/2025",
+      "bedtime": "23:35",
+      "wakeTime": "07:52",
+      "hoursSlept": 8.28,
+      "quality": 5
+    },
+    {
+      "id": 1756217640000,
+      "timestamp": "2025-08-26T14:14:00.000Z",
+      "date": "8/25/2025",
+      "bedtime": "23:35",
+      "wakeTime": "07:14",
+      "hoursSlept": 7.65,
+      "quality": 4
+    },
+    {
+      "id": 1756302480000,
+      "timestamp": "2025-08-27T13:48:00.000Z",
+      "date": "8/26/2025",
+      "bedtime": "23:40",
+      "wakeTime": "06:48",
+      "hoursSlept": 7.13,
+      "quality": 3
+    },
+    {
+      "id": 1756388460000,
+      "timestamp": "2025-08-28T13:41:00.000Z",
+      "date": "8/27/2025",
+      "bedtime": "23:47",
+      "wakeTime": "06:41",
+      "hoursSlept": 6.9,
+      "quality": 3
+    },
+    {
+      "id": 1756471680000,
+      "timestamp": "2025-08-29T12:48:00.000Z",
+      "date": "8/28/2025",
+      "bedtime": "22:51",
+      "wakeTime": "05:48",
+      "hoursSlept": 6.95,
+      "quality": 3
+    },
+    {
+      "id": 1756563480000,
+      "timestamp": "2025-08-30T14:18:00.000Z",
+      "date": "8/29/2025",
+      "bedtime": "23:38",
+      "wakeTime": "07:18",
+      "hoursSlept": 7.66,
+      "quality": 3
+    },
+    {
+      "id": 1756647420000,
+      "timestamp": "2025-08-31T13:37:00.000Z",
+      "date": "8/30/2025",
+      "bedtime": "23:40",
+      "wakeTime": "06:37",
+      "hoursSlept": 6.95,
+      "quality": 4
+    },
+    {
+      "id": 1756734780000,
+      "timestamp": "2025-09-01T13:53:00.000Z",
+      "date": "8/31/2025",
+      "bedtime": "22:55",
+      "wakeTime": "06:53",
+      "hoursSlept": 7.97,
+      "quality": 4
+    },
+    {
+      "id": 1756819320000,
+      "timestamp": "2025-09-02T13:22:00.000Z",
+      "date": "9/1/2025",
+      "bedtime": "22:42",
+      "wakeTime": "06:22",
+      "hoursSlept": 7.66,
+      "quality": 4
+    },
+    {
+      "id": 1756898940000,
+      "timestamp": "2025-09-03T11:29:00.000Z",
+      "date": "9/2/2025",
+      "bedtime": "22:20",
+      "wakeTime": "04:29",
+      "hoursSlept": 6.15,
+      "quality": 3
+    },
+    {
+      "id": 1756994880000,
+      "timestamp": "2025-09-04T14:08:00.000Z",
+      "date": "9/3/2025",
+      "bedtime": "23:31",
+      "wakeTime": "07:08",
+      "hoursSlept": 7.62,
+      "quality": 4
+    },
+    {
+      "id": 1757078760000,
+      "timestamp": "2025-09-05T13:26:00.000Z",
+      "date": "9/4/2025",
+      "bedtime": "22:55",
+      "wakeTime": "06:26",
+      "hoursSlept": 7.52,
+      "quality": 4
+    },
+    {
+      "id": 1757168040000,
+      "timestamp": "2025-09-06T14:14:00.000Z",
+      "date": "9/5/2025",
+      "bedtime": "23:42",
+      "wakeTime": "07:14",
+      "hoursSlept": 7.53,
+      "quality": 3
+    },
+    {
+      "id": 1757254980000,
+      "timestamp": "2025-09-07T14:23:00.000Z",
+      "date": "9/6/2025",
+      "bedtime": "23:25",
+      "wakeTime": "07:23",
+      "hoursSlept": 7.97,
+      "quality": 4
+    },
+    {
+      "id": 1757340480000,
+      "timestamp": "2025-09-08T14:08:00.000Z",
+      "date": "9/7/2025",
+      "bedtime": "23:01",
+      "wakeTime": "07:08",
+      "hoursSlept": 8.12,
+      "quality": 4
+    },
+    {
+      "id": 1757424000000,
+      "timestamp": "2025-09-09T13:20:00.000Z",
+      "date": "9/8/2025",
+      "bedtime": "23:34",
+      "wakeTime": "06:20",
+      "hoursSlept": 6.76,
+      "quality": 3
+    },
+    {
+      "id": 1757512140000,
+      "timestamp": "2025-09-10T13:49:00.000Z",
+      "date": "9/9/2025",
+      "bedtime": "23:51",
+      "wakeTime": "06:49",
+      "hoursSlept": 6.97,
+      "quality": 3
+    },
+    {
+      "id": 1757595480000,
+      "timestamp": "2025-09-11T12:58:00.000Z",
+      "date": "9/10/2025",
+      "bedtime": "22:58",
+      "wakeTime": "05:58",
+      "hoursSlept": 7,
+      "quality": 4
+    },
+    {
+      "id": 1757681340000,
+      "timestamp": "2025-09-12T12:49:00.000Z",
+      "date": "9/11/2025",
+      "bedtime": "23:11",
+      "wakeTime": "05:49",
+      "hoursSlept": 6.64,
+      "quality": 4
+    },
+    {
+      "id": 1757772240000,
+      "timestamp": "2025-09-13T14:04:00.000Z",
+      "date": "9/12/2025",
+      "bedtime": "23:57",
+      "wakeTime": "07:04",
+      "hoursSlept": 7.12,
+      "quality": 3
+    },
+    {
+      "id": 1757858760000,
+      "timestamp": "2025-09-14T14:06:00.000Z",
+      "date": "9/13/2025",
+      "bedtime": "23:45",
+      "wakeTime": "07:06",
+      "hoursSlept": 7.35,
+      "quality": 4
+    },
+    {
+      "id": 1757939460000,
+      "timestamp": "2025-09-15T12:31:00.000Z",
+      "date": "9/14/2025",
+      "bedtime": "22:34",
+      "wakeTime": "05:31",
+      "hoursSlept": 6.95,
+      "quality": 4
+    },
+    {
+      "id": 1758027120000,
+      "timestamp": "2025-09-16T12:52:00.000Z",
+      "date": "9/15/2025",
+      "bedtime": "23:08",
+      "wakeTime": "05:52",
+      "hoursSlept": 6.73,
+      "quality": 4
+    },
+    {
+      "id": 1758113400000,
+      "timestamp": "2025-09-17T12:50:00.000Z",
+      "date": "9/16/2025",
+      "bedtime": "22:25",
+      "wakeTime": "05:50",
+      "hoursSlept": 7.42,
+      "quality": 4
+    },
+    {
+      "id": 1758198480000,
+      "timestamp": "2025-09-18T12:28:00.000Z",
+      "date": "9/17/2025",
+      "bedtime": "23:06",
+      "wakeTime": "05:28",
+      "hoursSlept": 6.37,
+      "quality": 3
+    },
+    {
+      "id": 1758290820000,
+      "timestamp": "2025-09-19T14:07:00.000Z",
+      "date": "9/18/2025",
+      "bedtime": "23:30",
+      "wakeTime": "07:07",
+      "hoursSlept": 7.62,
+      "quality": 4
+    },
+    {
+      "id": 1758374700000,
+      "timestamp": "2025-09-20T13:25:00.000Z",
+      "date": "9/19/2025",
+      "bedtime": "23:00",
+      "wakeTime": "06:25",
+      "hoursSlept": 7.42,
+      "quality": 4
+    },
+    {
+      "id": 1758464460000,
+      "timestamp": "2025-09-21T14:21:00.000Z",
+      "date": "9/20/2025",
+      "bedtime": "23:11",
+      "wakeTime": "07:21",
+      "hoursSlept": 8.16,
+      "quality": 4
+    },
+    {
+      "id": 1758547740000,
+      "timestamp": "2025-09-22T13:29:00.000Z",
+      "date": "9/21/2025",
+      "bedtime": "22:55",
+      "wakeTime": "06:29",
+      "hoursSlept": 7.56,
+      "quality": 4
+    },
+    {
+      "id": 1758635520000,
+      "timestamp": "2025-09-23T13:52:00.000Z",
+      "date": "9/22/2025",
+      "bedtime": "23:57",
+      "wakeTime": "06:52",
+      "hoursSlept": 6.92,
+      "quality": 3
+    },
+    {
+      "id": 1758721320000,
+      "timestamp": "2025-09-24T13:42:00.000Z",
+      "date": "9/23/2025",
+      "bedtime": "23:07",
+      "wakeTime": "06:42",
+      "hoursSlept": 7.59,
+      "quality": 4
+    },
+    {
+      "id": 1758806880000,
+      "timestamp": "2025-09-25T13:28:00.000Z",
+      "date": "9/24/2025",
+      "bedtime": "23:57",
+      "wakeTime": "06:28",
+      "hoursSlept": 6.51,
+      "quality": 3
+    },
+    {
+      "id": 1758895560000,
+      "timestamp": "2025-09-26T14:06:00.000Z",
+      "date": "9/25/2025",
+      "bedtime": "23:48",
+      "wakeTime": "07:06",
+      "hoursSlept": 7.3,
+      "quality": 4
+    },
+    {
+      "id": 1758981540000,
+      "timestamp": "2025-09-27T13:59:00.000Z",
+      "date": "9/26/2025",
+      "bedtime": "23:55",
+      "wakeTime": "06:59",
+      "hoursSlept": 7.06,
+      "quality": 3
+    },
+    {
+      "id": 1759065780000,
+      "timestamp": "2025-09-28T13:23:00.000Z",
+      "date": "9/27/2025",
+      "bedtime": "23:39",
+      "wakeTime": "06:23",
+      "hoursSlept": 6.73,
+      "quality": 4
+    },
+    {
+      "id": 1759154340000,
+      "timestamp": "2025-09-29T13:59:00.000Z",
+      "date": "9/28/2025",
+      "bedtime": "23:25",
+      "wakeTime": "06:59",
+      "hoursSlept": 7.56,
+      "quality": 4
+    },
+    {
+      "id": 1759237500000,
+      "timestamp": "2025-09-30T13:05:00.000Z",
+      "date": "9/29/2025",
+      "bedtime": "23:19",
+      "wakeTime": "06:05",
+      "hoursSlept": 6.76,
+      "quality": 3
+    },
+    {
+      "id": 1759319280000,
+      "timestamp": "2025-10-01T11:48:00.000Z",
+      "date": "9/30/2025",
+      "bedtime": "22:46",
+      "wakeTime": "04:48",
+      "hoursSlept": 6.04,
+      "quality": 3
+    },
+    {
+      "id": 1759404960000,
+      "timestamp": "2025-10-02T11:36:00.000Z",
+      "date": "10/1/2025",
+      "bedtime": "22:32",
+      "wakeTime": "04:36",
+      "hoursSlept": 6.06,
+      "quality": 3
+    },
+    {
+      "id": 1759499160000,
+      "timestamp": "2025-10-03T13:46:00.000Z",
+      "date": "10/2/2025",
+      "bedtime": "23:21",
+      "wakeTime": "06:46",
+      "hoursSlept": 7.41,
+      "quality": 4
+    },
+    {
+      "id": 1759584360000,
+      "timestamp": "2025-10-04T13:26:00.000Z",
+      "date": "10/3/2025",
+      "bedtime": "23:13",
+      "wakeTime": "06:26",
+      "hoursSlept": 7.21,
+      "quality": 4
+    },
+    {
+      "id": 1759675320000,
+      "timestamp": "2025-10-05T14:42:00.000Z",
+      "date": "10/4/2025",
+      "bedtime": "00:11",
+      "wakeTime": "07:42",
+      "hoursSlept": 7.52,
+      "quality": 4
+    },
+    {
+      "id": 1759757880000,
+      "timestamp": "2025-10-06T13:38:00.000Z",
+      "date": "10/5/2025",
+      "bedtime": "23:39",
+      "wakeTime": "06:38",
+      "hoursSlept": 6.98,
+      "quality": 4
+    },
+    {
+      "id": 1759842600000,
+      "timestamp": "2025-10-07T13:10:00.000Z",
+      "date": "10/6/2025",
+      "bedtime": "23:14",
+      "wakeTime": "06:10",
+      "hoursSlept": 6.93,
+      "quality": 3
+    },
+    {
+      "id": 1759927020000,
+      "timestamp": "2025-10-08T12:37:00.000Z",
+      "date": "10/7/2025",
+      "bedtime": "23:08",
+      "wakeTime": "05:37",
+      "hoursSlept": 6.49,
+      "quality": 3
+    },
+    {
+      "id": 1760017620000,
+      "timestamp": "2025-10-09T13:47:00.000Z",
+      "date": "10/8/2025",
+      "bedtime": "23:28",
+      "wakeTime": "06:47",
+      "hoursSlept": 7.31,
+      "quality": 3
+    },
+    {
+      "id": 1760105160000,
+      "timestamp": "2025-10-10T14:06:00.000Z",
+      "date": "10/9/2025",
+      "bedtime": "23:49",
+      "wakeTime": "07:06",
+      "hoursSlept": 7.29,
+      "quality": 3
+    },
+    {
+      "id": 1760186040000,
+      "timestamp": "2025-10-11T12:34:00.000Z",
+      "date": "10/10/2025",
+      "bedtime": "23:05",
+      "wakeTime": "05:34",
+      "hoursSlept": 6.48,
+      "quality": 3
+    },
+    {
+      "id": 1760275200000,
+      "timestamp": "2025-10-12T13:20:00.000Z",
+      "date": "10/11/2025",
+      "bedtime": "23:41",
+      "wakeTime": "06:20",
+      "hoursSlept": 6.65,
+      "quality": 4
+    },
+    {
+      "id": 1760360040000,
+      "timestamp": "2025-10-13T12:54:00.000Z",
+      "date": "10/12/2025",
+      "bedtime": "23:29",
+      "wakeTime": "05:54",
+      "hoursSlept": 6.42,
+      "quality": 3
+    },
+    {
+      "id": 1760441760000,
+      "timestamp": "2025-10-14T11:36:00.000Z",
+      "date": "10/13/2025",
+      "bedtime": "22:34",
+      "wakeTime": "04:36",
+      "hoursSlept": 6.04,
+      "quality": 3
+    },
+    {
+      "id": 1760530080000,
+      "timestamp": "2025-10-15T12:08:00.000Z",
+      "date": "10/14/2025",
+      "bedtime": "22:54",
+      "wakeTime": "05:08",
+      "hoursSlept": 6.24,
+      "quality": 3
+    },
+    {
+      "id": 1760618520000,
+      "timestamp": "2025-10-16T12:42:00.000Z",
+      "date": "10/15/2025",
+      "bedtime": "22:56",
+      "wakeTime": "05:42",
+      "hoursSlept": 6.77,
+      "quality": 3
+    },
+    {
+      "id": 1760706900000,
+      "timestamp": "2025-10-17T13:15:00.000Z",
+      "date": "10/16/2025",
+      "bedtime": "23:21",
+      "wakeTime": "06:15",
+      "hoursSlept": 6.9,
+      "quality": 3
+    },
+    {
+      "id": 1760793480000,
+      "timestamp": "2025-10-18T13:18:00.000Z",
+      "date": "10/17/2025",
+      "bedtime": "23:26",
+      "wakeTime": "06:18",
+      "hoursSlept": 6.86,
+      "quality": 4
+    },
+    {
+      "id": 1760885100000,
+      "timestamp": "2025-10-19T14:45:00.000Z",
+      "date": "10/18/2025",
+      "bedtime": "00:01",
+      "wakeTime": "07:45",
+      "hoursSlept": 7.74,
+      "quality": 4
+    },
+    {
+      "id": 1760966580000,
+      "timestamp": "2025-10-20T13:23:00.000Z",
+      "date": "10/19/2025",
+      "bedtime": "22:55",
+      "wakeTime": "06:23",
+      "hoursSlept": 7.46,
+      "quality": 4
+    },
+    {
+      "id": 1761056940000,
+      "timestamp": "2025-10-21T14:29:00.000Z",
+      "date": "10/20/2025",
+      "bedtime": "23:58",
+      "wakeTime": "07:29",
+      "hoursSlept": 7.52,
+      "quality": 4
+    },
+    {
+      "id": 1761141300000,
+      "timestamp": "2025-10-22T13:55:00.000Z",
+      "date": "10/21/2025",
+      "bedtime": "23:50",
+      "wakeTime": "06:55",
+      "hoursSlept": 7.08,
+      "quality": 3
+    },
+    {
+      "id": 1761227220000,
+      "timestamp": "2025-10-23T13:47:00.000Z",
+      "date": "10/22/2025",
+      "bedtime": "23:09",
+      "wakeTime": "06:47",
+      "hoursSlept": 7.64,
+      "quality": 4
+    },
+    {
+      "id": 1761312600000,
+      "timestamp": "2025-10-24T13:30:00.000Z",
+      "date": "10/23/2025",
+      "bedtime": "23:30",
+      "wakeTime": "06:30",
+      "hoursSlept": 7,
+      "quality": 3
+    },
+    {
+      "id": 1761400860000,
+      "timestamp": "2025-10-25T14:01:00.000Z",
+      "date": "10/24/2025",
+      "bedtime": "23:30",
+      "wakeTime": "07:01",
+      "hoursSlept": 7.51,
+      "quality": 3
+    },
+    {
+      "id": 1761489780000,
+      "timestamp": "2025-10-26T14:43:00.000Z",
+      "date": "10/25/2025",
+      "bedtime": "23:58",
+      "wakeTime": "07:43",
+      "hoursSlept": 7.75,
+      "quality": 4
+    },
+    {
+      "id": 1761568320000,
+      "timestamp": "2025-10-27T12:32:00.000Z",
+      "date": "10/26/2025",
+      "bedtime": "23:14",
+      "wakeTime": "05:32",
+      "hoursSlept": 6.3,
+      "quality": 3
+    },
+    {
+      "id": 1761654000000,
+      "timestamp": "2025-10-28T12:20:00.000Z",
+      "date": "10/27/2025",
+      "bedtime": "23:25",
+      "wakeTime": "05:20",
+      "hoursSlept": 5.91,
+      "quality": 3
+    },
+    {
+      "id": 1761737160000,
+      "timestamp": "2025-10-29T11:26:00.000Z",
+      "date": "10/28/2025",
+      "bedtime": "22:22",
+      "wakeTime": "04:26",
+      "hoursSlept": 6.07,
+      "quality": 3
+    },
+    {
+      "id": 1761832140000,
+      "timestamp": "2025-10-30T13:49:00.000Z",
+      "date": "10/29/2025",
+      "bedtime": "23:25",
+      "wakeTime": "06:49",
+      "hoursSlept": 7.4,
+      "quality": 4
+    },
+    {
+      "id": 1761917400000,
+      "timestamp": "2025-10-31T13:30:00.000Z",
+      "date": "10/30/2025",
+      "bedtime": "23:10",
+      "wakeTime": "06:30",
+      "hoursSlept": 7.33,
+      "quality": 4
+    },
+    {
+      "id": 1762002360000,
+      "timestamp": "2025-11-01T13:06:00.000Z",
+      "date": "10/31/2025",
+      "bedtime": "23:46",
+      "wakeTime": "06:06",
+      "hoursSlept": 6.34,
+      "quality": 3
+    },
+    {
+      "id": 1762097160000,
+      "timestamp": "2025-11-02T15:26:00.000Z",
+      "date": "11/1/2025",
+      "bedtime": "00:06",
+      "wakeTime": "07:26",
+      "hoursSlept": 7.33,
+      "quality": 3
+    },
+    {
+      "id": 1762181100000,
+      "timestamp": "2025-11-03T14:45:00.000Z",
+      "date": "11/2/2025",
+      "bedtime": "23:58",
+      "wakeTime": "06:45",
+      "hoursSlept": 6.79,
+      "quality": 4
+    },
+    {
+      "id": 1762265520000,
+      "timestamp": "2025-11-04T14:12:00.000Z",
+      "date": "11/3/2025",
+      "bedtime": "23:50",
+      "wakeTime": "06:12",
+      "hoursSlept": 6.36,
+      "quality": 3
+    },
+    {
+      "id": 1762356900000,
+      "timestamp": "2025-11-05T15:35:00.000Z",
+      "date": "11/4/2025",
+      "bedtime": "23:54",
+      "wakeTime": "07:35",
+      "hoursSlept": 7.68,
+      "quality": 4
+    },
+    {
+      "id": 1762438620000,
+      "timestamp": "2025-11-06T14:17:00.000Z",
+      "date": "11/5/2025",
+      "bedtime": "23:37",
+      "wakeTime": "06:17",
+      "hoursSlept": 6.66,
+      "quality": 4
+    },
+    {
+      "id": 1762524240000,
+      "timestamp": "2025-11-07T14:04:00.000Z",
+      "date": "11/6/2025",
+      "bedtime": "23:43",
+      "wakeTime": "06:04",
+      "hoursSlept": 6.35,
+      "quality": 3
+    },
+    {
+      "id": 1762609920000,
+      "timestamp": "2025-11-08T13:52:00.000Z",
+      "date": "11/7/2025",
+      "bedtime": "23:45",
+      "wakeTime": "05:52",
+      "hoursSlept": 6.12,
+      "quality": 3
+    },
+    {
+      "id": 1762696500000,
+      "timestamp": "2025-11-09T13:55:00.000Z",
+      "date": "11/8/2025",
+      "bedtime": "23:26",
+      "wakeTime": "05:55",
+      "hoursSlept": 6.49,
+      "quality": 3
+    },
+    {
+      "id": 1762782240000,
+      "timestamp": "2025-11-10T13:44:00.000Z",
+      "date": "11/9/2025",
+      "bedtime": "22:30",
+      "wakeTime": "05:44",
+      "hoursSlept": 7.23,
+      "quality": 4
+    },
+    {
+      "id": 1762869720000,
+      "timestamp": "2025-11-11T14:02:00.000Z",
+      "date": "11/10/2025",
+      "bedtime": "23:15",
+      "wakeTime": "06:02",
+      "hoursSlept": 6.79,
+      "quality": 4
+    },
+    {
+      "id": 1762954320000,
+      "timestamp": "2025-11-12T13:32:00.000Z",
+      "date": "11/11/2025",
+      "bedtime": "22:55",
+      "wakeTime": "05:32",
+      "hoursSlept": 6.62,
+      "quality": 4
+    },
+    {
+      "id": 1763040720000,
+      "timestamp": "2025-11-13T13:32:00.000Z",
+      "date": "11/12/2025",
+      "bedtime": "22:25",
+      "wakeTime": "05:32",
+      "hoursSlept": 7.12,
+      "quality": 4
+    },
+    {
+      "id": 1763128500000,
+      "timestamp": "2025-11-14T13:55:00.000Z",
+      "date": "11/13/2025",
+      "bedtime": "22:43",
+      "wakeTime": "05:55",
+      "hoursSlept": 7.2,
+      "quality": 3
+    },
+    {
+      "id": 1763214120000,
+      "timestamp": "2025-11-15T13:42:00.000Z",
+      "date": "11/14/2025",
+      "bedtime": "23:35",
+      "wakeTime": "05:42",
+      "hoursSlept": 6.11,
+      "quality": 3
+    },
+    {
+      "id": 1763305380000,
+      "timestamp": "2025-11-16T15:03:00.000Z",
+      "date": "11/15/2025",
+      "bedtime": "23:50",
+      "wakeTime": "07:03",
+      "hoursSlept": 7.21,
+      "quality": 3
+    },
+    {
+      "id": 1763392440000,
+      "timestamp": "2025-11-17T15:14:00.000Z",
+      "date": "11/16/2025",
+      "bedtime": "23:26",
+      "wakeTime": "07:14",
+      "hoursSlept": 7.8,
+      "quality": 4
+    },
+    {
+      "id": 1763474400000,
+      "timestamp": "2025-11-18T14:00:00.000Z",
+      "date": "11/17/2025",
+      "bedtime": "23:10",
+      "wakeTime": "06:00",
+      "hoursSlept": 6.84,
+      "quality": 4
+    },
+    {
+      "id": 1763563920000,
+      "timestamp": "2025-11-19T14:52:00.000Z",
+      "date": "11/18/2025",
+      "bedtime": "23:21",
+      "wakeTime": "06:52",
+      "hoursSlept": 7.51,
+      "quality": 4
+    },
+    {
+      "id": 1763647320000,
+      "timestamp": "2025-11-20T14:02:00.000Z",
+      "date": "11/19/2025",
+      "bedtime": "23:47",
+      "wakeTime": "06:02",
+      "hoursSlept": 6.25,
+      "quality": 3
+    },
+    {
+      "id": 1763733120000,
+      "timestamp": "2025-11-21T13:52:00.000Z",
+      "date": "11/20/2025",
+      "bedtime": "22:58",
+      "wakeTime": "05:52",
+      "hoursSlept": 6.9,
+      "quality": 3
+    },
+    {
+      "id": 1763821860000,
+      "timestamp": "2025-11-22T14:31:00.000Z",
+      "date": "11/21/2025",
+      "bedtime": "23:08",
+      "wakeTime": "06:31",
+      "hoursSlept": 7.38,
+      "quality": 4
+    },
+    {
+      "id": 1763909520000,
+      "timestamp": "2025-11-23T14:52:00.000Z",
+      "date": "11/22/2025",
+      "bedtime": "23:29",
+      "wakeTime": "06:52",
+      "hoursSlept": 7.39,
+      "quality": 4
+    },
+    {
+      "id": 1763994180000,
+      "timestamp": "2025-11-24T14:23:00.000Z",
+      "date": "11/23/2025",
+      "bedtime": "22:50",
+      "wakeTime": "06:23",
+      "hoursSlept": 7.55,
+      "quality": 4
+    },
+    {
+      "id": 1764077340000,
+      "timestamp": "2025-11-25T13:29:00.000Z",
+      "date": "11/24/2025",
+      "bedtime": "22:46",
+      "wakeTime": "05:29",
+      "hoursSlept": 6.72,
+      "quality": 3
+    },
+    {
+      "id": 1764161640000,
+      "timestamp": "2025-11-26T12:54:00.000Z",
+      "date": "11/25/2025",
+      "bedtime": "22:47",
+      "wakeTime": "04:54",
+      "hoursSlept": 6.11,
+      "quality": 3
+    },
+    {
+      "id": 1764250380000,
+      "timestamp": "2025-11-27T13:33:00.000Z",
+      "date": "11/26/2025",
+      "bedtime": "22:38",
+      "wakeTime": "05:33",
+      "hoursSlept": 6.92,
+      "quality": 3
+    },
+    {
+      "id": 1764335760000,
+      "timestamp": "2025-11-28T13:16:00.000Z",
+      "date": "11/27/2025",
+      "bedtime": "22:30",
+      "wakeTime": "05:16",
+      "hoursSlept": 6.77,
+      "quality": 4
+    },
+    {
+      "id": 1764421620000,
+      "timestamp": "2025-11-29T13:07:00.000Z",
+      "date": "11/28/2025",
+      "bedtime": "23:08",
+      "wakeTime": "05:07",
+      "hoursSlept": 5.98,
+      "quality": 3
+    },
+    {
+      "id": 1764513420000,
+      "timestamp": "2025-11-30T14:37:00.000Z",
+      "date": "11/29/2025",
+      "bedtime": "00:07",
+      "wakeTime": "06:37",
+      "hoursSlept": 6.5,
+      "quality": 3
+    },
+    {
+      "id": 1764596400000,
+      "timestamp": "2025-12-01T13:40:00.000Z",
+      "date": "11/30/2025",
+      "bedtime": "23:02",
+      "wakeTime": "05:40",
+      "hoursSlept": 6.63,
+      "quality": 3
+    },
+    {
+      "id": 1764687780000,
+      "timestamp": "2025-12-02T15:03:00.000Z",
+      "date": "12/1/2025",
+      "bedtime": "23:35",
+      "wakeTime": "07:03",
+      "hoursSlept": 7.47,
+      "quality": 4
+    },
+    {
+      "id": 1764770700000,
+      "timestamp": "2025-12-03T14:05:00.000Z",
+      "date": "12/2/2025",
+      "bedtime": "23:45",
+      "wakeTime": "06:05",
+      "hoursSlept": 6.33,
+      "quality": 3
+    },
+    {
+      "id": 1764858720000,
+      "timestamp": "2025-12-04T14:32:00.000Z",
+      "date": "12/3/2025",
+      "bedtime": "23:22",
+      "wakeTime": "06:32",
+      "hoursSlept": 7.16,
+      "quality": 4
+    },
+    {
+      "id": 1764946260000,
+      "timestamp": "2025-12-05T14:51:00.000Z",
+      "date": "12/4/2025",
+      "bedtime": "23:26",
+      "wakeTime": "06:51",
+      "hoursSlept": 7.42,
+      "quality": 4
+    },
+    {
+      "id": 1765034040000,
+      "timestamp": "2025-12-06T15:14:00.000Z",
+      "date": "12/5/2025",
+      "bedtime": "00:09",
+      "wakeTime": "07:14",
+      "hoursSlept": 7.09,
+      "quality": 3
+    },
+    {
+      "id": 1765117860000,
+      "timestamp": "2025-12-07T14:31:00.000Z",
+      "date": "12/6/2025",
+      "bedtime": "23:12",
+      "wakeTime": "06:31",
+      "hoursSlept": 7.31,
+      "quality": 3
+    },
+    {
+      "id": 1765205160000,
+      "timestamp": "2025-12-08T14:46:00.000Z",
+      "date": "12/7/2025",
+      "bedtime": "23:13",
+      "wakeTime": "06:46",
+      "hoursSlept": 7.55,
+      "quality": 4
+    },
+    {
+      "id": 1765282800000,
+      "timestamp": "2025-12-09T12:20:00.000Z",
+      "date": "12/8/2025",
+      "bedtime": "22:19",
+      "wakeTime": "04:20",
+      "hoursSlept": 6.02,
+      "quality": 3
+    },
+    {
+      "id": 1765372020000,
+      "timestamp": "2025-12-10T13:07:00.000Z",
+      "date": "12/9/2025",
+      "bedtime": "23:24",
+      "wakeTime": "05:07",
+      "hoursSlept": 5.72,
+      "quality": 2
+    },
+    {
+      "id": 1765460940000,
+      "timestamp": "2025-12-11T13:49:00.000Z",
+      "date": "12/10/2025",
+      "bedtime": "23:26",
+      "wakeTime": "05:49",
+      "hoursSlept": 6.39,
+      "quality": 3
+    },
+    {
+      "id": 1765543740000,
+      "timestamp": "2025-12-12T12:49:00.000Z",
+      "date": "12/11/2025",
+      "bedtime": "22:59",
+      "wakeTime": "04:49",
+      "hoursSlept": 5.83,
+      "quality": 3
+    },
+    {
+      "id": 1765636560000,
+      "timestamp": "2025-12-13T14:36:00.000Z",
+      "date": "12/12/2025",
+      "bedtime": "23:37",
+      "wakeTime": "06:36",
+      "hoursSlept": 6.98,
+      "quality": 3
+    },
+    {
+      "id": 1765724040000,
+      "timestamp": "2025-12-14T14:54:00.000Z",
+      "date": "12/13/2025",
+      "bedtime": "00:07",
+      "wakeTime": "06:54",
+      "hoursSlept": 6.79,
+      "quality": 4
+    },
+    {
+      "id": 1765811100000,
+      "timestamp": "2025-12-15T15:05:00.000Z",
+      "date": "12/14/2025",
+      "bedtime": "23:30",
+      "wakeTime": "07:05",
+      "hoursSlept": 7.59,
+      "quality": 4
+    },
+    {
+      "id": 1765892340000,
+      "timestamp": "2025-12-16T13:39:00.000Z",
+      "date": "12/15/2025",
+      "bedtime": "22:55",
+      "wakeTime": "05:39",
+      "hoursSlept": 6.73,
+      "quality": 4
+    },
+    {
+      "id": 1765983420000,
+      "timestamp": "2025-12-17T14:57:00.000Z",
+      "date": "12/16/2025",
+      "bedtime": "23:30",
+      "wakeTime": "06:57",
+      "hoursSlept": 7.45,
+      "quality": 3
+    },
+    {
+      "id": 1766067240000,
+      "timestamp": "2025-12-18T14:14:00.000Z",
+      "date": "12/17/2025",
+      "bedtime": "23:36",
+      "wakeTime": "06:14",
+      "hoursSlept": 6.64,
+      "quality": 3
+    },
+    {
+      "id": 1766151300000,
+      "timestamp": "2025-12-19T13:35:00.000Z",
+      "date": "12/18/2025",
+      "bedtime": "23:22",
+      "wakeTime": "05:35",
+      "hoursSlept": 6.21,
+      "quality": 3
+    },
+    {
+      "id": 1766241000000,
+      "timestamp": "2025-12-20T14:30:00.000Z",
+      "date": "12/19/2025",
+      "bedtime": "23:51",
+      "wakeTime": "06:30",
+      "hoursSlept": 6.65,
+      "quality": 3
+    },
+    {
+      "id": 1766329800000,
+      "timestamp": "2025-12-21T15:10:00.000Z",
+      "date": "12/20/2025",
+      "bedtime": "23:23",
+      "wakeTime": "07:10",
+      "hoursSlept": 7.79,
+      "quality": 4
+    },
+    {
+      "id": 1766414220000,
+      "timestamp": "2025-12-22T14:37:00.000Z",
+      "date": "12/21/2025",
+      "bedtime": "23:04",
+      "wakeTime": "06:37",
+      "hoursSlept": 7.55,
+      "quality": 4
+    },
+    {
+      "id": 1766497140000,
+      "timestamp": "2025-12-23T13:39:00.000Z",
+      "date": "12/22/2025",
+      "bedtime": "23:14",
+      "wakeTime": "05:39",
+      "hoursSlept": 6.41,
+      "quality": 3
+    },
+    {
+      "id": 1766577900000,
+      "timestamp": "2025-12-24T12:05:00.000Z",
+      "date": "12/23/2025",
+      "bedtime": "22:21",
+      "wakeTime": "04:05",
+      "hoursSlept": 5.73,
+      "quality": 1
+    },
+    {
+      "id": 1766670180000,
+      "timestamp": "2025-12-25T13:43:00.000Z",
+      "date": "12/24/2025",
+      "bedtime": "22:34",
+      "wakeTime": "05:43",
+      "hoursSlept": 7.15,
+      "quality": 3
+    },
+    {
+      "id": 1766757780000,
+      "timestamp": "2025-12-26T14:03:00.000Z",
+      "date": "12/25/2025",
+      "bedtime": "22:55",
+      "wakeTime": "06:03",
+      "hoursSlept": 7.13,
+      "quality": 3
+    },
+    {
+      "id": 1766845440000,
+      "timestamp": "2025-12-27T14:24:00.000Z",
+      "date": "12/26/2025",
+      "bedtime": "00:05",
+      "wakeTime": "06:24",
+      "hoursSlept": 6.31,
+      "quality": 3
+    },
+    {
+      "id": 1766933580000,
+      "timestamp": "2025-12-28T14:53:00.000Z",
+      "date": "12/27/2025",
+      "bedtime": "23:35",
+      "wakeTime": "06:53",
+      "hoursSlept": 7.3,
+      "quality": 3
+    },
+    {
+      "id": 1767019140000,
+      "timestamp": "2025-12-29T14:39:00.000Z",
+      "date": "12/28/2025",
+      "bedtime": "23:15",
+      "wakeTime": "06:39",
+      "hoursSlept": 7.4,
+      "quality": 4
+    },
+    {
+      "id": 1767100920000,
+      "timestamp": "2025-12-30T13:22:00.000Z",
+      "date": "12/29/2025",
+      "bedtime": "23:14",
+      "wakeTime": "05:22",
+      "hoursSlept": 6.14,
+      "quality": 3
+    },
+    {
+      "id": 1767191640000,
+      "timestamp": "2025-12-31T14:34:00.000Z",
+      "date": "12/30/2025",
+      "bedtime": "23:39",
+      "wakeTime": "06:34",
+      "hoursSlept": 6.91,
+      "quality": 4
+    },
+    {
+      "id": 1767273360000,
+      "timestamp": "2026-01-01T13:16:00.000Z",
+      "date": "12/31/2025",
+      "bedtime": "22:56",
+      "wakeTime": "05:16",
+      "hoursSlept": 6.33,
+      "quality": 3
+    },
+    {
+      "id": 1767365400000,
+      "timestamp": "2026-01-02T14:50:00.000Z",
+      "date": "1/1/2026",
+      "bedtime": "23:13",
+      "wakeTime": "06:50",
+      "hoursSlept": 7.61,
+      "quality": 4
+    },
+    {
+      "id": 1767452820000,
+      "timestamp": "2026-01-03T15:07:00.000Z",
+      "date": "1/2/2026",
+      "bedtime": "00:02",
+      "wakeTime": "07:07",
+      "hoursSlept": 7.08,
+      "quality": 3
+    },
+    {
+      "id": 1767535920000,
+      "timestamp": "2026-01-04T14:12:00.000Z",
+      "date": "1/3/2026",
+      "bedtime": "23:05",
+      "wakeTime": "06:12",
+      "hoursSlept": 7.11,
+      "quality": 4
+    },
+    {
+      "id": 1767622860000,
+      "timestamp": "2026-01-05T14:21:00.000Z",
+      "date": "1/4/2026",
+      "bedtime": "22:55",
+      "wakeTime": "06:21",
+      "hoursSlept": 7.44,
+      "quality": 4
+    },
+    {
+      "id": 1767708240000,
+      "timestamp": "2026-01-06T14:04:00.000Z",
+      "date": "1/5/2026",
+      "bedtime": "22:57",
+      "wakeTime": "06:04",
+      "hoursSlept": 7.11,
+      "quality": 4
+    },
+    {
+      "id": 1767791940000,
+      "timestamp": "2026-01-07T13:19:00.000Z",
+      "date": "1/6/2026",
+      "bedtime": "23:12",
+      "wakeTime": "05:19",
+      "hoursSlept": 6.12,
+      "quality": 3
+    },
+    {
+      "id": 1767879960000,
+      "timestamp": "2026-01-08T13:46:00.000Z",
+      "date": "1/7/2026",
+      "bedtime": "23:18",
+      "wakeTime": "05:46",
+      "hoursSlept": 6.46,
+      "quality": 3
+    },
+    {
+      "id": 1767967740000,
+      "timestamp": "2026-01-09T14:09:00.000Z",
+      "date": "1/8/2026",
+      "bedtime": "22:44",
+      "wakeTime": "06:09",
+      "hoursSlept": 7.42,
+      "quality": 4
+    },
+    {
+      "id": 1768059420000,
+      "timestamp": "2026-01-10T15:37:00.000Z",
+      "date": "1/9/2026",
+      "bedtime": "00:06",
+      "wakeTime": "07:37",
+      "hoursSlept": 7.52,
+      "quality": 4
+    },
+    {
+      "id": 1768141140000,
+      "timestamp": "2026-01-11T14:19:00.000Z",
+      "date": "1/10/2026",
+      "bedtime": "23:38",
+      "wakeTime": "06:19",
+      "hoursSlept": 6.68,
+      "quality": 3
+    },
+    {
+      "id": 1768228320000,
+      "timestamp": "2026-01-12T14:32:00.000Z",
+      "date": "1/11/2026",
+      "bedtime": "22:57",
+      "wakeTime": "06:32",
+      "hoursSlept": 7.59,
+      "quality": 4
+    },
+    {
+      "id": 1768318800000,
+      "timestamp": "2026-01-13T15:40:00.000Z",
+      "date": "1/12/2026",
+      "bedtime": "23:59",
+      "wakeTime": "07:40",
+      "hoursSlept": 7.69,
+      "quality": 4
+    },
+    {
+      "id": 1768399860000,
+      "timestamp": "2026-01-14T14:11:00.000Z",
+      "date": "1/13/2026",
+      "bedtime": "23:04",
+      "wakeTime": "06:11",
+      "hoursSlept": 7.11,
+      "quality": 4
+    },
+    {
+      "id": 1768489800000,
+      "timestamp": "2026-01-15T15:10:00.000Z",
+      "date": "1/14/2026",
+      "bedtime": "23:42",
+      "wakeTime": "07:10",
+      "hoursSlept": 7.47,
+      "quality": 4
+    },
+    {
+      "id": 1768572120000,
+      "timestamp": "2026-01-16T14:02:00.000Z",
+      "date": "1/15/2026",
+      "bedtime": "23:34",
+      "wakeTime": "06:02",
+      "hoursSlept": 6.46,
+      "quality": 3
+    },
+    {
+      "id": 1768660560000,
+      "timestamp": "2026-01-17T14:36:00.000Z",
+      "date": "1/16/2026",
+      "bedtime": "23:37",
+      "wakeTime": "06:36",
+      "hoursSlept": 6.99,
+      "quality": 4
+    },
+    {
+      "id": 1768749660000,
+      "timestamp": "2026-01-18T15:21:00.000Z",
+      "date": "1/17/2026",
+      "bedtime": "23:53",
+      "wakeTime": "07:21",
+      "hoursSlept": 7.46,
+      "quality": 4
+    },
+    {
+      "id": 1768834260000,
+      "timestamp": "2026-01-19T14:51:00.000Z",
+      "date": "1/18/2026",
+      "bedtime": "23:04",
+      "wakeTime": "06:51",
+      "hoursSlept": 7.78,
+      "quality": 4
+    },
+    {
+      "id": 1768914060000,
+      "timestamp": "2026-01-20T13:01:00.000Z",
+      "date": "1/19/2026",
+      "bedtime": "22:47",
+      "wakeTime": "05:01",
+      "hoursSlept": 6.24,
+      "quality": 3
+    },
+    {
+      "id": 1769002080000,
+      "timestamp": "2026-01-21T13:28:00.000Z",
+      "date": "1/20/2026",
+      "bedtime": "22:59",
+      "wakeTime": "05:28",
+      "hoursSlept": 6.49,
+      "quality": 3
+    },
+    {
+      "id": 1769086740000,
+      "timestamp": "2026-01-22T12:59:00.000Z",
+      "date": "1/21/2026",
+      "bedtime": "22:23",
+      "wakeTime": "04:59",
+      "hoursSlept": 6.6,
+      "quality": 3
+    },
+    {
+      "id": 1769172600000,
+      "timestamp": "2026-01-23T12:50:00.000Z",
+      "date": "1/22/2026",
+      "bedtime": "22:48",
+      "wakeTime": "04:50",
+      "hoursSlept": 6.04,
+      "quality": 3
+    },
+    {
+      "id": 1769262600000,
+      "timestamp": "2026-01-24T13:50:00.000Z",
+      "date": "1/23/2026",
+      "bedtime": "23:30",
+      "wakeTime": "05:50",
+      "hoursSlept": 6.34,
+      "quality": 3
+    },
+    {
+      "id": 1769355900000,
+      "timestamp": "2026-01-25T15:45:00.000Z",
+      "date": "1/24/2026",
+      "bedtime": "00:05",
+      "wakeTime": "07:45",
+      "hoursSlept": 7.66,
+      "quality": 4
+    },
+    {
+      "id": 1769442120000,
+      "timestamp": "2026-01-26T15:42:00.000Z",
+      "date": "1/25/2026",
+      "bedtime": "23:46",
+      "wakeTime": "07:42",
+      "hoursSlept": 7.93,
+      "quality": 4
+    },
+    {
+      "id": 1769526900000,
+      "timestamp": "2026-01-27T15:15:00.000Z",
+      "date": "1/26/2026",
+      "bedtime": "23:27",
+      "wakeTime": "07:15",
+      "hoursSlept": 7.8,
+      "quality": 4
+    },
+    {
+      "id": 1769610600000,
+      "timestamp": "2026-01-28T14:30:00.000Z",
+      "date": "1/27/2026",
+      "bedtime": "23:29",
+      "wakeTime": "06:30",
+      "hoursSlept": 7.02,
+      "quality": 4
+    },
+    {
+      "id": 1769694960000,
+      "timestamp": "2026-01-29T13:56:00.000Z",
+      "date": "1/28/2026",
+      "bedtime": "23:13",
+      "wakeTime": "05:56",
+      "hoursSlept": 6.71,
+      "quality": 3
+    },
+    {
+      "id": 1769782320000,
+      "timestamp": "2026-01-30T14:12:00.000Z",
+      "date": "1/29/2026",
+      "bedtime": "23:49",
+      "wakeTime": "06:12",
+      "hoursSlept": 6.38,
+      "quality": 3
+    },
+    {
+      "id": 1769872860000,
+      "timestamp": "2026-01-31T15:21:00.000Z",
+      "date": "1/30/2026",
+      "bedtime": "00:08",
+      "wakeTime": "07:21",
+      "hoursSlept": 7.22,
+      "quality": 3
+    },
+    {
+      "id": 1769959080000,
+      "timestamp": "2026-02-01T15:18:00.000Z",
+      "date": "1/31/2026",
+      "bedtime": "23:49",
+      "wakeTime": "07:18",
+      "hoursSlept": 7.49,
+      "quality": 4
+    },
+    {
+      "id": 1770041700000,
+      "timestamp": "2026-02-02T14:15:00.000Z",
+      "date": "2/1/2026",
+      "bedtime": "22:44",
+      "wakeTime": "06:15",
+      "hoursSlept": 7.52,
+      "quality": 4
+    },
+    {
+      "id": 1770129120000,
+      "timestamp": "2026-02-03T14:32:00.000Z",
+      "date": "2/2/2026",
+      "bedtime": "23:19",
+      "wakeTime": "06:32",
+      "hoursSlept": 7.21,
+      "quality": 4
+    },
+    {
+      "id": 1770213060000,
+      "timestamp": "2026-02-04T13:51:00.000Z",
+      "date": "2/3/2026",
+      "bedtime": "23:05",
+      "wakeTime": "05:51",
+      "hoursSlept": 6.76,
+      "quality": 3
+    },
+    {
+      "id": 1770300000000,
+      "timestamp": "2026-02-05T14:00:00.000Z",
+      "date": "2/4/2026",
+      "bedtime": "22:41",
+      "wakeTime": "06:00",
+      "hoursSlept": 7.32,
+      "quality": 4
+    },
+    {
+      "id": 1770388620000,
+      "timestamp": "2026-02-06T14:37:00.000Z",
+      "date": "2/5/2026",
+      "bedtime": "23:29",
+      "wakeTime": "06:37",
+      "hoursSlept": 7.13,
+      "quality": 3
+    },
+    {
+      "id": 1770476880000,
+      "timestamp": "2026-02-07T15:08:00.000Z",
+      "date": "2/6/2026",
+      "bedtime": "00:07",
+      "wakeTime": "07:08",
+      "hoursSlept": 7.01,
+      "quality": 3
+    },
+    {
+      "id": 1770564420000,
+      "timestamp": "2026-02-08T15:27:00.000Z",
+      "date": "2/7/2026",
+      "bedtime": "00:16",
+      "wakeTime": "07:27",
+      "hoursSlept": 7.18,
+      "quality": 4
+    },
+    {
+      "id": 1770651120000,
+      "timestamp": "2026-02-09T15:32:00.000Z",
+      "date": "2/8/2026",
+      "bedtime": "23:35",
+      "wakeTime": "07:32",
+      "hoursSlept": 7.95,
+      "quality": 4
+    },
+    {
+      "id": 1770732180000,
+      "timestamp": "2026-02-10T14:03:00.000Z",
+      "date": "2/9/2026",
+      "bedtime": "23:12",
+      "wakeTime": "06:03",
+      "hoursSlept": 6.85,
+      "quality": 4
+    },
+    {
+      "id": 1770816960000,
+      "timestamp": "2026-02-11T13:36:00.000Z",
+      "date": "2/10/2026",
+      "bedtime": "22:59",
+      "wakeTime": "05:36",
+      "hoursSlept": 6.62,
+      "quality": 3
+    },
+    {
+      "id": 1770903540000,
+      "timestamp": "2026-02-12T13:39:00.000Z",
+      "date": "2/11/2026",
+      "bedtime": "22:50",
+      "wakeTime": "05:39",
+      "hoursSlept": 6.81,
+      "quality": 4
+    },
+    {
+      "id": 1770992880000,
+      "timestamp": "2026-02-13T14:28:00.000Z",
+      "date": "2/12/2026",
+      "bedtime": "22:49",
+      "wakeTime": "06:28",
+      "hoursSlept": 7.65,
+      "quality": 3
+    },
+    {
+      "id": 1771080420000,
+      "timestamp": "2026-02-14T14:47:00.000Z",
+      "date": "2/13/2026",
+      "bedtime": "23:10",
+      "wakeTime": "06:47",
+      "hoursSlept": 7.61,
+      "quality": 4
+    },
+    {
+      "id": 1771165080000,
+      "timestamp": "2026-02-15T14:18:00.000Z",
+      "date": "2/14/2026",
+      "bedtime": "23:44",
+      "wakeTime": "06:18",
+      "hoursSlept": 6.56,
+      "quality": 3
+    },
+    {
+      "id": 1771252140000,
+      "timestamp": "2026-02-16T14:29:00.000Z",
+      "date": "2/15/2026",
+      "bedtime": "23:01",
+      "wakeTime": "06:29",
+      "hoursSlept": 7.46,
+      "quality": 4
+    },
+    {
+      "id": 1771335180000,
+      "timestamp": "2026-02-17T13:33:00.000Z",
+      "date": "2/16/2026",
+      "bedtime": "23:04",
+      "wakeTime": "05:33",
+      "hoursSlept": 6.48,
+      "quality": 3
+    },
+    {
+      "id": 1771422660000,
+      "timestamp": "2026-02-18T13:51:00.000Z",
+      "date": "2/17/2026",
+      "bedtime": "22:44",
+      "wakeTime": "05:51",
+      "hoursSlept": 7.11,
+      "quality": 3
+    },
+    {
+      "id": 1771508400000,
+      "timestamp": "2026-02-19T13:40:00.000Z",
+      "date": "2/18/2026",
+      "bedtime": "23:02",
+      "wakeTime": "05:40",
+      "hoursSlept": 6.64,
+      "quality": 3
+    },
+    {
+      "id": 1771593840000,
+      "timestamp": "2026-02-20T13:24:00.000Z",
+      "date": "2/19/2026",
+      "bedtime": "23:04",
+      "wakeTime": "05:24",
+      "hoursSlept": 6.33,
+      "quality": 3
+    },
+    {
+      "id": 1771682520000,
+      "timestamp": "2026-02-21T14:02:00.000Z",
+      "date": "2/20/2026",
+      "bedtime": "23:50",
+      "wakeTime": "06:02",
+      "hoursSlept": 6.2,
+      "quality": 3
+    },
+    {
+      "id": 1771771860000,
+      "timestamp": "2026-02-22T14:51:00.000Z",
+      "date": "2/21/2026",
+      "bedtime": "23:42",
+      "wakeTime": "06:51",
+      "hoursSlept": 7.15,
+      "quality": 3
+    },
+    {
+      "id": 1771859100000,
+      "timestamp": "2026-02-23T15:05:00.000Z",
+      "date": "2/22/2026",
+      "bedtime": "23:22",
+      "wakeTime": "07:05",
+      "hoursSlept": 7.71,
+      "quality": 4
+    },
+    {
+      "id": 1771942320000,
+      "timestamp": "2026-02-24T14:12:00.000Z",
+      "date": "2/23/2026",
+      "bedtime": "22:54",
+      "wakeTime": "06:12",
+      "hoursSlept": 7.3,
+      "quality": 3
+    },
+    {
+      "id": 1772030820000,
+      "timestamp": "2026-02-25T14:47:00.000Z",
+      "date": "2/24/2026",
+      "bedtime": "23:22",
+      "wakeTime": "06:47",
+      "hoursSlept": 7.42,
+      "quality": 4
+    },
+    {
+      "id": 1772115660000,
+      "timestamp": "2026-02-26T14:21:00.000Z",
+      "date": "2/25/2026",
+      "bedtime": "23:37",
+      "wakeTime": "06:21",
+      "hoursSlept": 6.73,
+      "quality": 3
+    },
+    {
+      "id": 1772202900000,
+      "timestamp": "2026-02-27T14:35:00.000Z",
+      "date": "2/26/2026",
+      "bedtime": "23:50",
+      "wakeTime": "06:35",
+      "hoursSlept": 6.75,
+      "quality": 3
+    },
+    {
+      "id": 1772287020000,
+      "timestamp": "2026-02-28T13:57:00.000Z",
+      "date": "2/27/2026",
+      "bedtime": "23:25",
+      "wakeTime": "05:57",
+      "hoursSlept": 6.54,
+      "quality": 3
+    },
+    {
+      "id": 1772380140000,
+      "timestamp": "2026-03-01T15:49:00.000Z",
+      "date": "2/28/2026",
+      "bedtime": "00:02",
+      "wakeTime": "07:49",
+      "hoursSlept": 7.78,
+      "quality": 4
+    },
+    {
+      "id": 1772456100000,
+      "timestamp": "2026-03-02T12:55:00.000Z",
+      "date": "3/1/2026",
+      "bedtime": "22:21",
+      "wakeTime": "04:55",
+      "hoursSlept": 6.56,
+      "quality": 4
+    },
+    {
+      "id": 1772545980000,
+      "timestamp": "2026-03-03T13:53:00.000Z",
+      "date": "3/2/2026",
+      "bedtime": "22:27",
+      "wakeTime": "05:53",
+      "hoursSlept": 7.44,
+      "quality": 4
+    },
+    {
+      "id": 1772635800000,
+      "timestamp": "2026-03-04T14:50:00.000Z",
+      "date": "3/3/2026",
+      "bedtime": "23:18",
+      "wakeTime": "06:50",
+      "hoursSlept": 7.53,
+      "quality": 4
+    },
+    {
+      "id": 1772721060000,
+      "timestamp": "2026-03-05T14:31:00.000Z",
+      "date": "3/4/2026",
+      "bedtime": "23:09",
+      "wakeTime": "06:31",
+      "hoursSlept": 7.36,
+      "quality": 4
+    },
+    {
+      "id": 1772809860000,
+      "timestamp": "2026-03-06T15:11:00.000Z",
+      "date": "3/5/2026",
+      "bedtime": "23:37",
+      "wakeTime": "07:11",
+      "hoursSlept": 7.56,
+      "quality": 4
+    },
+    {
+      "id": 1772895720000,
+      "timestamp": "2026-03-07T15:02:00.000Z",
+      "date": "3/6/2026",
+      "bedtime": "23:46",
+      "wakeTime": "07:02",
+      "hoursSlept": 7.27,
+      "quality": 3
+    },
+    {
+      "id": 1772979600000,
+      "timestamp": "2026-03-08T14:20:00.000Z",
+      "date": "3/7/2026",
+      "bedtime": "23:12",
+      "wakeTime": "07:20",
+      "hoursSlept": 8.14,
+      "quality": 4
+    }
+  ]
+}
