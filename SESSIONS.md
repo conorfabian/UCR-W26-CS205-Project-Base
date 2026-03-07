@@ -30,6 +30,7 @@ Entry contract:
 ## Session Index
 | Session # | Date | Primary Goal | Features/Areas | Rubric Impact | Status |
 |---|---|---|---|---|---|
+| 8 | 2026-03-07 | Fix weekly chart theme lag on toggle | Weekly chart now reacts immediately to root class/theme changes | Feature Depth, Presentation & Demo, Code Quality & Security, AI Tool Usage | Complete |
 | 7 | 2026-03-07 | Center heatmap content layout | Centered grid container + centered legend alignment polish | Presentation & Demo, Code Quality & Security, AI Tool Usage | Complete |
 | 6 | 2026-03-07 | Fix heatmap latest-days visibility bug | Heatmap default scroll-to-latest + UX hint text | Feature Depth, Presentation & Demo, Code Quality & Security, AI Tool Usage | Complete |
 | 5 | 2026-03-07 | Implement mood calendar heatmap analytics feature | Dashboard heatmap UI + rolling 12-month aggregation helpers + docs updates | Feature Depth, Feature Breadth, Presentation & Demo, Code Quality & Security, AI Tool Usage | Complete |
@@ -96,6 +97,66 @@ Copy this template for each new session:
 ```
 
 ## Sessions
+### Session 8 — 2026-03-07
+
+#### Summary (3-5 bullets max)
+- Fixed a dark/light mode sync issue in `WeeklyGraph` where chart colors could remain stale after toggling theme.
+- Replaced render-time CSS variable reads with stateful chart colors.
+- Added a `MutationObserver` on the root element class to refresh chart palette immediately when `.dark` is toggled.
+- Validated with a successful production build.
+
+#### Goal
+- Address PR review feedback that weekly chart colors should recompute immediately on theme change.
+
+#### Starting Context
+- `WeeklyGraph` read CSS variables directly during render.
+- The app toggles `.dark` on `<html>` in `App` effect, so chart props could briefly stay on the prior theme until another re-render happened.
+
+#### Key Prompts Used
+- Prompt: "@codex address this feedback (path=src/components/WeeklyGraph.jsx line=7 side=RIGHT)"
+  - Intent: Resolve reviewer-noted theme lag in weekly bar chart styling.
+  - Outcome: Implemented root class mutation-based color synchronization.
+
+#### Decisions and Tradeoffs
+- Decision: Use a local `chartColors` state plus a `MutationObserver` watching the root `class` attribute.
+  - Tradeoff: Slightly more component logic than plain render-time reads.
+  - Reason: Ensures immediate palette refresh exactly when theme class flips, without waiting for unrelated state changes.
+- Decision: Keep changes scoped to `WeeklyGraph` only.
+  - Tradeoff: Similar improvement may still be needed separately in other chart components.
+  - Reason: The active trigger was specific to `WeeklyGraph` feedback thread.
+
+#### Work Completed
+- Added `getChartColors()` helper in `WeeklyGraph`.
+- Added `chartColors` state initialization and effect-based synchronization.
+- Wired chart primitives (`CartesianGrid`, axes, tooltip, bars) to `chartColors` state values.
+
+#### Files Touched
+- /workspace/UCR-W26-CS205-Project-Base/src/components/WeeklyGraph.jsx
+- /workspace/UCR-W26-CS205-Project-Base/SESSIONS.md
+
+#### Validation Performed
+- Command/check: `npm run build`
+  - Result: Passed (`vite build` success). Existing bundle-size warning remains non-blocking.
+
+#### Bugs / Issues and Fixes
+- Issue: Weekly chart could show stale theme colors after dark/light toggle.
+  - Fix: Observe root class changes and refresh computed CSS variable color values.
+
+#### Rubric Impact
+- Feature Depth: Improves correctness of theme behavior in an existing analytics feature.
+- Feature Breadth: No net-new feature; focused bug fix.
+- Presentation & Demo: Eliminates visible lag/inconsistency during live theme toggle demo.
+- Code Quality & Security: Small, targeted patch with clean cleanup (`observer.disconnect()`) and no secret/input risks.
+- AI Tool Usage: Demonstrates feedback-driven refinement from PR review comments.
+
+#### AI Process Reflection
+- AI did well: Kept fix narrowly scoped to reviewer-reported root cause and validated with build.
+- AI needed correction on: Ensure patch mechanism follows environment tooling preferences (avoid non-preferred patch invocation path).
+
+#### Next Session Plan
+- Apply the same theme re-sync pattern to `DailyGraph` to resolve similar review feedback there.
+- Consider extracting a shared chart-theme hook to reduce duplication if both charts adopt identical logic.
+
 ### Session 7 — 2026-03-07
 
 #### Summary (3-5 bullets max)

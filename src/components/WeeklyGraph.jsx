@@ -1,16 +1,44 @@
-import { useMemo } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts'
 import { useHealthData } from '../context/HealthDataContext'
 
+function getChartColors() {
+  const rootStyles = getComputedStyle(document.documentElement)
+
+  return {
+    gridColor: rootStyles.getPropertyValue('--chart-grid-color').trim(),
+    axisColor: rootStyles.getPropertyValue('--chart-axis-color').trim(),
+    tooltipBackground: rootStyles.getPropertyValue('--chart-tooltip-bg').trim(),
+    tooltipBorder: rootStyles.getPropertyValue('--chart-tooltip-border').trim(),
+    tooltipText: rootStyles.getPropertyValue('--chart-tooltip-text').trim(),
+    barColor: rootStyles.getPropertyValue('--chart-bar-color').trim(),
+  }
+}
+
 function WeeklyGraph() {
   const { moodEntries } = useHealthData()
-  const rootStyles = getComputedStyle(document.documentElement)
-  const chartGridColor = rootStyles.getPropertyValue('--chart-grid-color').trim()
-  const chartAxisColor = rootStyles.getPropertyValue('--chart-axis-color').trim()
-  const chartTooltipBackground = rootStyles.getPropertyValue('--chart-tooltip-bg').trim()
-  const chartTooltipBorder = rootStyles.getPropertyValue('--chart-tooltip-border').trim()
-  const chartTooltipText = rootStyles.getPropertyValue('--chart-tooltip-text').trim()
-  const chartBarColor = rootStyles.getPropertyValue('--chart-bar-color').trim()
+  const [chartColors, setChartColors] = useState(getChartColors)
+
+  useEffect(() => {
+    const root = document.documentElement
+    const syncChartColors = () => setChartColors(getChartColors())
+
+    syncChartColors()
+
+    const observer = new MutationObserver((mutations) => {
+      const hasClassChange = mutations.some(
+        (mutation) => mutation.type === 'attributes' && mutation.attributeName === 'class'
+      )
+
+      if (hasClassChange) {
+        syncChartColors()
+      }
+    })
+
+    observer.observe(root, { attributes: true, attributeFilter: ['class'] })
+
+    return () => observer.disconnect()
+  }, [])
 
   const weeklyData = useMemo(() => {
     const days = []
@@ -42,19 +70,24 @@ function WeeklyGraph() {
       <h3 className="mb-4 text-xl font-semibold text-gray-800 dark:text-slate-100">Last 7 Days - Average Mood</h3>
       <ResponsiveContainer width="100%" height={300}>
         <BarChart data={weeklyData}>
-          <CartesianGrid stroke={chartGridColor} strokeDasharray="3 3" />
-          <XAxis dataKey="day" stroke={chartAxisColor} tick={{ fill: chartAxisColor }} />
-          <YAxis domain={[0, 5]} ticks={[0, 1, 2, 3, 4, 5]} stroke={chartAxisColor} tick={{ fill: chartAxisColor }} />
+          <CartesianGrid stroke={chartColors.gridColor} strokeDasharray="3 3" />
+          <XAxis dataKey="day" stroke={chartColors.axisColor} tick={{ fill: chartColors.axisColor }} />
+          <YAxis
+            domain={[0, 5]}
+            ticks={[0, 1, 2, 3, 4, 5]}
+            stroke={chartColors.axisColor}
+            tick={{ fill: chartColors.axisColor }}
+          />
           <Tooltip
             contentStyle={{
-              backgroundColor: chartTooltipBackground,
-              borderColor: chartTooltipBorder,
-              color: chartTooltipText,
+              backgroundColor: chartColors.tooltipBackground,
+              borderColor: chartColors.tooltipBorder,
+              color: chartColors.tooltipText,
             }}
-            labelStyle={{ color: chartTooltipText }}
-            itemStyle={{ color: chartTooltipText }}
+            labelStyle={{ color: chartColors.tooltipText }}
+            itemStyle={{ color: chartColors.tooltipText }}
           />
-          <Bar dataKey="averageMood" fill={chartBarColor} name="Average Mood (1-5)" />
+          <Bar dataKey="averageMood" fill={chartColors.barColor} name="Average Mood (1-5)" />
         </BarChart>
       </ResponsiveContainer>
     </div>
