@@ -5,6 +5,13 @@ import { getTodayFormatted } from '../utils/helpers'
 
 function DailyGraph() {
   const { moodEntries } = useHealthData()
+  const rootStyles = getComputedStyle(document.documentElement)
+  const chartGridColor = rootStyles.getPropertyValue('--chart-grid-color').trim()
+  const chartAxisColor = rootStyles.getPropertyValue('--chart-axis-color').trim()
+  const chartTooltipBackground = rootStyles.getPropertyValue('--chart-tooltip-bg').trim()
+  const chartTooltipBorder = rootStyles.getPropertyValue('--chart-tooltip-border').trim()
+  const chartTooltipText = rootStyles.getPropertyValue('--chart-tooltip-text').trim()
+  const chartLineColor = rootStyles.getPropertyValue('--chart-line-color').trim()
 
   const dailyData = useMemo(() => {
     const todayStr = getTodayFormatted()
@@ -36,23 +43,31 @@ function DailyGraph() {
   const hasTodayData = dailyData.length > 0
 
   return (
-    <div className="bg-white rounded-lg shadow-lg p-6">
-      <h3 className="text-xl font-semibold text-gray-800 mb-2">Today&apos;s Mood</h3>
-      <p className="text-sm text-gray-500 mb-4">{todayStr}</p>
+    <div className="rounded-lg bg-white p-6 shadow-lg dark:bg-slate-800">
+      <h3 className="mb-2 text-xl font-semibold text-gray-800 dark:text-slate-100">Today&apos;s Mood</h3>
+      <p className="mb-4 text-sm text-gray-500 dark:text-slate-400">{todayStr}</p>
       {!hasTodayData && (
-        <div className="mb-4 p-3 bg-yellow-50 border border-yellow-200 rounded-lg">
-          <p className="text-sm text-yellow-700">
+        <div className="mb-4 rounded-lg border border-yellow-200 bg-yellow-50 p-3 dark:border-amber-900 dark:bg-amber-950/40">
+          <p className="text-sm text-yellow-700 dark:text-amber-300">
             No moods logged for today yet. Record how you feel to see it here.
           </p>
         </div>
       )}
       <ResponsiveContainer width="100%" height={300}>
         <LineChart data={dailyData}>
-          <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="time" />
-          <YAxis domain={[1, 5]} ticks={[1, 2, 3, 4, 5]} />
-          <Tooltip />
-          <Line type="monotone" dataKey="mood" stroke="#6366f1" strokeWidth={2} name="Mood (1–5)" />
+          <CartesianGrid stroke={chartGridColor} strokeDasharray="3 3" />
+          <XAxis dataKey="time" stroke={chartAxisColor} tick={{ fill: chartAxisColor }} />
+          <YAxis domain={[1, 5]} ticks={[1, 2, 3, 4, 5]} stroke={chartAxisColor} tick={{ fill: chartAxisColor }} />
+          <Tooltip
+            contentStyle={{
+              backgroundColor: chartTooltipBackground,
+              borderColor: chartTooltipBorder,
+              color: chartTooltipText,
+            }}
+            labelStyle={{ color: chartTooltipText }}
+            itemStyle={{ color: chartTooltipText }}
+          />
+          <Line type="monotone" dataKey="mood" stroke={chartLineColor} strokeWidth={2} name="Mood (1–5)" />
         </LineChart>
       </ResponsiveContainer>
     </div>

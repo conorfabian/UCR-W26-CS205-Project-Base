@@ -30,6 +30,11 @@ Entry contract:
 ## Session Index
 | Session # | Date | Primary Goal | Features/Areas | Rubric Impact | Status |
 |---|---|---|---|---|---|
+| 8 | 2026-03-07 | Fix weekly chart theme lag on toggle | Weekly chart now reacts immediately to root class/theme changes | Feature Depth, Presentation & Demo, Code Quality & Security, AI Tool Usage | Complete |
+| 7 | 2026-03-07 | Center heatmap content layout | Centered grid container + centered legend alignment polish | Presentation & Demo, Code Quality & Security, AI Tool Usage | Complete |
+| 6 | 2026-03-07 | Fix heatmap latest-days visibility bug | Heatmap default scroll-to-latest + UX hint text | Feature Depth, Presentation & Demo, Code Quality & Security, AI Tool Usage | Complete |
+| 5 | 2026-03-07 | Implement mood calendar heatmap analytics feature | Dashboard heatmap UI + rolling 12-month aggregation helpers + docs updates | Feature Depth, Feature Breadth, Presentation & Demo, Code Quality & Security, AI Tool Usage | Complete |
+| 4 | 2026-03-07 | Implement dark mode toggle end-to-end | Theme state + persisted preference + full UI/chart dark styling | Feature Depth, Feature Breadth, Presentation & Demo, Code Quality & Security, AI Tool Usage | Complete |
 | 3 | 2026-03-04 | Add journal notes attached to mood logs | Mood entry note create/view/edit + import/export compatibility | Feature Depth, Feature Breadth, Presentation & Demo, Code Quality & Security, AI Tool Usage | Complete |
 | 2 | 2026-03-04 | Fix streak timezone day-bucketing mismatch | Helpers date source precedence for streak analytics | Feature Depth, Code Quality & Security, Presentation & Demo | Complete |
 | 1 | 2026-03-04 | Add first rubric-friendly feature | Streaks + weekly goals dashboard analytics | Feature Depth, Feature Breadth, Presentation & Demo, Code Quality | Complete |
@@ -92,6 +97,361 @@ Copy this template for each new session:
 ```
 
 ## Sessions
+### Session 8 — 2026-03-07
+
+#### Summary (3-5 bullets max)
+- Fixed a dark/light mode sync issue in `WeeklyGraph` where chart colors could remain stale after toggling theme.
+- Replaced render-time CSS variable reads with stateful chart colors.
+- Added a `MutationObserver` on the root element class to refresh chart palette immediately when `.dark` is toggled.
+- Validated with a successful production build.
+
+#### Goal
+- Address PR review feedback that weekly chart colors should recompute immediately on theme change.
+
+#### Starting Context
+- `WeeklyGraph` read CSS variables directly during render.
+- The app toggles `.dark` on `<html>` in `App` effect, so chart props could briefly stay on the prior theme until another re-render happened.
+
+#### Key Prompts Used
+- Prompt: "@codex address this feedback (path=src/components/WeeklyGraph.jsx line=7 side=RIGHT)"
+  - Intent: Resolve reviewer-noted theme lag in weekly bar chart styling.
+  - Outcome: Implemented root class mutation-based color synchronization.
+
+#### Decisions and Tradeoffs
+- Decision: Use a local `chartColors` state plus a `MutationObserver` watching the root `class` attribute.
+  - Tradeoff: Slightly more component logic than plain render-time reads.
+  - Reason: Ensures immediate palette refresh exactly when theme class flips, without waiting for unrelated state changes.
+- Decision: Keep changes scoped to `WeeklyGraph` only.
+  - Tradeoff: Similar improvement may still be needed separately in other chart components.
+  - Reason: The active trigger was specific to `WeeklyGraph` feedback thread.
+
+#### Work Completed
+- Added `getChartColors()` helper in `WeeklyGraph`.
+- Added `chartColors` state initialization and effect-based synchronization.
+- Wired chart primitives (`CartesianGrid`, axes, tooltip, bars) to `chartColors` state values.
+
+#### Files Touched
+- /workspace/UCR-W26-CS205-Project-Base/src/components/WeeklyGraph.jsx
+- /workspace/UCR-W26-CS205-Project-Base/SESSIONS.md
+
+#### Validation Performed
+- Command/check: `npm run build`
+  - Result: Passed (`vite build` success). Existing bundle-size warning remains non-blocking.
+
+#### Bugs / Issues and Fixes
+- Issue: Weekly chart could show stale theme colors after dark/light toggle.
+  - Fix: Observe root class changes and refresh computed CSS variable color values.
+
+#### Rubric Impact
+- Feature Depth: Improves correctness of theme behavior in an existing analytics feature.
+- Feature Breadth: No net-new feature; focused bug fix.
+- Presentation & Demo: Eliminates visible lag/inconsistency during live theme toggle demo.
+- Code Quality & Security: Small, targeted patch with clean cleanup (`observer.disconnect()`) and no secret/input risks.
+- AI Tool Usage: Demonstrates feedback-driven refinement from PR review comments.
+
+#### AI Process Reflection
+- AI did well: Kept fix narrowly scoped to reviewer-reported root cause and validated with build.
+- AI needed correction on: Ensure patch mechanism follows environment tooling preferences (avoid non-preferred patch invocation path).
+
+#### Next Session Plan
+- Apply the same theme re-sync pattern to `DailyGraph` to resolve similar review feedback there.
+- Consider extracting a shared chart-theme hook to reduce duplication if both charts adopt identical logic.
+
+### Session 7 — 2026-03-07
+
+#### Summary (3-5 bullets max)
+- Centered the heatmap grid block within its card to remove the right-heavy empty space.
+- Kept horizontal scrolling + auto-scroll-to-latest behavior intact for chronology and visibility.
+- Centered the legend row to visually align with the centered heatmap grid.
+- Validated with a successful production build.
+
+#### Goal
+- Improve heatmap card visual balance by centering elements inside the card container.
+
+#### Starting Context
+- Heatmap data rendering and auto-scroll were functioning after Session 6.
+- The grid container remained left-aligned on wide screens, causing noticeable empty space on the right.
+
+#### Key Prompts Used
+- Prompt: "ok nice that's better, however could you please center the elements for the heatmap box..."
+  - Intent: Refine layout polish based on user screenshot feedback.
+  - Outcome: Implemented centered alignment for the heatmap content and legend.
+
+#### Decisions and Tradeoffs
+- Decision: Center content via `mx-auto w-fit min-w-max` on the heatmap inner container.
+  - Tradeoff: On smaller screens it still behaves like a scrollable wide block.
+  - Reason: Preserves overflow behavior while improving wide-screen balance.
+- Decision: Center legend row instead of right-aligning.
+  - Tradeoff: Slight departure from original GitHub-style right-corner legend placement.
+  - Reason: Better visual symmetry with centered grid content.
+
+#### Work Completed
+- Updated `MoodCalendarHeatmap` layout classes to center the grid wrapper within the scroll area.
+- Updated legend alignment to center under the heatmap.
+
+#### Files Touched
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/src/components/MoodCalendarHeatmap.jsx
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/SESSIONS.md
+
+#### Validation Performed
+- Command/check: `npm run build`
+  - Result: Passed (`vite build` success). Existing chunk-size warning remains non-blocking.
+
+#### Bugs / Issues and Fixes
+- Issue: Heatmap card looked visually unbalanced due to left-aligned content on large widths.
+  - Fix: Centered both the main grid block and legend within the card.
+
+#### Rubric Impact
+- Feature Depth: No new logic; improves usability polish of an implemented feature.
+- Feature Breadth: No new feature.
+- Presentation & Demo: More polished and balanced analytics view for live demo.
+- Code Quality & Security: Minimal class-only layout change with no data/model risk.
+- AI Tool Usage: Captures iterative UI refinement from user feedback.
+
+#### AI Process Reflection
+- AI did well: Applied a small, targeted style fix without altering feature behavior.
+- AI needed correction on: Keep changes strictly to requested alignment adjustments.
+
+#### Next Session Plan
+- Optional: Add subtle max-width constraint for analytics cards to improve readability on ultra-wide displays.
+
+### Session 6 — 2026-03-07
+
+#### Summary (3-5 bullets max)
+- Diagnosed heatmap “all gray” behavior as a viewport issue, not aggregation failure.
+- Added one-time auto-scroll on mount/range signature so the grid opens at the newest days (right edge).
+- Preserved GitHub-style oldest-to-newest chronology while surfacing recent activity by default.
+- Added helper text clarifying that users can scroll left to see older dates.
+- Validated with a successful production build.
+
+#### Goal
+- Fix the heatmap UX bug where recent colored days were hidden off-screen and appeared missing.
+
+#### Starting Context
+- Heatmap correctly aggregated daily mood stats but rendered a horizontally scrollable, oldest-first grid.
+- The container defaulted to `scrollLeft = 0`, showing early months first.
+- User screenshot showed only left-side months, making all visible cells appear gray despite recent entries.
+
+#### Key Prompts Used
+- Prompt: "the actual heatmap appears to be properly implemented... every box on the map is gray even though i have the last few days filled out with mood data. please determine the issue and how to fix it."
+  - Intent: Triage root cause and propose a concrete fix path for a user-visible regression.
+  - Outcome: Identified left-anchored scroll viewport as root cause and planned auto-scroll remedy.
+- Prompt: "PLEASE IMPLEMENT THIS PLAN: ## Fix Heatmap 'All Gray' Visibility Issue..."
+  - Intent: Execute the approved patch exactly as scoped.
+  - Outcome: Implemented auto-scroll-to-latest with guard and updated this session log.
+
+#### Decisions and Tradeoffs
+- Decision: Keep oldest-left chronology and auto-scroll right on initial render/range signature.
+  - Tradeoff: Small initial scroll jump can occur on first paint.
+  - Reason: Preserves familiar GitHub-style ordering while making recent logged days immediately visible.
+- Decision: Gate auto-scroll per range signature using a ref.
+  - Tradeoff: Additional small stateful guard logic in UI component.
+  - Reason: Prevents overriding manual user scroll after initial positioning.
+
+#### Work Completed
+- Updated `MoodCalendarHeatmap` to use:
+  - `scrollContainerRef` for the horizontal grid wrapper,
+  - `autoScrolledRangeRef` guard to run auto-scroll once per range.
+- Added `useEffect` that sets `scrollLeft = scrollWidth` for the current range signature.
+- Added helper text below subtitle: “Showing most recent days first. Scroll left for older dates.”
+
+#### Files Touched
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/src/components/MoodCalendarHeatmap.jsx
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/SESSIONS.md
+
+#### Validation Performed
+- Command/check: `npm run build`
+  - Result: Passed (`vite build` success). Existing chunk-size warning remains non-blocking.
+- Command/check: Static behavior review for auto-scroll guard logic.
+  - Result: Confirmed scroll positioning runs once per range signature and does not repeatedly snap after user scrolling.
+
+#### Bugs / Issues and Fixes
+- Issue: Heatmap looked empty because recent days were off-screen to the right on first render.
+  - Fix: Auto-scroll viewport to right edge on initial display while preserving chronological layout.
+
+#### Rubric Impact
+- Feature Depth: Fixes a real usability edge case affecting feature correctness perception.
+- Feature Breadth: No new feature; targeted reliability/usability improvement.
+- Presentation & Demo: Ensures live demo immediately shows recent heatmap activity without manual scrolling confusion.
+- Code Quality & Security: Minimal, scoped UI-only change with no data model/API impact.
+- AI Tool Usage: Demonstrates root-cause diagnosis and focused corrective patch.
+
+#### AI Process Reflection
+- AI did well: Distinguished data correctness from viewport UX and fixed the lowest-risk layer.
+- AI needed correction on: Ensure implementation exactly matches approved plan wording and guard behavior.
+
+#### Next Session Plan
+- Add click interaction to focus/open a selected day’s entries in History.
+- Add helper tests for heatmap range generation and day-stat aggregation.
+
+### Session 5 — 2026-03-07
+
+#### Summary (3-5 bullets max)
+- Added a new `Mood Calendar Heatmap` card on the Dashboard using a GitHub-style weekly grid layout.
+- Implemented rolling 12-month (365-day) calendar generation with Sunday-start week alignment.
+- Added daily mood aggregation (average mood + entry count) and reused canonical day parsing at helper level.
+- Added per-day tooltips, a low-to-high mood legend, and no-data guidance for empty ranges.
+- Updated README documentation and logged this work block per AGENTS process requirements.
+
+#### Goal
+- Implement the README-listed `Mood calendar heatmap` feature end-to-end with minimal, focused changes.
+
+#### Starting Context
+- Dashboard already contained mood entry, daily/weekly charts, and streak/goal analytics cards.
+- Canonical day bucketing rules existed in helpers for streak consistency (`date` first, timestamp fallback).
+- Dark mode support had already been added in Session 4, so new UI needed to remain theme-compatible.
+
+#### Key Prompts Used
+- Prompt: "review the codebase as well as AGENTS.md and SESSIONS.md to get the current status of the project/codebase. then plan how to implement the mood calendar heatmap feature mentioned in the README.md file"
+  - Intent: Ground feature planning in current repository reality and session history.
+  - Outcome: Produced a decision-complete implementation plan for placement, range, aggregation, and validation.
+- Prompt: "go ahead and implement the plan - make sure to keep AGENTS.md in mind and update SESSIONS.md at the end of the session."
+  - Intent: Execute the approved plan and complete required documentation.
+  - Outcome: Implemented heatmap + helper updates + docs and recorded this session.
+
+#### Decisions and Tradeoffs
+- Decision: Render heatmap as a full-width dashboard card below the existing 2-column analytics grid.
+  - Tradeoff: Slightly longer Dashboard vertical scroll.
+  - Reason: Prevents cell compression and preserves readability on larger data windows.
+- Decision: Use rolling 365-day window to represent “last 12 months.”
+  - Tradeoff: No custom date range/year selector in v1.
+  - Reason: Delivers expected GitHub-style recent-year behavior with low complexity.
+- Decision: Map cell intensity to daily average mood, not daily max or raw entry count.
+  - Tradeoff: Frequency details are secondary unless users inspect tooltips.
+  - Reason: Keeps color semantics aligned with mood quality trends.
+
+#### Work Completed
+- Added `src/components/MoodCalendarHeatmap.jsx`:
+  - monthly labels + weekday rows + 7xN weekly cell grid,
+  - five-level mood intensity colors and legend,
+  - tooltip content with date, average mood, and entries count,
+  - no-data alert for empty rolling window.
+- Added helper utilities in `src/utils/helpers.js`:
+  - `getMoodEntryDate` for shared canonical date parsing,
+  - `getDailyMoodStats` for daily aggregation,
+  - `buildRollingHeatmapCalendar` for week-aligned date grid generation.
+- Integrated heatmap in `App.jsx` dashboard view without removing existing features.
+- Updated `README.md` Base App Overview + Project Structure to reflect implemented analytics/features.
+
+#### Files Touched
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/src/components/MoodCalendarHeatmap.jsx
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/src/utils/helpers.js
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/src/App.jsx
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/README.md
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/SESSIONS.md
+
+#### Validation Performed
+- Command/check: `npm run build`
+  - Result: Passed (`vite build` success). Existing chunk-size warning remains non-blocking.
+- Command/check: Static logic review for heatmap day-bucketing consistency vs. existing chart/streak behavior.
+  - Result: Confirmed canonical parsing is shared through `getMoodEntryDate`.
+
+#### Bugs / Issues and Fixes
+- Issue: Initial `App.jsx` patch failed because the file had evolved since earlier inspection.
+  - Fix: Re-read current file and applied a minimal integration patch preserving existing theme-toggle behavior.
+
+#### Rubric Impact
+- Feature Depth: Adds a complete analytics feature (windowing, aggregation, visualization, empty-state handling).
+- Feature Breadth: Introduces a new calendar-based trend surface distinct from existing chart types.
+- Presentation & Demo: Easy visual demo story as cells populate and change intensity over time.
+- Code Quality & Security: No new dependencies/secrets; helper reuse reduces duplicate parsing logic.
+- AI Tool Usage: Demonstrates plan-first AI collaboration with explicit tradeoffs and validation.
+
+#### AI Process Reflection
+- AI did well: Kept implementation scoped while reusing shared helper patterns for correctness.
+- AI needed correction on: Reconcile edits against latest repo state when files changed since initial read.
+
+#### Next Session Plan
+- Add click-to-drill-down behavior from heatmap cells into same-day History entries.
+- Add targeted helper tests for rolling-window boundaries and daily-average aggregation.
+
+### Session 4 — 2026-03-07
+
+#### Summary (3-5 bullets max)
+- Added a global dark mode toggle in the app header with persisted user preference.
+- Simplified the theme toggle UI to an icon-only control (sun for light mode, moon for dark mode).
+- Implemented first-load theme detection from system preference when no saved preference exists.
+- Enabled class-based Tailwind dark mode and introduced global chart color CSS variables.
+- Applied full dark theme styling across Dashboard, History, and Data Management components.
+- Updated Recharts grid/axis/tooltip/series colors so charts remain readable in dark mode.
+
+#### Goal
+- Implement a polished dark mode toggle feature with persistence and full app coverage, including chart theming.
+
+#### Starting Context
+- App had no existing theming state and all major UI cards used light-only Tailwind classes.
+- Recharts components used fixed colors and default tooltip styling.
+- `SESSIONS.md` required a new newest-first session entry for this AI-assisted work block.
+
+#### Key Prompts Used
+- Prompt: "review the codebase as well as AGENTS.md and SESSIONS.md to get the current status of the project/codebase. then plan how to implement the dark mode toggle feature"
+  - Intent: Build a decision-complete, repo-grounded implementation plan.
+  - Outcome: Produced plan covering theme state, persistence strategy, UI surface updates, chart styling, and validation.
+- Prompt: "go ahead and implement the plan - make sure to keep AGENTS.md in mind and update SESSIONS.md at the end of the session."
+  - Intent: Execute feature implementation and complete required session documentation.
+  - Outcome: Implemented dark mode end-to-end and logged the session.
+
+#### Decisions and Tradeoffs
+- Decision: Use `darkMode: 'class'` with a root `dark` class toggle.
+  - Tradeoff: Requires explicit `dark:` class coverage in each component.
+  - Reason: Predictable behavior and straightforward control from React state.
+- Decision: First load follows system preference; user toggle persists as explicit override.
+  - Tradeoff: No visible 3-state selector (`Light`, `Dark`, `System`) in v1.
+  - Reason: Meets requirements with minimal complexity and clear UX.
+- Decision: Theme chart colors via CSS variables in `index.css`.
+  - Tradeoff: Introduces a small global styling layer.
+  - Reason: Keeps chart theming centralized and reusable across chart components.
+
+#### Work Completed
+- Added theme initialization/toggle logic and `localStorage` persistence in `App.jsx`.
+- Synced theme to `document.documentElement` via `dark` class updates.
+- Enabled Tailwind class-based dark mode in `tailwind.config.js`.
+- Added global theme/chart CSS variables and dark overrides in `src/index.css`.
+- Updated dark styling across:
+  - `MoodTracker`,
+  - `StreakStats`,
+  - `HistoryView`,
+  - `FileManager`,
+  - tab/header chrome in `App.jsx`.
+- Updated `DailyGraph` and `WeeklyGraph` to use theme-aware chart colors for axes, grid, tooltip, and series.
+
+#### Files Touched
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/src/App.jsx
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/src/index.css
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/tailwind.config.js
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/src/modules/MoodTracker.jsx
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/src/components/DailyGraph.jsx
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/src/components/WeeklyGraph.jsx
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/src/components/StreakStats.jsx
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/src/components/HistoryView.jsx
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/src/components/FileManager.jsx
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/SESSIONS.md
+
+#### Validation Performed
+- Command/check: `npm run build`
+  - Result: Passed (`vite build` success). Existing chunk-size warning remains non-blocking.
+- Command/check: Static review of themed component surfaces and chart color paths.
+  - Result: Confirmed dark variants are applied across all three tabs and both charts.
+
+#### Bugs / Issues and Fixes
+- Issue: Text-based theme button felt visually heavy for the header.
+  - Fix: Replaced with a minimal icon-only circular toggle while preserving accessible labels/tooltips.
+
+#### Rubric Impact
+- Feature Depth: Adds complete theme lifecycle (detect, toggle, persist, render) across the full app.
+- Feature Breadth: Introduces a meaningful UX feature spanning multiple modules/components.
+- Presentation & Demo: Toggle-driven visual change is immediate and easy to demo live.
+- Code Quality & Security: No new dependencies or secrets; changes are scoped and maintain existing data contracts.
+- AI Tool Usage: Session documents planning, implementation, validation, and tradeoff decisions.
+
+#### AI Process Reflection
+- AI did well: Kept feature scope focused while covering all major UI and chart surfaces.
+- AI needed correction on: Keep theme iconography/text minimal and consistent with project style.
+
+#### Next Session Plan
+- Add a small manual test checklist to README for light/dark regression scenarios.
+- Consider a future 3-state theme selector (`Light`/`Dark`/`System`) if customization depth becomes a priority.
+
 ### Session 3 — 2026-03-04
 
 #### Summary (3-5 bullets max)

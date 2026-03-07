@@ -2,6 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --chart-grid-color: #e2e8f0;
+  --chart-axis-color: #475569;
+  --chart-tooltip-bg: #ffffff;
+  --chart-tooltip-border: #cbd5e1;
+  --chart-tooltip-text: #0f172a;
+  --chart-line-color: #6366f1;
+  --chart-bar-color: #6366f1;
+}
+
+.dark {
+  --chart-grid-color: #334155;
+  --chart-axis-color: #cbd5e1;
+  --chart-tooltip-bg: #0f172a;
+  --chart-tooltip-border: #475569;
+  --chart-tooltip-text: #e2e8f0;
+  --chart-line-color: #818cf8;
+  --chart-bar-color: #818cf8;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -9,4 +29,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+.dark body {
+  background-color: #020617;
+  color: #e2e8f0;
 }

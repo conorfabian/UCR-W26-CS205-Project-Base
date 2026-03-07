@@ -69,35 +69,35 @@ function FileManager() {
   }
 
   return (
-    <div className="bg-white rounded-lg shadow-lg p-6">
-      <h2 className="text-2xl font-semibold text-gray-800 mb-4">
+    <div className="rounded-lg bg-white p-6 shadow-lg dark:bg-slate-800">
+      <h2 className="mb-4 text-2xl font-semibold text-gray-800 dark:text-slate-100">
         Data Management
       </h2>
 
       <div className="space-y-4">
         <div>
-          <h3 className="text-lg font-medium text-gray-700 mb-2">Auto-Save Status</h3>
-          <p className="text-sm text-gray-600 mb-3">
+          <h3 className="mb-2 text-lg font-medium text-gray-700 dark:text-slate-200">Auto-Save Status</h3>
+          <p className="mb-3 text-sm text-gray-600 dark:text-slate-300">
             Data is automatically saved to a file whenever you make changes.
           </p>
           {fileHandle ? (
-            <div className="mb-3 p-3 bg-green-50 border border-green-200 rounded-lg">
-              <p className="text-sm text-green-700">
+            <div className="mb-3 rounded-lg border border-green-200 bg-green-50 p-3 dark:border-emerald-900 dark:bg-emerald-950/40">
+              <p className="text-sm text-green-700 dark:text-emerald-300">
                 <strong>Auto-save enabled:</strong> {fileHandle.name || 'File selected'}
               </p>
               {fileStatus === 'saving' && (
-                <p className="text-xs text-green-600 mt-1">Saving...</p>
+                <p className="mt-1 text-xs text-green-600 dark:text-emerald-300">Saving...</p>
               )}
               {fileStatus === 'saved' && (
-                <p className="text-xs text-green-600 mt-1">Saved successfully!</p>
+                <p className="mt-1 text-xs text-green-600 dark:text-emerald-300">Saved successfully!</p>
               )}
               {fileStatus === 'error' && (
-                <p className="text-xs text-red-600 mt-1">Error saving to file</p>
+                <p className="mt-1 text-xs text-red-600 dark:text-red-300">Error saving to file</p>
               )}
             </div>
           ) : (
-            <div className="mb-3 p-3 bg-blue-50 border border-blue-200 rounded-lg">
-              <p className="text-sm text-blue-700">
+            <div className="mb-3 rounded-lg border border-blue-200 bg-blue-50 p-3 dark:border-blue-900 dark:bg-blue-950/40">
+              <p className="text-sm text-blue-700 dark:text-blue-300">
                 File will be set up automatically on first use. Your data is saved to browser storage.
               </p>
             </div>
@@ -130,9 +130,9 @@ function FileManager() {
           </div>
         </div>
 
-        <div className="border-t border-gray-200 pt-4">
-          <h3 className="text-lg font-medium text-gray-700 mb-2">Manual Export</h3>
-          <p className="text-sm text-gray-600 mb-3">
+        <div className="border-t border-gray-200 pt-4 dark:border-slate-700">
+          <h3 className="mb-2 text-lg font-medium text-gray-700 dark:text-slate-200">Manual Export</h3>
+          <p className="mb-3 text-sm text-gray-600 dark:text-slate-300">
             Download your data (including mood notes) as a JSON file that you can edit directly
           </p>
           <button
@@ -143,9 +143,9 @@ function FileManager() {
           </button>
         </div>
 
-        <div className="border-t border-gray-200 pt-4">
-          <h3 className="text-lg font-medium text-gray-700 mb-2">Import Data</h3>
-          <p className="text-sm text-gray-600 mb-3">
+        <div className="border-t border-gray-200 pt-4 dark:border-slate-700">
+          <h3 className="mb-2 text-lg font-medium text-gray-700 dark:text-slate-200">Import Data</h3>
+          <p className="mb-3 text-sm text-gray-600 dark:text-slate-300">
             Load data from a JSON file or paste JSON directly
           </p>
           
@@ -159,14 +159,14 @@ function FileManager() {
             />
             <button
               onClick={() => fileInputRef.current?.click()}
-              className="w-full bg-gray-600 text-white py-2 px-4 rounded-lg hover:bg-gray-700 transition-colors font-medium mb-2"
+              className="mb-2 w-full rounded-lg bg-gray-600 px-4 py-2 font-medium text-white transition-colors hover:bg-gray-700 dark:bg-slate-600 dark:hover:bg-slate-500"
             >
               Select JSON File
             </button>
           </div>
 
           <div className="mb-3">
-            <label htmlFor="importText" className="block text-sm font-medium text-gray-700 mb-1">
+            <label htmlFor="importText" className="mb-1 block text-sm font-medium text-gray-700 dark:text-slate-300">
               Or paste JSON data here:
             </label>
             <textarea
@@ -174,7 +174,7 @@ function FileManager() {
               value={importText}
               onChange={(e) => setImportText(e.target.value)}
               placeholder='{"moodEntries": [{"mood": 4, "note": "..." }] }'
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent font-mono text-sm"
+              className="w-full rounded-lg border border-gray-300 bg-white px-4 py-2 font-mono text-sm text-gray-900 focus:border-transparent focus:ring-2 focus:ring-indigo-500 dark:border-slate-600 dark:bg-slate-900 dark:text-slate-100 dark:placeholder:text-slate-500"
               rows="8"
             />
           </div>
@@ -195,24 +195,24 @@ function FileManager() {
           </div>
 
           {importError && (
-            <div className="mt-2 p-3 bg-red-50 border border-red-200 rounded-lg">
-              <p className="text-sm text-red-600">{importError}</p>
+            <div className="mt-2 rounded-lg border border-red-200 bg-red-50 p-3 dark:border-red-900 dark:bg-red-950/40">
+              <p className="text-sm text-red-600 dark:text-red-300">{importError}</p>
             </div>
           )}
 
           {importSuccess && (
-            <div className="mt-2 p-3 bg-green-50 border border-green-200 rounded-lg">
-              <p className="text-sm text-green-600">Data imported successfully!</p>
+            <div className="mt-2 rounded-lg border border-green-200 bg-green-50 p-3 dark:border-emerald-900 dark:bg-emerald-950/40">
+              <p className="text-sm text-green-600 dark:text-emerald-300">Data imported successfully!</p>
             </div>
           )}
         </div>
 
-        <div className="border-t border-gray-200 pt-4">
-          <h3 className="text-lg font-medium text-gray-700 mb-2">Data Format</h3>
-          <p className="text-xs text-gray-600 mb-2">
+        <div className="border-t border-gray-200 pt-4 dark:border-slate-700">
+          <h3 className="mb-2 text-lg font-medium text-gray-700 dark:text-slate-200">Data Format</h3>
+          <p className="mb-2 text-xs text-gray-600 dark:text-slate-300">
             Your JSON file should follow this structure:
           </p>
-          <pre className="bg-gray-50 p-3 rounded text-xs overflow-x-auto">
+          <pre className="overflow-x-auto rounded bg-gray-50 p-3 text-xs dark:bg-slate-900 dark:text-slate-200">
 {`{
   "moodEntries": [
     {
