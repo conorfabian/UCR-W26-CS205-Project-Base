@@ -69,7 +69,10 @@ The starter app is a **Mood Tracking** web app with the following features:
 - **Mood Logging** - Record mood on a 1-5 scale with automatic timestamps and optional journal notes
 - **Daily Graph** - Line chart of mood entries throughout the current day
 - **Weekly Graph** - Bar chart of average daily mood over the last 7 days
+- **Streaks & Goals** - Current streak, longest streak, and weekly consistency progress
+- **Mood Calendar Heatmap** - GitHub-style grid showing daily average mood over a rolling 12 months
 - **History View** - All-time mood entries organized by date with inline note review/editing
+- **Theme Toggle** - Switch between light and dark mode
 - **Data Management** - Export/import mood data as JSON files
 - **Local Persistence** - Data saved to browser localStorage (no backend)
 
@@ -94,6 +97,8 @@ src/
 ├── components/                   # Reusable UI components
 │   ├── DailyGraph.jsx            # Daily analytics chart
 │   ├── WeeklyGraph.jsx           # Weekly analytics chart
+│   ├── StreakStats.jsx           # Streak and weekly goal analytics card
+│   ├── MoodCalendarHeatmap.jsx   # Rolling 12-month mood calendar heatmap
 │   ├── HistoryView.jsx           # All-time history view
 │   └── FileManager.jsx           # Data import/export UI
 ├── context/                      # State management

@@ -4,6 +4,13 @@ import { useHealthData } from '../context/HealthDataContext'
 
 function WeeklyGraph() {
   const { moodEntries } = useHealthData()
+  const rootStyles = getComputedStyle(document.documentElement)
+  const chartGridColor = rootStyles.getPropertyValue('--chart-grid-color').trim()
+  const chartAxisColor = rootStyles.getPropertyValue('--chart-axis-color').trim()
+  const chartTooltipBackground = rootStyles.getPropertyValue('--chart-tooltip-bg').trim()
+  const chartTooltipBorder = rootStyles.getPropertyValue('--chart-tooltip-border').trim()
+  const chartTooltipText = rootStyles.getPropertyValue('--chart-tooltip-text').trim()
+  const chartBarColor = rootStyles.getPropertyValue('--chart-bar-color').trim()
 
   const weeklyData = useMemo(() => {
     const days = []
@@ -31,15 +38,23 @@ function WeeklyGraph() {
   }, [moodEntries])
 
   return (
-    <div className="bg-white rounded-lg shadow-lg p-6">
-      <h3 className="text-xl font-semibold text-gray-800 mb-4">Last 7 Days – Average Mood</h3>
+    <div className="rounded-lg bg-white p-6 shadow-lg dark:bg-slate-800">
+      <h3 className="mb-4 text-xl font-semibold text-gray-800 dark:text-slate-100">Last 7 Days - Average Mood</h3>
       <ResponsiveContainer width="100%" height={300}>
         <BarChart data={weeklyData}>
-          <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="day" />
-          <YAxis domain={[0, 5]} ticks={[0, 1, 2, 3, 4, 5]} />
-          <Tooltip />
-          <Bar dataKey="averageMood" fill="#6366f1" name="Average Mood (1–5)" />
+          <CartesianGrid stroke={chartGridColor} strokeDasharray="3 3" />
+          <XAxis dataKey="day" stroke={chartAxisColor} tick={{ fill: chartAxisColor }} />
+          <YAxis domain={[0, 5]} ticks={[0, 1, 2, 3, 4, 5]} stroke={chartAxisColor} tick={{ fill: chartAxisColor }} />
+          <Tooltip
+            contentStyle={{
+              backgroundColor: chartTooltipBackground,
+              borderColor: chartTooltipBorder,
+              color: chartTooltipText,
+            }}
+            labelStyle={{ color: chartTooltipText }}
+            itemStyle={{ color: chartTooltipText }}
+          />
+          <Bar dataKey="averageMood" fill={chartBarColor} name="Average Mood (1-5)" />
         </BarChart>
       </ResponsiveContainer>
     </div>
