@@ -30,6 +30,7 @@ Entry contract:
 ## Session Index
 | Session # | Date | Primary Goal | Features/Areas | Rubric Impact | Status |
 |---|---|---|---|---|---|
+| 11 | 2026-03-07 | Add AI usage summary documentation | New `AI_USAGE.md` with tool usage, workflow, limitations, and human oversight summary | AI Tool Usage, Presentation & Demo, Code Quality & Security | Complete |
 | 10 | 2026-03-07 | Generate one-year demo import dataset for mood + sleep | Ready-to-import JSON seed data spanning rolling year with chart/streak-friendly density | Feature Depth, Presentation & Demo, Code Quality & Security, AI Tool Usage | Complete |
 | 9 | 2026-03-07 | Implement sleep tracker feature end-to-end | New sleep logging module + 7-day sleep insights + schema/import/export updates | Feature Depth, Feature Breadth, Presentation & Demo, Code Quality & Security, AI Tool Usage | Complete |
 | 8 | 2026-03-07 | Fix weekly chart theme lag on toggle | Weekly chart now reacts immediately to root class/theme changes | Feature Depth, Presentation & Demo, Code Quality & Security, AI Tool Usage | Complete |
@@ -99,6 +100,75 @@ Copy this template for each new session:
 ```
 
 ## Sessions
+### Session 11 — 2026-03-07
+
+#### Summary (3-5 bullets max)
+- Added a simple `AI_USAGE.md` file to satisfy the README submission requirement.
+- Summarized AI usage in plain language: tool used, workflow, limitations, and human oversight.
+- Kept structure and wording basic for easy presentation use.
+- Logged this AI-assisted documentation task in newest-first order.
+
+#### Goal
+- Create `AI_USAGE.md` with a clear, simple summary of how AI was used in this project.
+
+#### Starting Context
+- `README.md` requires an AI usage summary file.
+- `AI_USAGE.md` did not exist in the repository.
+
+#### Key Prompts Used
+- Prompt: "review the codebase as well as AGENTS.md and SESSIONS.md to get the current status of the project/codebase. then plan how to implement the AI_USAGE.md file..."
+  - Intent: Build a plan based on actual repo status and session history.
+  - Outcome: Produced a decision-complete plan focused on final shipped work.
+- Prompt: "go ahead and implement this plan - keep the language, style, and structure of the file simple and basic"
+  - Intent: Execute the plan with minimal, plain documentation.
+  - Outcome: Added `AI_USAGE.md` and logged the session.
+
+#### Decisions and Tradeoffs
+- Decision: Keep `AI_USAGE.md` focused on final shipped features only.
+  - Tradeoff: Omits superseded experiments from conflicting session history.
+  - Reason: Cleaner, defensible summary for grading and presentation.
+- Decision: Use very simple wording and section structure.
+  - Tradeoff: Less narrative depth.
+  - Reason: Matches user preference for basic language/style.
+
+#### Work Completed
+- Created `AI_USAGE.md` with five concise sections:
+  - AI tool used,
+  - how AI was used,
+  - what AI helped build,
+  - limitations/issues,
+  - human review/corrections.
+- Added this session entry to `SESSIONS.md`.
+
+#### Files Touched
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/AI_USAGE.md
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/SESSIONS.md
+
+#### Validation Performed
+- Command/check: `npm run build`
+  - Result: Passed (`vite build` success). Existing chunk-size warning remains non-blocking.
+- Command/check: Manual content review of `AI_USAGE.md` against `README.md` requirements.
+  - Result: Includes required items (tool, usage, limitations/issues).
+
+#### Bugs / Issues and Fixes
+- Issue: None encountered during this documentation-only change.
+  - Fix: N/A.
+
+#### Rubric Impact
+- Feature Depth: No runtime feature change; improves submission completeness.
+- Feature Breadth: No new app feature.
+- Presentation & Demo: Adds clear documentation for explaining AI workflow during presentation.
+- Code Quality & Security: No code-path changes or new security risk.
+- AI Tool Usage: Directly documents AI collaboration process and limitations.
+
+#### AI Process Reflection
+- AI did well: Consolidated session history and codebase status into a clear documentation draft.
+- AI needed correction on: Keep wording simple and avoid over-detailed narrative.
+
+#### Next Session Plan
+- Review all docs (`README.md`, `AI_USAGE.md`, and `SESSIONS.md`) before final submission.
+- Optionally tighten bundle size before final demo.
+
 ### Session 10 — 2026-03-07
 
 #### Summary (3-5 bullets max)
