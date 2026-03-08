@@ -11,6 +11,7 @@ Your job is to **leverage AI tools to plan, build, and ship new features** on to
 ## Table of Contents
 - [Submission Guidelines](#submission-guidelines)
 - [Getting Started](#getting-started)
+- [Live Deployment](#live-deployment)
 - [Base App Overview](#base-app-overview)
 - [Project Structure](#project-structure)
 - [Feature Suggestions](#feature-suggestions)
@@ -59,6 +60,14 @@ npm run build
 ```
 
 The built files will be in the `dist` directory.
+
+---
+
+## Live Deployment
+
+- **Production URL**: https://ucr-w26-cs205-project-base.vercel.app
+- **Host**: Vercel
+- **Status**: Verified publicly accessible (`HTTP 200`) on 2026-03-07.
 
 ---
 

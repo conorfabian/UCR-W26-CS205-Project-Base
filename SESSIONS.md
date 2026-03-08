@@ -30,6 +30,7 @@ Entry contract:
 ## Session Index
 | Session # | Date | Primary Goal | Features/Areas | Rubric Impact | Status |
 |---|---|---|---|---|---|
+| 12 | 2026-03-07 | Deploy app to a public URL for bonus credit | Vercel production deployment + access-protection removal + README live URL evidence | Presentation & Demo, Code Quality & Security, AI Tool Usage, Bonus (Deployed/Hosted +5%) | Complete |
 | 11 | 2026-03-07 | Add AI usage summary documentation | New `AI_USAGE.md` with tool usage, workflow, limitations, and human oversight summary | AI Tool Usage, Presentation & Demo, Code Quality & Security | Complete |
 | 10 | 2026-03-07 | Generate one-year demo import dataset for mood + sleep | Ready-to-import JSON seed data spanning rolling year with chart/streak-friendly density | Feature Depth, Presentation & Demo, Code Quality & Security, AI Tool Usage | Complete |
 | 9 | 2026-03-07 | Implement sleep tracker feature end-to-end | New sleep logging module + 7-day sleep insights + schema/import/export updates | Feature Depth, Feature Breadth, Presentation & Demo, Code Quality & Security, AI Tool Usage | Complete |
@@ -100,6 +101,83 @@ Copy this template for each new session:
 ```
 
 ## Sessions
+### Session 12 — 2026-03-07
+
+#### Summary (3-5 bullets max)
+- Deployed the app to Vercel production and linked the repository to a live project.
+- Resolved an initial invalid project-name issue by switching to an explicit lowercase Vercel project name.
+- Identified and fixed deployment access protection (`HTTP 401`) by disabling project-level SSO protection.
+- Verified stable production alias responds publicly with `HTTP 200`.
+- Updated `README.md` with a live deployment section and URL evidence.
+
+#### Goal
+- Deploy the web app to a publicly accessible URL to satisfy the README bonus criterion for Hosted/Deployed (+5%).
+
+#### Starting Context
+- App build was passing locally, but no deployment configuration or live URL was documented in the repo.
+- `SESSIONS.md` had no deployment session yet.
+- Vercel CLI was available in the environment.
+
+#### Key Prompts Used
+- Prompt: "go ahead and implement the plan - make sure to keep AGENTS.md in mind and update SESSIONS.md at the end of the session."
+  - Intent: Execute the deployment plan fully and document the completed work block.
+  - Outcome: Shipped a public Vercel deployment, verified access, and recorded documentation evidence.
+
+#### Decisions and Tradeoffs
+- Decision: Use Vercel CLI deployment from the existing repository root.
+  - Tradeoff: Introduced local Vercel linkage metadata (`.vercel/`) and updated `.gitignore`.
+  - Reason: Fastest path to a production URL with minimal code changes.
+- Decision: Use stable project alias URL in docs (`https://ucr-w26-cs205-project-base.vercel.app`) instead of a single deployment hash URL.
+  - Tradeoff: Alias always points at latest production deployment rather than a frozen snapshot.
+  - Reason: Better long-term demo/readme durability.
+- Decision: Disable project `ssoProtection` after confirming it blocked public access.
+  - Tradeoff: Deployments are now publicly reachable, reducing private-by-default posture.
+  - Reason: Required to satisfy the assignment’s “live and accessible via public URL” bonus condition.
+
+#### Work Completed
+- Ran local build verification before deployment (`npm run build`).
+- Deployed to Vercel production and created project `ucr-w26-cs205-project-base`.
+- Investigated access issue where deployment returned `401` due to `ssoProtection.deploymentType = all_except_custom_domains`.
+- Patched project settings via Vercel API to set `ssoProtection` to `null`.
+- Confirmed public reachability at:
+  - `https://ucr-w26-cs205-project-base.vercel.app`
+  - `https://ucr-w26-cs205-project-base-ecz5ms6ad-conorfabians-projects.vercel.app`
+- Added a `Live Deployment` section in `README.md`.
+
+#### Files Touched
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/.gitignore
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/README.md
+- /Users/conorfabian/Desktop/school/UCR-W26-CS205-Project-Base/SESSIONS.md
+
+#### Validation Performed
+- Command/check: `npm run build`
+  - Result: Passed (`vite build` success). Existing chunk-size warning remains non-blocking.
+- Command/check: `curl -I https://ucr-w26-cs205-project-base-ecz5ms6ad-conorfabians-projects.vercel.app`
+  - Result: Initially `HTTP 401`, then `HTTP 200` after protection fix.
+- Command/check: `curl -I https://ucr-w26-cs205-project-base.vercel.app`
+  - Result: `HTTP 200` confirmed on 2026-03-07.
+
+#### Bugs / Issues and Fixes
+- Issue: First Vercel deploy attempt failed due invalid inferred project name format (uppercase characters).
+  - Fix: Redeployed with explicit lowercase project name.
+- Issue: Deployment URL was access-gated (`401`) by Vercel SSO protection.
+  - Fix: Updated project settings through Vercel API and removed `ssoProtection`.
+
+#### Rubric Impact
+- Feature Depth: No feature logic changes; improves production readiness and delivery completeness.
+- Feature Breadth: No new tracker/analytics feature.
+- Presentation & Demo: Enables a live public demo URL for in-person presentation.
+- Code Quality & Security: Deploy flow validated; explicit note of access-control tradeoff documented.
+- AI Tool Usage: Demonstrates plan-execute-debug workflow including infrastructure troubleshooting.
+
+#### AI Process Reflection
+- AI did well: Diagnosed deploy blockers quickly (name validation, 401 protection) and resolved them with minimal repo changes.
+- AI needed correction on: Ensure deployment is truly public, not just “deployed,” by verifying actual HTTP status.
+
+#### Next Session Plan
+- Add the live URL to presentation slides/demo script.
+- Push latest documentation changes and confirm collaborator access requirement is complete.
+
 ### Session 11 — 2026-03-07
 
 #### Summary (3-5 bullets max)
